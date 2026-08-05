@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "tu-teaching-hospital-2078-1",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 1,
+    "prompt": "Earliest sign of pressure sore",
+    "options": [
+      {
+        "key": "A",
+        "text": "Numbness"
+      },
+      {
+        "key": "B",
+        "text": "Discolored skin"
+      },
+      {
+        "key": "C",
+        "text": "Swelling"
+      },
+      {
+        "key": "D",
+        "text": "Redness"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-2",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 2,
+    "prompt": "Complication of thyroidectomy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anemia"
+      },
+      {
+        "key": "B",
+        "text": "Dyspnea"
+      },
+      {
+        "key": "C",
+        "text": "Fluid and electrolytes imbalance"
+      },
+      {
+        "key": "D",
+        "text": "Hemorrhage"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-3",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 3,
+    "prompt": "Extra pyramidal symptoms are seen in which drugs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anti anxiety drugs"
+      },
+      {
+        "key": "B",
+        "text": "Anti epileleptic drugs"
+      },
+      {
+        "key": "C",
+        "text": "Antipsychotic drugs"
+      },
+      {
+        "key": "D",
+        "text": "Anti diuretic drugs"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-4",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 4,
+    "prompt": "Nursing care approach for mastectomy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Individual approach"
+      },
+      {
+        "key": "B",
+        "text": "Family approach"
+      },
+      {
+        "key": "C",
+        "text": "Team approach"
+      },
+      {
+        "key": "D",
+        "text": "Holistic approach"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-5",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 5,
+    "prompt": "Accurate site for taking temperature:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rectal"
+      },
+      {
+        "key": "B",
+        "text": "Oral"
+      },
+      {
+        "key": "C",
+        "text": "Auxiliary"
+      },
+      {
+        "key": "D",
+        "text": "Groin"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-6",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 6,
+    "prompt": "CPR rate in adult",
+    "options": [
+      {
+        "key": "A",
+        "text": "30:2"
+      },
+      {
+        "key": "B",
+        "text": "15:2"
+      },
+      {
+        "key": "C",
+        "text": "30:1"
+      },
+      {
+        "key": "D",
+        "text": "15:1"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-7",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 7,
+    "prompt": "Which of the following is not a symptom of meiner's disease?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vertigo"
+      },
+      {
+        "key": "B",
+        "text": "Nausea"
+      },
+      {
+        "key": "C",
+        "text": "Tinnitus"
+      },
+      {
+        "key": "D",
+        "text": "Diarrhea"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-8",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 8,
+    "prompt": "Common cause of PPH in Nepal is",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hypotonic uterine dystocia"
+      },
+      {
+        "key": "B",
+        "text": "Hypertonic uterine dystocia"
+      },
+      {
+        "key": "C",
+        "text": "Primi mother"
+      },
+      {
+        "key": "D",
+        "text": "Young pregnancy"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-9",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 9,
+    "prompt": "Which medicine should be given with caution in liver disease?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Corticosteroid"
+      },
+      {
+        "key": "B",
+        "text": "Vitamin B and C"
+      },
+      {
+        "key": "C",
+        "text": "Vitamin K"
+      },
+      {
+        "key": "D",
+        "text": "Paracetamol"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-10",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 10,
+    "prompt": "Most common choice of drugs for Alcohol withdrawal:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Antidepressant"
+      },
+      {
+        "key": "B",
+        "text": "Antimanic agent"
+      },
+      {
+        "key": "C",
+        "text": "Anti hypertensive agent"
+      },
+      {
+        "key": "D",
+        "text": "Benzodiazepines"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-11",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 11,
+    "prompt": "Prolong gastric irrigation can cause",
+    "options": [
+      {
+        "key": "A",
+        "text": "Metabolic alkalosis"
+      },
+      {
+        "key": "B",
+        "text": "Metabolic acidosis"
+      },
+      {
+        "key": "C",
+        "text": "Respiratory alkalosis"
+      },
+      {
+        "key": "D",
+        "text": "Respiratory acidosis"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-12",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 12,
+    "prompt": "Maximum Suctioning time during the endo-tracheal suctioning is",
+    "options": [
+      {
+        "key": "A",
+        "text": "Five second"
+      },
+      {
+        "key": "B",
+        "text": "Ten second"
+      },
+      {
+        "key": "C",
+        "text": "Fifteen second"
+      },
+      {
+        "key": "D",
+        "text": "Twenty second"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-13",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 13,
+    "prompt": "Which of the following is need to be done in multiple injury",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compression bandage"
+      },
+      {
+        "key": "B",
+        "text": "Immobilization"
+      },
+      {
+        "key": "C",
+        "text": "Physiotherapy"
+      },
+      {
+        "key": "D",
+        "text": "NPO"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-14",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 14,
+    "prompt": "Drugs that can cause renal injury is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thiamine"
+      },
+      {
+        "key": "B",
+        "text": "Salbutamol"
+      },
+      {
+        "key": "C",
+        "text": "ACE inhibitors"
+      },
+      {
+        "key": "D",
+        "text": "Iron"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-15",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 15,
+    "prompt": "Route of charcoal in organophosphate poisoning is",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oral"
+      },
+      {
+        "key": "B",
+        "text": "NG"
+      },
+      {
+        "key": "C",
+        "text": "Both 'a' and 'b'"
+      },
+      {
+        "key": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-16",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 16,
+    "prompt": "In recovery room after surgery, vital sign should be measure in every .......... for first one hour:",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 min"
+      },
+      {
+        "key": "B",
+        "text": "30 minutes"
+      },
+      {
+        "key": "C",
+        "text": "45 minutes"
+      },
+      {
+        "key": "D",
+        "text": "60 minutes"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-17",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 17,
+    "prompt": "Main function of Cerebrum is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coordinates movement"
+      },
+      {
+        "key": "B",
+        "text": "Speech, judgment, thinking and reasoning,"
+      },
+      {
+        "key": "C",
+        "text": "Problem-solving, emotions and learning"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-18",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 18,
+    "prompt": "Most common sign of New born bacterial infection is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hypoglycemia"
+      },
+      {
+        "key": "B",
+        "text": "Sign of distress"
+      },
+      {
+        "key": "C",
+        "text": "Hypothermia"
+      },
+      {
+        "key": "D",
+        "text": "Otitis media"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-19",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 19,
+    "prompt": "Most common technique to prevention of infection in hospital is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hand washing"
+      },
+      {
+        "key": "B",
+        "text": "Wear clean clothes"
+      },
+      {
+        "key": "C",
+        "text": "Use sterile clothes"
+      },
+      {
+        "key": "D",
+        "text": "Wear gloves"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-20",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 20,
+    "prompt": "Ankle-brachial index test is done to identify the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coronary artery disease"
+      },
+      {
+        "key": "B",
+        "text": "Peripheral artery disease"
+      },
+      {
+        "key": "C",
+        "text": "Deep vein thrombosis"
+      },
+      {
+        "key": "D",
+        "text": "Phlebitis"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-21",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 21,
+    "prompt": "Which types of surgery is performed through spinal anesthesia?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower abdominal surgery"
+      },
+      {
+        "key": "B",
+        "text": "Pelvic and perineum surgery"
+      },
+      {
+        "key": "C",
+        "text": "Lower extremity surgery"
+      },
+      {
+        "key": "D",
+        "text": "All of these"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-22",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 22,
+    "prompt": "Side effect of oxytocin:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Irregular pulse"
+      },
+      {
+        "key": "B",
+        "text": "Hypertension"
+      },
+      {
+        "key": "C",
+        "text": "Loss of conscious"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-23",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 23,
+    "prompt": "The neonate is cleaned in the diversion of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Side by side"
+      },
+      {
+        "key": "B",
+        "text": "Back to front"
+      },
+      {
+        "key": "C",
+        "text": "Cephalo-caudal"
+      },
+      {
+        "key": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-24",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 24,
+    "prompt": "Risk for osteoporosis is seen in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menopausal women"
+      },
+      {
+        "key": "B",
+        "text": "Working women"
+      },
+      {
+        "key": "C",
+        "text": "Women with obesity"
+      },
+      {
+        "key": "D",
+        "text": "Children"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-25",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 25,
+    "prompt": "A type of heat loss that occurs when the heat is dissipated by air current:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Convection"
+      },
+      {
+        "key": "B",
+        "text": "Radiation"
+      },
+      {
+        "key": "C",
+        "text": "Evaporation"
+      },
+      {
+        "key": "D",
+        "text": "Conduction"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-26",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 26,
+    "prompt": "Common choice of drugs used in pneumonia is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gentamycine"
+      },
+      {
+        "key": "B",
+        "text": "Gentamycine and Amoxicillin"
+      },
+      {
+        "key": "C",
+        "text": "Amoxicillin"
+      },
+      {
+        "key": "D",
+        "text": "Cortimoxazole"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-27",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 27,
+    "prompt": "Gravida Denotes to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pregnant state"
+      },
+      {
+        "key": "B",
+        "text": "Previous pregnancy"
+      },
+      {
+        "key": "C",
+        "text": "Pregnancy at the state of 30 and above"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-28",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 28,
+    "prompt": "Which of the following is the highest diameter of pelvis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Antero-posterior"
+      },
+      {
+        "key": "B",
+        "text": "Lateral"
+      },
+      {
+        "key": "C",
+        "text": "Oblique diameter"
+      },
+      {
+        "key": "D",
+        "text": "All are equal"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-29",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 29,
+    "prompt": "Which one of the following is not a diuretic?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enalapril"
+      },
+      {
+        "key": "B",
+        "text": "Mannitol"
+      },
+      {
+        "key": "C",
+        "text": "Spironolactone"
+      },
+      {
+        "key": "D",
+        "text": "Furosemide"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-30",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 30,
+    "prompt": "If there is Increasing Increase ICP, which of the following symptoms is present?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreasing systolic pressure"
+      },
+      {
+        "key": "B",
+        "text": "Widening Pulse pressure"
+      },
+      {
+        "key": "C",
+        "text": "Increasing diastolic pressure"
+      },
+      {
+        "key": "D",
+        "text": "Decreasing pulse"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-31",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 31,
+    "prompt": "Low protein diet is ordered for patients with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anemia"
+      },
+      {
+        "key": "B",
+        "text": "Acute nephritis"
+      },
+      {
+        "key": "C",
+        "text": "Burns"
+      },
+      {
+        "key": "D",
+        "text": "Gastritis"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-32",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 32,
+    "prompt": "Which of the following is hypotonic solution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.45% sodium chloride"
+      },
+      {
+        "key": "B",
+        "text": "Ringer lactate"
+      },
+      {
+        "key": "C",
+        "text": "0.9% sodium chloride"
+      },
+      {
+        "key": "D",
+        "text": "10% dextrose"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-33",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 33,
+    "prompt": "Initial symptoms of vitamin 'A' deficiency is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conjunctiva xerosis"
+      },
+      {
+        "key": "B",
+        "text": "Night blindness"
+      },
+      {
+        "key": "C",
+        "text": "Bitots sports"
+      },
+      {
+        "key": "D",
+        "text": "Corneal ulcer"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-34",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 34,
+    "prompt": "To prevent of ventilator associated pneumonia (VAP) which of the following intervention is required?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ambulation"
+      },
+      {
+        "key": "B",
+        "text": "Drinks lots of fluid"
+      },
+      {
+        "key": "C",
+        "text": "Keep patient NPO"
+      },
+      {
+        "key": "D",
+        "text": "Chest physiotherapy"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-35",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 35,
+    "prompt": "Red, hot knee, limping gait is common symptoms of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Septic arthritis"
+      },
+      {
+        "key": "B",
+        "text": "Gouty arthritis"
+      },
+      {
+        "key": "C",
+        "text": "Osteoporosis"
+      },
+      {
+        "key": "D",
+        "text": "Osteomyelitis"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-36",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 36,
+    "prompt": "28 years patient admitted in medical ward with chest tube drainage. During the position change, suddenly discontinued the drain tube. What is your immediate intervention?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Call the physician"
+      },
+      {
+        "key": "B",
+        "text": "Change the position of patient"
+      },
+      {
+        "key": "C",
+        "text": "Direct compression on insertion site"
+      },
+      {
+        "key": "D",
+        "text": "Reinsertion of tube"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-37",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 37,
+    "prompt": "We define end stage renal disease if GFR is less than:",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 ml/hour"
+      },
+      {
+        "key": "B",
+        "text": "15 ml/hour"
+      },
+      {
+        "key": "C",
+        "text": "15 ml/minute"
+      },
+      {
+        "key": "D",
+        "text": "90 ml/minute"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-38",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 38,
+    "prompt": "Which of the following is most common complication after total hip replacement surgery?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anemia"
+      },
+      {
+        "key": "B",
+        "text": "Pain"
+      },
+      {
+        "key": "C",
+        "text": "Necrosis"
+      },
+      {
+        "key": "D",
+        "text": "Pulmonary embolism"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-39",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 39,
+    "prompt": "Seven months old male child is admitted in pediatric unit with the history of constipation and some time diarrhea, foul smelling flatus, ribbon like stool and slight abdominal distension. Which of the following disease you suspect after assessment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intestinal obstruction"
+      },
+      {
+        "key": "B",
+        "text": "Pyloric stenosis"
+      },
+      {
+        "key": "C",
+        "text": "Intussusceptions"
+      },
+      {
+        "key": "D",
+        "text": "Hairspring's disease"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-40",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 40,
+    "prompt": "After unilateral nephrectomy how much time is required for creatinine level to be normal in kidney donor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Seventy hours"
+      },
+      {
+        "key": "B",
+        "text": "One Twenty four"
+      },
+      {
+        "key": "C",
+        "text": "One Forty eight hour"
+      },
+      {
+        "key": "D",
+        "text": "One seventy hours"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-41",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 41,
+    "prompt": "Medicine used for moderate Covid-19 patients:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Azithromycin"
+      },
+      {
+        "key": "B",
+        "text": "Salbutamol Nebulizer"
+      },
+      {
+        "key": "C",
+        "text": "Ramdesevir"
+      },
+      {
+        "key": "D",
+        "text": "Deramethasone"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-42",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 42,
+    "prompt": "While instilling ear drops, the ear canal of an adult is straightened by pulling the pinna:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Down and back"
+      },
+      {
+        "key": "B",
+        "text": "Up and back"
+      },
+      {
+        "key": "C",
+        "text": "Straight down"
+      },
+      {
+        "key": "D",
+        "text": "Straight back"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-43",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 43,
+    "prompt": "One teaspoonful of medicine is equal to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 ml"
+      },
+      {
+        "key": "B",
+        "text": "15 ml"
+      },
+      {
+        "key": "C",
+        "text": "5 ml"
+      },
+      {
+        "key": "D",
+        "text": "20 ml"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-44",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 44,
+    "prompt": "A client who just had a kidney transplant is transferred from the post anesthesia care unit to the intensive care unit (ICU). The nurse in the ICU should monitor the urinary output every:",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 minutes"
+      },
+      {
+        "key": "B",
+        "text": "Hour"
+      },
+      {
+        "key": "C",
+        "text": "2 hours"
+      },
+      {
+        "key": "D",
+        "text": "3 hours"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-45",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 45,
+    "prompt": "Deaths in COVID-19 is due to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acute Respiratory Distress syndrome"
+      },
+      {
+        "key": "B",
+        "text": "Hepatic encephalopathy"
+      },
+      {
+        "key": "C",
+        "text": "Brain tissue damage"
+      },
+      {
+        "key": "D",
+        "text": "Renal injury"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-46",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 46,
+    "prompt": "Rubbers goods are best sterilized by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chemical sterilization"
+      },
+      {
+        "key": "B",
+        "text": "Autoclave"
+      },
+      {
+        "key": "C",
+        "text": "Radiation"
+      },
+      {
+        "key": "D",
+        "text": "Dry heat"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-47",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 47,
+    "prompt": "Which of the following are NOT the emergency/general danger signs in a sick child?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Convulsions"
+      },
+      {
+        "key": "B",
+        "text": "Inability to breastfeed"
+      },
+      {
+        "key": "C",
+        "text": "Obstructed breathing"
+      },
+      {
+        "key": "D",
+        "text": "Respiratory rate > 60/min"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-48",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 48,
+    "prompt": "Most common cause of maternal death in Nepal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "APH"
+      },
+      {
+        "key": "B",
+        "text": "PPH"
+      },
+      {
+        "key": "C",
+        "text": "Eclampsia"
+      },
+      {
+        "key": "D",
+        "text": "Infection"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-49",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 49,
+    "prompt": "Diagnostic sign of placenta previa is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower abdominal pain"
+      },
+      {
+        "key": "B",
+        "text": "Painless vaginal bleeding"
+      },
+      {
+        "key": "C",
+        "text": "Vaginal bleeding with pain"
+      },
+      {
+        "key": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-50",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 50,
+    "prompt": "While removing chest tube after physician has order, as a nurse you will ask patient to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Take deep breath and hold it"
+      },
+      {
+        "key": "B",
+        "text": "Do deep breathing and coughing exercise"
+      },
+      {
+        "key": "C",
+        "text": "Do Valsalva maneuver"
+      },
+      {
+        "key": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-51",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 51,
+    "prompt": "Which drug order by physician should be questions by nurse not used in liver disease patients?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gentamycin"
+      },
+      {
+        "key": "B",
+        "text": "Ursodilol"
+      },
+      {
+        "key": "C",
+        "text": "Paracetamol"
+      },
+      {
+        "key": "D",
+        "text": "All"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-52",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 52,
+    "prompt": "Side effect of Epidural Anesthesia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hypotension"
+      },
+      {
+        "key": "B",
+        "text": "Hypertension"
+      },
+      {
+        "key": "C",
+        "text": "Hypokalema"
+      },
+      {
+        "key": "D",
+        "text": "Hypercalcemia"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-53",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 53,
+    "prompt": "Effacement means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dilation of cervix"
+      },
+      {
+        "key": "B",
+        "text": "Softening and thinning of vagina"
+      },
+      {
+        "key": "C",
+        "text": "Softening and thinning of cervix"
+      },
+      {
+        "key": "D",
+        "text": "Baby's head opening through the vagina"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-54",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 54,
+    "prompt": "Which is not a pediatric emergency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acute epiglottis"
+      },
+      {
+        "key": "B",
+        "text": "ARDS"
+      },
+      {
+        "key": "C",
+        "text": "Physiological jaundice"
+      },
+      {
+        "key": "D",
+        "text": "Seizure"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-55",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 55,
+    "prompt": "Which anemia seen in client with vita B12 deficiency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pernicious Anemia"
+      },
+      {
+        "key": "B",
+        "text": "Iron deficiency anemia"
+      },
+      {
+        "key": "C",
+        "text": "Plastic Anemia"
+      },
+      {
+        "key": "D",
+        "text": "Hemolytic anemia"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-56",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 56,
+    "prompt": "First step when blood transfusion reaction seen:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Informed physician"
+      },
+      {
+        "key": "B",
+        "text": "Stop transfusion"
+      },
+      {
+        "key": "C",
+        "text": "Administer Antihistamine"
+      },
+      {
+        "key": "D",
+        "text": "Slow the infusion rate"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-57",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 57,
+    "prompt": "Carpel tunnel syndrome is due to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Median artery pressure"
+      },
+      {
+        "key": "B",
+        "text": "Compression in median nerve"
+      },
+      {
+        "key": "C",
+        "text": "Compression in lateral nerve"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-58",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 58,
+    "prompt": "What control the muscle contraction of the body?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na, Ca"
+      },
+      {
+        "key": "B",
+        "text": "Na, Ca, K"
+      },
+      {
+        "key": "C",
+        "text": "Na, K"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-59",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 59,
+    "prompt": "When the fundus and cervix comes down but remain in vagina; which type of inversion of uterus:",
+    "options": [
+      {
+        "key": "A",
+        "text": "First degree"
+      },
+      {
+        "key": "B",
+        "text": "Second degree"
+      },
+      {
+        "key": "C",
+        "text": "Third degree"
+      },
+      {
+        "key": "D",
+        "text": "Fourth degree"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "key"
+  },
+  {
+    "id": "tu-teaching-hospital-2078-60",
+    "paper": "tu-teaching-hospital-2078",
+    "number": 60,
+    "prompt": "Most common cause of coronary artery disease:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hyperglycaemia"
+      },
+      {
+        "key": "B",
+        "text": "Stress"
+      },
+      {
+        "key": "C",
+        "text": "Atherosclerosis"
+      },
+      {
+        "key": "D",
+        "text": "Coronary artery spasm"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "key"
+  }
+]

@@ -1,0 +1,5488 @@
+{
+  "version": 1,
+  "papers": [
+    {
+      "id": "staff-nurse-2082",
+      "title": "Staff Nurse 2082-04-10 (Key B)",
+      "count": 51
+    },
+    {
+      "id": "tu-teaching-hospital-2078",
+      "title": "TU Teaching Hospital 2078 (Memory-based)",
+      "count": 60
+    },
+    {
+      "id": "staff-nurse-2080",
+      "title": "Staff Nurse Vacancy 2080 (Memory-based)",
+      "count": 100
+    }
+  ],
+  "questions": [
+    {
+      "id": "staff-nurse-2080-1",
+      "paper": "staff-nurse-2080",
+      "number": 1,
+      "prompt": "What is the immediate treatment to the client who is injured and has swelling?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cold application"
+        },
+        {
+          "key": "B",
+          "text": "Analgesic"
+        },
+        {
+          "key": "C",
+          "text": "Hot application"
+        },
+        {
+          "key": "D",
+          "text": "Antibiotics"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-2",
+      "paper": "staff-nurse-2080",
+      "number": 2,
+      "prompt": "What is the correct sequence of donning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gowning, mask, goggle, gloving"
+        },
+        {
+          "key": "B",
+          "text": "Gloving, goggles, mask, gowning"
+        },
+        {
+          "key": "C",
+          "text": "Gowning, Mask, gloving, goggles"
+        },
+        {
+          "key": "D",
+          "text": "Gloving, goggles, masking, gowning"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-3",
+      "paper": "staff-nurse-2080",
+      "number": 3,
+      "prompt": "Which is the highest priority in Maslow hierarchy's need?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen"
+        },
+        {
+          "key": "B",
+          "text": "Food"
+        },
+        {
+          "key": "C",
+          "text": "Shelter"
+        },
+        {
+          "key": "D",
+          "text": "Love"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-4",
+      "paper": "staff-nurse-2080",
+      "number": 4,
+      "prompt": "What is the important part of handwashing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Soap"
+        },
+        {
+          "key": "B",
+          "text": "Friction"
+        },
+        {
+          "key": "C",
+          "text": "Lather"
+        },
+        {
+          "key": "D",
+          "text": "Time"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-5",
+      "paper": "staff-nurse-2080",
+      "number": 5,
+      "prompt": "What is the duration of handwashing when moving from one patient to another?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 secs"
+        },
+        {
+          "key": "B",
+          "text": "3 minutes"
+        },
+        {
+          "key": "C",
+          "text": "5 minutes"
+        },
+        {
+          "key": "D",
+          "text": "1 minutes"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-6",
+      "paper": "staff-nurse-2080",
+      "number": 6,
+      "prompt": "Total number of ribs in thoracic cage.............?",
+      "options": [
+        {
+          "key": "A",
+          "text": "13 pairs"
+        },
+        {
+          "key": "B",
+          "text": "12 pairs"
+        },
+        {
+          "key": "C",
+          "text": "16 pairs"
+        },
+        {
+          "key": "D",
+          "text": "15 pairs"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-7",
+      "paper": "staff-nurse-2080",
+      "number": 7,
+      "prompt": "Which part separate between between chest and abdominal cavity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Omentum"
+        },
+        {
+          "key": "B",
+          "text": "Diaphragm"
+        },
+        {
+          "key": "C",
+          "text": "Ribs"
+        },
+        {
+          "key": "D",
+          "text": "Liver"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-8",
+      "paper": "staff-nurse-2080",
+      "number": 8,
+      "prompt": "What is the ratio of maximum inhalation to maximum expiration in normal respiration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1:2"
+        },
+        {
+          "key": "B",
+          "text": "2:1"
+        },
+        {
+          "key": "C",
+          "text": "1:1"
+        },
+        {
+          "key": "D",
+          "text": "2:2"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-9",
+      "paper": "staff-nurse-2080",
+      "number": 9,
+      "prompt": "What is priority assessment among the following in a immediate post operative patient?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Asess pain"
+        },
+        {
+          "key": "B",
+          "text": "Monitor Bleeding"
+        },
+        {
+          "key": "C",
+          "text": "Maintain airway"
+        },
+        {
+          "key": "D",
+          "text": "Look for Temperature"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-10",
+      "paper": "staff-nurse-2080",
+      "number": 10,
+      "prompt": "Play in school age for social development is ..........",
+      "options": [
+        {
+          "key": "A",
+          "text": "Solitary"
+        },
+        {
+          "key": "B",
+          "text": "Competitive"
+        },
+        {
+          "key": "C",
+          "text": "Parallel"
+        },
+        {
+          "key": "D",
+          "text": "Independent"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-11",
+      "paper": "staff-nurse-2080",
+      "number": 11,
+      "prompt": "Anemia is lack of...........................in blood",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hemoglobin"
+        },
+        {
+          "key": "B",
+          "text": "Red blood cell"
+        },
+        {
+          "key": "C",
+          "text": "Globin"
+        },
+        {
+          "key": "D",
+          "text": "Albumin"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-12",
+      "paper": "staff-nurse-2080",
+      "number": 12,
+      "prompt": "Which gland helps in calcium metabolism?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thyroid"
+        },
+        {
+          "key": "B",
+          "text": "Parathyroid"
+        },
+        {
+          "key": "C",
+          "text": "Adrenal"
+        },
+        {
+          "key": "D",
+          "text": "Pancreas"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-13",
+      "paper": "staff-nurse-2080",
+      "number": 13,
+      "prompt": "Which artery supply blood to heart?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Celiac artery"
+        },
+        {
+          "key": "B",
+          "text": "Coronary artery"
+        },
+        {
+          "key": "C",
+          "text": "Pudendal artery"
+        },
+        {
+          "key": "D",
+          "text": "Carotid artery"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-14",
+      "paper": "staff-nurse-2080",
+      "number": 14,
+      "prompt": "Which vein supply oxygentate blood to fetus?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Foramen ovale"
+        },
+        {
+          "key": "B",
+          "text": "Ductus venosus"
+        },
+        {
+          "key": "C",
+          "text": "Umbilical vein"
+        },
+        {
+          "key": "D",
+          "text": "Hypogastric vein"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-15",
+      "paper": "staff-nurse-2080",
+      "number": 15,
+      "prompt": "Which chamber of heart receive oxygenated blood from lung?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Right atrium"
+        },
+        {
+          "key": "B",
+          "text": "Left atrium"
+        },
+        {
+          "key": "C",
+          "text": "Right ventricle"
+        },
+        {
+          "key": "D",
+          "text": "Left ventricle"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-16",
+      "paper": "staff-nurse-2080",
+      "number": 16,
+      "prompt": "Which process is not present in hemodialysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ultrafiltration"
+        },
+        {
+          "key": "B",
+          "text": "Osmosis"
+        },
+        {
+          "key": "C",
+          "text": "Hemofiltration"
+        },
+        {
+          "key": "D",
+          "text": "Diffusion"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-17",
+      "paper": "staff-nurse-2080",
+      "number": 17,
+      "prompt": "In a patient with COPD, which positing helps to relieve shortness of breath?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semi fowler position"
+        },
+        {
+          "key": "B",
+          "text": "Prone position"
+        },
+        {
+          "key": "C",
+          "text": "Supine position"
+        },
+        {
+          "key": "D",
+          "text": "Lateral position"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-18",
+      "paper": "staff-nurse-2080",
+      "number": 18,
+      "prompt": "An eye patch is applied in unconscious patient in ICU. The logic behind this is......",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent dryness of eyes"
+        },
+        {
+          "key": "B",
+          "text": "Prevent corneal ulceration"
+        },
+        {
+          "key": "C",
+          "text": "Prevent blinking"
+        },
+        {
+          "key": "D",
+          "text": "For sleep"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-19",
+      "paper": "staff-nurse-2080",
+      "number": 19,
+      "prompt": "Which test is performed in patient taking oral anticoagulant?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Platelets"
+        },
+        {
+          "key": "B",
+          "text": "INR"
+        },
+        {
+          "key": "C",
+          "text": "CBC"
+        },
+        {
+          "key": "D",
+          "text": "RFT"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-20",
+      "paper": "staff-nurse-2080",
+      "number": 20,
+      "prompt": "What happens when smaller BP cuff is used than standard size to measure blood pressure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BP readings falsely high"
+        },
+        {
+          "key": "B",
+          "text": "BP readings falsely low"
+        },
+        {
+          "key": "C",
+          "text": "BP readings accurate"
+        },
+        {
+          "key": "D",
+          "text": "None"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-21",
+      "paper": "staff-nurse-2080",
+      "number": 21,
+      "prompt": "A patient comes to emergency with this whole back burn, What is the percentage of burn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "18%"
+        },
+        {
+          "key": "B",
+          "text": "9%"
+        },
+        {
+          "key": "C",
+          "text": "35%"
+        },
+        {
+          "key": "D",
+          "text": "4.5%"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-22",
+      "paper": "staff-nurse-2080",
+      "number": 22,
+      "prompt": "A patient with hyposecretion of anti diuretic hormone develops the condition of .....",
+      "options": [
+        {
+          "key": "A",
+          "text": "SIADH"
+        },
+        {
+          "key": "B",
+          "text": "Addison disease"
+        },
+        {
+          "key": "C",
+          "text": "Diabetes mellitus"
+        },
+        {
+          "key": "D",
+          "text": "Diabetes insipidus"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-23",
+      "paper": "staff-nurse-2080",
+      "number": 23,
+      "prompt": "Presence of infectious agent on clothes is........?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Contagion"
+        },
+        {
+          "key": "B",
+          "text": "Contamination"
+        },
+        {
+          "key": "C",
+          "text": "Infestation"
+        },
+        {
+          "key": "D",
+          "text": "Dirt"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-24",
+      "paper": "staff-nurse-2080",
+      "number": 24,
+      "prompt": "Absence of bowel sound in immediate post operative period indicates....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intestinal obstruction"
+        },
+        {
+          "key": "B",
+          "text": "Paralytic ileus"
+        },
+        {
+          "key": "C",
+          "text": "Intestinal perfroation"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-25",
+      "paper": "staff-nurse-2080",
+      "number": 25,
+      "prompt": "Most common of type of cancer in Children?",
+      "options": [
+        {
+          "key": "A",
+          "text": "AML"
+        },
+        {
+          "key": "B",
+          "text": "CML"
+        },
+        {
+          "key": "C",
+          "text": "ALL"
+        },
+        {
+          "key": "D",
+          "text": "CLL"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-26",
+      "paper": "staff-nurse-2080",
+      "number": 26,
+      "prompt": "A patient on insulin therapy came to emergency with complaints of diaphoresis, tachycardia and is hungry and confused. What is diagnosis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DKA"
+        },
+        {
+          "key": "B",
+          "text": "Hypoglycemia"
+        },
+        {
+          "key": "C",
+          "text": "Hyperglycemia"
+        },
+        {
+          "key": "D",
+          "text": "Chest pain"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-27",
+      "paper": "staff-nurse-2080",
+      "number": 27,
+      "prompt": "A psychiatric patient puts self as most important in the world, what type of delusion is it?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delusion of grandeur"
+        },
+        {
+          "key": "B",
+          "text": "Delusion of persecution"
+        },
+        {
+          "key": "C",
+          "text": "Delusion of jealousy"
+        },
+        {
+          "key": "D",
+          "text": "Somatic delusion disorder"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-28",
+      "paper": "staff-nurse-2080",
+      "number": 28,
+      "prompt": "What is the priority assessment in fourth stage of labour?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bladder distension"
+        },
+        {
+          "key": "B",
+          "text": "Bonding"
+        },
+        {
+          "key": "C",
+          "text": "Newborn examination"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-29",
+      "paper": "staff-nurse-2080",
+      "number": 29,
+      "prompt": "A 2 year old child with nephrotic syndrome shows which of the feature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTN"
+        },
+        {
+          "key": "B",
+          "text": "Generalized edema"
+        },
+        {
+          "key": "C",
+          "text": "Hematuria"
+        },
+        {
+          "key": "D",
+          "text": "Hypoglycemia"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-30",
+      "paper": "staff-nurse-2080",
+      "number": 30,
+      "prompt": "What is the average length of newborn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50cm"
+        },
+        {
+          "key": "B",
+          "text": "45cm"
+        },
+        {
+          "key": "C",
+          "text": "55cm"
+        },
+        {
+          "key": "D",
+          "text": "60cm"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-31",
+      "paper": "staff-nurse-2080",
+      "number": 31,
+      "prompt": "What is the length of female urethra?",
+      "options": [
+        {
+          "key": "A",
+          "text": "18cm"
+        },
+        {
+          "key": "B",
+          "text": "4cm"
+        },
+        {
+          "key": "C",
+          "text": "35cm"
+        },
+        {
+          "key": "D",
+          "text": "8cm"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-32",
+      "paper": "staff-nurse-2080",
+      "number": 32,
+      "prompt": "What is hazard of oxytocin during labour?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Uterine atony"
+        },
+        {
+          "key": "B",
+          "text": "Uterine rupture"
+        },
+        {
+          "key": "C",
+          "text": "Obstructed labour"
+        },
+        {
+          "key": "D",
+          "text": "Hypotonic contraction"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-33",
+      "paper": "staff-nurse-2080",
+      "number": 33,
+      "prompt": "Which is the sign of bacterial infection?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Headache"
+        },
+        {
+          "key": "B",
+          "text": "Fever"
+        },
+        {
+          "key": "C",
+          "text": "Pallor"
+        },
+        {
+          "key": "D",
+          "text": "Swelling"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-34",
+      "paper": "staff-nurse-2080",
+      "number": 34,
+      "prompt": "Which of the flowing responsible for regulating temperature, sleep, appetite?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hypothalamus"
+        },
+        {
+          "key": "B",
+          "text": "Thalamus"
+        },
+        {
+          "key": "C",
+          "text": "Pineal gland"
+        },
+        {
+          "key": "D",
+          "text": "Thyroid"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-35",
+      "paper": "staff-nurse-2080",
+      "number": 35,
+      "prompt": "The condition in which placenta is attached to myometrium is .........?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Placenta acreta"
+        },
+        {
+          "key": "B",
+          "text": "Placenta increta"
+        },
+        {
+          "key": "C",
+          "text": "Battledore placenta"
+        },
+        {
+          "key": "D",
+          "text": "Circumvallate placenta"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-36",
+      "paper": "staff-nurse-2080",
+      "number": 36,
+      "prompt": "Which of the following is assessed in patient with steroid therapy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nutrition"
+        },
+        {
+          "key": "B",
+          "text": "Infection"
+        },
+        {
+          "key": "C",
+          "text": "Weight"
+        },
+        {
+          "key": "D",
+          "text": "Blood pressure"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-37",
+      "paper": "staff-nurse-2080",
+      "number": 37,
+      "prompt": "In which leadership, leader make decision along with other?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Democratic"
+        },
+        {
+          "key": "B",
+          "text": "Autocratic"
+        },
+        {
+          "key": "C",
+          "text": "Laissezfare"
+        },
+        {
+          "key": "D",
+          "text": "Paternalistic"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-38",
+      "paper": "staff-nurse-2080",
+      "number": 38,
+      "prompt": "A nurse assess the vein for drawing blood by applying tourniquet, it looks hard like knot, thready. What do you do?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use this vein as it is the best vein"
+        },
+        {
+          "key": "B",
+          "text": "Select other site"
+        },
+        {
+          "key": "C",
+          "text": "Ask client to relax"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-39",
+      "paper": "staff-nurse-2080",
+      "number": 39,
+      "prompt": "What is the condition called when there is high level of potassium in blood?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hyperkalemia"
+        },
+        {
+          "key": "B",
+          "text": "Hypokalemia"
+        },
+        {
+          "key": "C",
+          "text": "Hyponatremia"
+        },
+        {
+          "key": "D",
+          "text": "Hypernatremia"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-40",
+      "paper": "staff-nurse-2080",
+      "number": 40,
+      "prompt": "A condition of foot deformities in which foot is bended outward..............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Talips equinovarus"
+        },
+        {
+          "key": "B",
+          "text": "Talipes calcaneus"
+        },
+        {
+          "key": "C",
+          "text": "Talipes valgus"
+        },
+        {
+          "key": "D",
+          "text": "Talipes varus"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-41",
+      "paper": "staff-nurse-2080",
+      "number": 41,
+      "prompt": "Who is responsible in low level for inventory control in hospital ward?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Staff nurse"
+        },
+        {
+          "key": "B",
+          "text": "Nursing director"
+        },
+        {
+          "key": "C",
+          "text": "Supervisor"
+        },
+        {
+          "key": "D",
+          "text": "Ward Nursing incharge"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-42",
+      "paper": "staff-nurse-2080",
+      "number": 42,
+      "prompt": "Which of the following is antidepressant drug?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chlropromazine"
+        },
+        {
+          "key": "B",
+          "text": "Carbamazepine"
+        },
+        {
+          "key": "C",
+          "text": "Chloromipramine"
+        },
+        {
+          "key": "D",
+          "text": "Clozapine"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-43",
+      "paper": "staff-nurse-2080",
+      "number": 43,
+      "prompt": "A nurse advises patient to gargle mouth after using corticosteroid inhaler to prevent............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Halitosis"
+        },
+        {
+          "key": "B",
+          "text": "Oral candidiasis"
+        },
+        {
+          "key": "C",
+          "text": "Mouth ulcer"
+        },
+        {
+          "key": "D",
+          "text": "Infection"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-44",
+      "paper": "staff-nurse-2080",
+      "number": 44,
+      "prompt": "After 12 weeks of pregnancy which of the following is main source of hormone?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Corpus leuteum"
+        },
+        {
+          "key": "B",
+          "text": "Placenta"
+        },
+        {
+          "key": "C",
+          "text": "Ovaries"
+        },
+        {
+          "key": "D",
+          "text": "Fetus"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-45",
+      "paper": "staff-nurse-2080",
+      "number": 45,
+      "prompt": "Systematic and critical examination of quality assurance in nursing is......................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nursing process"
+        },
+        {
+          "key": "B",
+          "text": "Nursing audit"
+        },
+        {
+          "key": "C",
+          "text": "Budget"
+        },
+        {
+          "key": "D",
+          "text": "Nursing care plan"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-46",
+      "paper": "staff-nurse-2080",
+      "number": 46,
+      "prompt": "Process of directing people to work towards attainment of organizational goal is ..............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leadership"
+        },
+        {
+          "key": "B",
+          "text": "Management"
+        },
+        {
+          "key": "C",
+          "text": "Power"
+        },
+        {
+          "key": "D",
+          "text": "Authority"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-47",
+      "paper": "staff-nurse-2080",
+      "number": 47,
+      "prompt": "Appropriate site for IM injection is..............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gluteus maximus"
+        },
+        {
+          "key": "B",
+          "text": "Gluteus minimus"
+        },
+        {
+          "key": "C",
+          "text": "Gluteal rectus"
+        },
+        {
+          "key": "D",
+          "text": "Rectus femoris"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-48",
+      "paper": "staff-nurse-2080",
+      "number": 48,
+      "prompt": "Connective tissue present in bone....................................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cartilage"
+        },
+        {
+          "key": "B",
+          "text": "Haversian canal"
+        },
+        {
+          "key": "C",
+          "text": "Tendon"
+        },
+        {
+          "key": "D",
+          "text": "Ligament"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-49",
+      "paper": "staff-nurse-2080",
+      "number": 49,
+      "prompt": "Which food is good for intestine?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Starch"
+        },
+        {
+          "key": "B",
+          "text": "Vitamin"
+        },
+        {
+          "key": "C",
+          "text": "Fiber"
+        },
+        {
+          "key": "D",
+          "text": "Fats"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-50",
+      "paper": "staff-nurse-2080",
+      "number": 50,
+      "prompt": "Which of the following procedure requires aseptic technique?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enema"
+        },
+        {
+          "key": "B",
+          "text": "Urinary catheterization"
+        },
+        {
+          "key": "C",
+          "text": "NG tube insertion"
+        },
+        {
+          "key": "D",
+          "text": "IV canalization"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-51",
+      "paper": "staff-nurse-2080",
+      "number": 51,
+      "prompt": "A woman in labour has cervical dilatation 1cm. It means her cervical effacement is ......................?",
+      "options": [
+        {
+          "key": "A",
+          "text": "25%"
+        },
+        {
+          "key": "B",
+          "text": "50%"
+        },
+        {
+          "key": "C",
+          "text": "75%"
+        },
+        {
+          "key": "D",
+          "text": "80%"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-52",
+      "paper": "staff-nurse-2080",
+      "number": 52,
+      "prompt": "Which structure prevent the entry of food in air pipe?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trachea"
+        },
+        {
+          "key": "B",
+          "text": "Epiglotis"
+        },
+        {
+          "key": "C",
+          "text": "Bronchi"
+        },
+        {
+          "key": "D",
+          "text": "Uvula"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-53",
+      "paper": "staff-nurse-2080",
+      "number": 53,
+      "prompt": "Which forcep is used for holding soft tissue?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Babkock forcep"
+        },
+        {
+          "key": "B",
+          "text": "Thumb forcep"
+        },
+        {
+          "key": "C",
+          "text": "Allis forcep"
+        },
+        {
+          "key": "D",
+          "text": "Artery forcep"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-54",
+      "paper": "staff-nurse-2080",
+      "number": 54,
+      "prompt": "A disorder in which client feels craving and compulsion to eat non-food material is...........",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bulimia nervosa"
+        },
+        {
+          "key": "B",
+          "text": "Anorexia nervosa"
+        },
+        {
+          "key": "C",
+          "text": "Pica"
+        },
+        {
+          "key": "D",
+          "text": "Tica disorder"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-55",
+      "paper": "staff-nurse-2080",
+      "number": 55,
+      "prompt": "Koplik spot is seen in",
+      "options": [
+        {
+          "key": "A",
+          "text": "Measles"
+        },
+        {
+          "key": "B",
+          "text": "Cholera"
+        },
+        {
+          "key": "C",
+          "text": "Mumps"
+        },
+        {
+          "key": "D",
+          "text": "Typhoid"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-56",
+      "paper": "staff-nurse-2080",
+      "number": 56,
+      "prompt": "Volume of blood pumped by the ventricle in each contraction is ....................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cardiac output"
+        },
+        {
+          "key": "B",
+          "text": "Stroke volume"
+        },
+        {
+          "key": "C",
+          "text": "Tidal capacity"
+        },
+        {
+          "key": "D",
+          "text": "Ejection fraction"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-57",
+      "paper": "staff-nurse-2080",
+      "number": 57,
+      "prompt": "Treatment of physiological jaundice is .....................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phototherapy"
+        },
+        {
+          "key": "B",
+          "text": "Transfusion exchange"
+        },
+        {
+          "key": "C",
+          "text": "Iv immunoglobulin"
+        },
+        {
+          "key": "D",
+          "text": "Oxygen therapy"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-58",
+      "paper": "staff-nurse-2080",
+      "number": 58,
+      "prompt": "For which of the following written consent is necessary?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Psychotherapy"
+        },
+        {
+          "key": "B",
+          "text": "Behavioural therapy"
+        },
+        {
+          "key": "C",
+          "text": "Electroconvulsive therapy"
+        },
+        {
+          "key": "D",
+          "text": "Electrocardiogram"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-59",
+      "paper": "staff-nurse-2080",
+      "number": 59,
+      "prompt": "Which hormone should be decreased for a patient to start with true labour?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Progesterone"
+        },
+        {
+          "key": "B",
+          "text": "Oestrogen"
+        },
+        {
+          "key": "C",
+          "text": "Prostaglandin"
+        },
+        {
+          "key": "D",
+          "text": "Oxytocin"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-60",
+      "paper": "staff-nurse-2080",
+      "number": 60,
+      "prompt": "How frequently catheter should be changed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "72hr"
+        },
+        {
+          "key": "B",
+          "text": "120hr"
+        },
+        {
+          "key": "C",
+          "text": "48hr"
+        },
+        {
+          "key": "D",
+          "text": "24hr"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-61",
+      "paper": "staff-nurse-2080",
+      "number": 61,
+      "prompt": "Most common acyanotic heart disease in children...............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atrial septal defect"
+        },
+        {
+          "key": "B",
+          "text": "Ventricular septal defect"
+        },
+        {
+          "key": "C",
+          "text": "Tetralogy of fallot"
+        },
+        {
+          "key": "D",
+          "text": "Rheumatic heart disease"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-62",
+      "paper": "staff-nurse-2080",
+      "number": 62,
+      "prompt": "The volume of lung after maximal inspiration followed by maximal expiration is................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inspiratory reserve volume"
+        },
+        {
+          "key": "B",
+          "text": "Tidal volume"
+        },
+        {
+          "key": "C",
+          "text": "Vital capacity"
+        },
+        {
+          "key": "D",
+          "text": "Residual volume"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-63",
+      "paper": "staff-nurse-2080",
+      "number": 63,
+      "prompt": "All are the component of Kangaroo mother care (KMC) except............................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Early initiation of breastfeeding"
+        },
+        {
+          "key": "B",
+          "text": "Skin to skin contact"
+        },
+        {
+          "key": "C",
+          "text": "Free nutritional service to mother"
+        },
+        {
+          "key": "D",
+          "text": "Earl discharge from hospital"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-64",
+      "paper": "staff-nurse-2080",
+      "number": 64,
+      "prompt": "Nursing ethics means............................",
+      "options": [
+        {
+          "key": "A",
+          "text": "How much nurse should get paid"
+        },
+        {
+          "key": "B",
+          "text": "Moral principle and values followed by nurses"
+        },
+        {
+          "key": "C",
+          "text": "How nurse should behave"
+        },
+        {
+          "key": "D",
+          "text": "Rule of hospital"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-65",
+      "paper": "staff-nurse-2080",
+      "number": 65,
+      "prompt": "A transparent layer that focus the light coming into retina is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cornea"
+        },
+        {
+          "key": "B",
+          "text": "Lens"
+        },
+        {
+          "key": "C",
+          "text": "Ciliary body"
+        },
+        {
+          "key": "D",
+          "text": "Pupil"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-66",
+      "paper": "staff-nurse-2080",
+      "number": 66,
+      "prompt": "First line treatment if type 2 DM?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insulin"
+        },
+        {
+          "key": "B",
+          "text": "Oral hypoglycemic agent"
+        },
+        {
+          "key": "C",
+          "text": "Diet modification and exercise"
+        },
+        {
+          "key": "D",
+          "text": "Admission to ward"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-67",
+      "paper": "staff-nurse-2080",
+      "number": 67,
+      "prompt": "A patient received from trauma is experiencing pain in left side of abdomen. Which organ is probably affected?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pancreas"
+        },
+        {
+          "key": "B",
+          "text": "Gall bladder"
+        },
+        {
+          "key": "C",
+          "text": "Pancreas"
+        },
+        {
+          "key": "D",
+          "text": "Spleen"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-68",
+      "paper": "staff-nurse-2080",
+      "number": 68,
+      "prompt": "Most important assessment in a client with depression is ...........................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nutrition"
+        },
+        {
+          "key": "B",
+          "text": "Inflated mood"
+        },
+        {
+          "key": "C",
+          "text": "Suicidal ideation"
+        },
+        {
+          "key": "D",
+          "text": "Urinary incontinence"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-69",
+      "paper": "staff-nurse-2080",
+      "number": 69,
+      "prompt": "Which chamber of heart receives oxygenated blood from lungs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Left atrium"
+        },
+        {
+          "key": "B",
+          "text": "Left ventricle"
+        },
+        {
+          "key": "C",
+          "text": "Right atrium"
+        },
+        {
+          "key": "D",
+          "text": "Right ventricle"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-70",
+      "paper": "staff-nurse-2080",
+      "number": 70,
+      "prompt": "Why position is changed slowly in patient in immediate postoperative period?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent sudden BP changes"
+        },
+        {
+          "key": "B",
+          "text": "For circulation"
+        },
+        {
+          "key": "C",
+          "text": "......."
+        },
+        {
+          "key": "D",
+          "text": "......."
+        }
+      ],
+      "answer": "A",
+      "answerSource": "ai"
+    },
+    {
+      "id": "staff-nurse-2080-71",
+      "paper": "staff-nurse-2080",
+      "number": 71,
+      "prompt": "What is the minimum and maximum score for GCS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0-10"
+        },
+        {
+          "key": "B",
+          "text": "3-15"
+        },
+        {
+          "key": "C",
+          "text": "0-15"
+        },
+        {
+          "key": "D",
+          "text": "3-10"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-72",
+      "paper": "staff-nurse-2080",
+      "number": 72,
+      "prompt": "Which vitamin is responsible for wound healing and cartilage formation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vit A"
+        },
+        {
+          "key": "B",
+          "text": "Vit B"
+        },
+        {
+          "key": "C",
+          "text": "Vit C"
+        },
+        {
+          "key": "D",
+          "text": "Vit K"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-73",
+      "paper": "staff-nurse-2080",
+      "number": 73,
+      "prompt": "At what angle insulin is administered........................?",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 degree"
+        },
+        {
+          "key": "B",
+          "text": "45 degree"
+        },
+        {
+          "key": "C",
+          "text": "30 degree"
+        },
+        {
+          "key": "D",
+          "text": "60 degree"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-74",
+      "paper": "staff-nurse-2080",
+      "number": 74,
+      "prompt": "A patient came to emergency in life threatening condition. Where do you triage the patient?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Black area"
+        },
+        {
+          "key": "B",
+          "text": "Green area"
+        },
+        {
+          "key": "C",
+          "text": "Yellow area"
+        },
+        {
+          "key": "D",
+          "text": "Red area"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-75",
+      "paper": "staff-nurse-2080",
+      "number": 75,
+      "prompt": "Which blood investigation is to be monitored in client receiving oral anticoagulant?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Platelets"
+        },
+        {
+          "key": "B",
+          "text": "CBC"
+        },
+        {
+          "key": "C",
+          "text": "RFT"
+        },
+        {
+          "key": "D",
+          "text": "INR"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-76",
+      "paper": "staff-nurse-2080",
+      "number": 76,
+      "prompt": "Correct technique of spirometry is .........................?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Slow inspiration and steady expiration"
+        },
+        {
+          "key": "B",
+          "text": "Slow inspiration and slow expiration"
+        },
+        {
+          "key": "C",
+          "text": "Steady inspiration and slow expiration"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-77",
+      "paper": "staff-nurse-2080",
+      "number": 77,
+      "prompt": "Which of the following is elevated in gout?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Serum amylase"
+        },
+        {
+          "key": "B",
+          "text": "Uric acid"
+        },
+        {
+          "key": "C",
+          "text": "Potassium"
+        },
+        {
+          "key": "D",
+          "text": "Phosphorus"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-78",
+      "paper": "staff-nurse-2080",
+      "number": 78,
+      "prompt": "A patient with left sided heart failure is admitted. What feature is likely to be observed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Orthopnea"
+        },
+        {
+          "key": "B",
+          "text": "Pedal edema"
+        },
+        {
+          "key": "C",
+          "text": "Hepatomegaly"
+        },
+        {
+          "key": "D",
+          "text": "Raised JVP"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-79",
+      "paper": "staff-nurse-2080",
+      "number": 79,
+      "prompt": "Main aim of cardiac rehabilitation is ...............",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reduce rate of hospital admission"
+        },
+        {
+          "key": "B",
+          "text": "To improve cardiac output and relieve symptoms"
+        },
+        {
+          "key": "C",
+          "text": "To improve mental, Physical and resume social function of client in the community"
+        },
+        {
+          "key": "D",
+          "text": "To allow them to exercise"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-80",
+      "paper": "staff-nurse-2080",
+      "number": 80,
+      "prompt": "Normal Intraocular pressure is ............",
+      "options": [
+        {
+          "key": "A",
+          "text": "10-15 mm of hg"
+        },
+        {
+          "key": "B",
+          "text": "5-10 mm of hg"
+        },
+        {
+          "key": "C",
+          "text": "30-35mm of hg"
+        },
+        {
+          "key": "D",
+          "text": "10-20mm of hg"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-81",
+      "paper": "staff-nurse-2080",
+      "number": 81,
+      "prompt": "Most important cation in intracellular fluid is .................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium"
+        },
+        {
+          "key": "B",
+          "text": "Potassium"
+        },
+        {
+          "key": "C",
+          "text": "Chloride"
+        },
+        {
+          "key": "D",
+          "text": "Calcium"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-82",
+      "paper": "staff-nurse-2080",
+      "number": 82,
+      "prompt": "Full form of HELLP in HELLP syndrome is .................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hemoptysis, low lipid, low platelets"
+        },
+        {
+          "key": "B",
+          "text": "Hemolysis, elevated liver enzyme, low platelet count"
+        },
+        {
+          "key": "C",
+          "text": "Hematuria, elevated lipid enzyme, low protein"
+        },
+        {
+          "key": "D",
+          "text": "Hemolysis, Elevated lipase, low platelet"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-83",
+      "paper": "staff-nurse-2080",
+      "number": 83,
+      "prompt": "Birth time of baby is noted ...............",
+      "options": [
+        {
+          "key": "A",
+          "text": "After expulsion of baby head"
+        },
+        {
+          "key": "B",
+          "text": "Expulsion of baby from body of mother"
+        },
+        {
+          "key": "C",
+          "text": "Expulsion of placenta"
+        },
+        {
+          "key": "D",
+          "text": "Cord expulsion"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-84",
+      "paper": "staff-nurse-2080",
+      "number": 84,
+      "prompt": "Medication error, documentation error is................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Malpractice"
+        },
+        {
+          "key": "B",
+          "text": "Negligence"
+        },
+        {
+          "key": "C",
+          "text": "Assault"
+        },
+        {
+          "key": "D",
+          "text": "Beneficence"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-85",
+      "paper": "staff-nurse-2080",
+      "number": 85,
+      "prompt": "Common cause of vesicovaginal fistula is ...............",
+      "options": [
+        {
+          "key": "A",
+          "text": "Operative procedure"
+        },
+        {
+          "key": "B",
+          "text": "Obstructed labour"
+        },
+        {
+          "key": "C",
+          "text": "Constipation"
+        },
+        {
+          "key": "D",
+          "text": "Hypertension"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-86",
+      "paper": "staff-nurse-2080",
+      "number": 86,
+      "prompt": "What is the leading cause of PPH?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Uterine atony"
+        },
+        {
+          "key": "B",
+          "text": "Retained tissue"
+        },
+        {
+          "key": "C",
+          "text": "Thrombin disorder"
+        },
+        {
+          "key": "D",
+          "text": "Trauma"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-87",
+      "paper": "staff-nurse-2080",
+      "number": 87,
+      "prompt": "The purpose of handwashing is............",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove transient flora"
+        },
+        {
+          "key": "B",
+          "text": "To remove jwellery"
+        },
+        {
+          "key": "C",
+          "text": "To remove residual flora"
+        },
+        {
+          "key": "D",
+          "text": "To remove normal flora"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-88",
+      "paper": "staff-nurse-2080",
+      "number": 88,
+      "prompt": "To maintain sterile field ................................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do not step forward or backward across/through the sterile field"
+        },
+        {
+          "key": "B",
+          "text": "......."
+        },
+        {
+          "key": "C",
+          "text": "......."
+        },
+        {
+          "key": "D",
+          "text": "......."
+        }
+      ],
+      "answer": "A",
+      "answerSource": "ai"
+    },
+    {
+      "id": "staff-nurse-2080-89",
+      "paper": "staff-nurse-2080",
+      "number": 89,
+      "prompt": "Which bacteria is most commonly associated with urinary tract infections?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clostridium bacilli"
+        },
+        {
+          "key": "B",
+          "text": "E. coli"
+        },
+        {
+          "key": "C",
+          "text": "Pseudomonas"
+        },
+        {
+          "key": "D",
+          "text": "Streptococcus"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-90",
+      "paper": "staff-nurse-2080",
+      "number": 90,
+      "prompt": "What is the term for act of performing duties on behalf of other................?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assistance"
+        },
+        {
+          "key": "B",
+          "text": "Responsibility"
+        },
+        {
+          "key": "C",
+          "text": "Delegation"
+        },
+        {
+          "key": "D",
+          "text": "Self reliance"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-91",
+      "paper": "staff-nurse-2080",
+      "number": 91,
+      "prompt": "Which of the following should be performed by the nurse immediately after rupture of membrane?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To assess FHS"
+        },
+        {
+          "key": "B",
+          "text": "Check for cervical dilation"
+        },
+        {
+          "key": "C",
+          "text": "Measure BP"
+        },
+        {
+          "key": "D",
+          "text": "Assess uterine contraction"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-92",
+      "paper": "staff-nurse-2080",
+      "number": 92,
+      "prompt": "Term for thinning of cervix during labour is .....................",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effacement"
+        },
+        {
+          "key": "B",
+          "text": "Dilation"
+        },
+        {
+          "key": "C",
+          "text": "Ripen"
+        },
+        {
+          "key": "D",
+          "text": "Engagement"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-93",
+      "paper": "staff-nurse-2080",
+      "number": 93,
+      "prompt": "What would be the immediate intervention in patient with COPD, who is experiencing shortness of breath and breathing difficulty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Checking BP"
+        },
+        {
+          "key": "B",
+          "text": "Assess for pain"
+        },
+        {
+          "key": "C",
+          "text": "Administer Oxygen"
+        },
+        {
+          "key": "D",
+          "text": "Provide counselling"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-94",
+      "paper": "staff-nurse-2080",
+      "number": 94,
+      "prompt": "Why are antibiotics prescribe to patient with rheumatic fever?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To prevent reoccurance"
+        },
+        {
+          "key": "B",
+          "text": "To prevent damage of heart valves"
+        },
+        {
+          "key": "C",
+          "text": "To prevent fever"
+        },
+        {
+          "key": "D",
+          "text": "To prevent infection"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-95",
+      "paper": "staff-nurse-2080",
+      "number": 95,
+      "prompt": "A patient with abdominal pain comes to emergency, which part is palpated first?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Symptomatic quadrant is assessed first"
+        },
+        {
+          "key": "B",
+          "text": "Symptomatic quadrant is assessed last"
+        },
+        {
+          "key": "C",
+          "text": "Start from right lower quadrant"
+        },
+        {
+          "key": "D",
+          "text": "Right upper quadrant at first and other"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-96",
+      "paper": "staff-nurse-2080",
+      "number": 96,
+      "prompt": "It is the tool for providing individualized care to the patient?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nursing process"
+        },
+        {
+          "key": "B",
+          "text": "Nursing care plan"
+        },
+        {
+          "key": "C",
+          "text": "Assessment"
+        },
+        {
+          "key": "D",
+          "text": "Audit"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-97",
+      "paper": "staff-nurse-2080",
+      "number": 97,
+      "prompt": "At what age child recognize his body part?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9-12 months"
+        },
+        {
+          "key": "B",
+          "text": "12-15months"
+        },
+        {
+          "key": "C",
+          "text": "15-18months"
+        },
+        {
+          "key": "D",
+          "text": "6 months"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-98",
+      "paper": "staff-nurse-2080",
+      "number": 98,
+      "prompt": "A 16 year girls has never menstruated. What is this condition?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Primary amenorrhea"
+        },
+        {
+          "key": "B",
+          "text": "Secondary amennorhea"
+        },
+        {
+          "key": "C",
+          "text": "Delayed menarche"
+        },
+        {
+          "key": "D",
+          "text": "Primary menarche"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-99",
+      "paper": "staff-nurse-2080",
+      "number": 99,
+      "prompt": "Social development in school age child is influenced by........",
+      "options": [
+        {
+          "key": "A",
+          "text": "Family"
+        },
+        {
+          "key": "B",
+          "text": "Peer interaction"
+        },
+        {
+          "key": "C",
+          "text": "Teachers"
+        },
+        {
+          "key": "D",
+          "text": "None"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2080-100",
+      "paper": "staff-nurse-2080",
+      "number": 100,
+      "prompt": "Systematic approach for providing individualized patient care is ...............?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nursing process"
+        },
+        {
+          "key": "B",
+          "text": "Nursing audit"
+        },
+        {
+          "key": "C",
+          "text": "Nursing care plan"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "staff-nurse-2082-1",
+      "paper": "staff-nurse-2082",
+      "number": 1,
+      "prompt": "Which type of drugs cause fetal malformation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tocolytic agent"
+        },
+        {
+          "key": "B",
+          "text": "Teratogenic agent"
+        },
+        {
+          "key": "C",
+          "text": "Anticoagulant"
+        },
+        {
+          "key": "D",
+          "text": "Oxytocics"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-2",
+      "paper": "staff-nurse-2082",
+      "number": 2,
+      "prompt": "One middle aged woman having the descent of the cervix and the whole uterus through the introitus is considered as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "1st degree uterine prolapse"
+        },
+        {
+          "key": "B",
+          "text": "2nd degree uterine prolapse"
+        },
+        {
+          "key": "C",
+          "text": "3rd degree uterine prolapse"
+        },
+        {
+          "key": "D",
+          "text": "4th degree uterine prolapse"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-3",
+      "paper": "staff-nurse-2082",
+      "number": 3,
+      "prompt": "Separation anxiety starts from:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oral stage"
+        },
+        {
+          "key": "B",
+          "text": "Phallic stage"
+        },
+        {
+          "key": "C",
+          "text": "Anal stage"
+        },
+        {
+          "key": "D",
+          "text": "Latent stage"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-4",
+      "paper": "staff-nurse-2082",
+      "number": 4,
+      "prompt": "Common cause of diarrhea in children:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giardia"
+        },
+        {
+          "key": "B",
+          "text": "Adeno virus"
+        },
+        {
+          "key": "C",
+          "text": "E. coli"
+        },
+        {
+          "key": "D",
+          "text": "E. histolytica"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-5",
+      "paper": "staff-nurse-2082",
+      "number": 5,
+      "prompt": "Normal weight of infant at 1 year from birth is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Double of birth weight"
+        },
+        {
+          "key": "B",
+          "text": "Triple of birth weight"
+        },
+        {
+          "key": "C",
+          "text": "Quadrupled of birth weight"
+        },
+        {
+          "key": "D",
+          "text": ">10kg"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-6",
+      "paper": "staff-nurse-2082",
+      "number": 6,
+      "prompt": "The relationship that is extremely important in the personality development is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The relationship"
+        },
+        {
+          "key": "B",
+          "text": "Sibling relationship"
+        },
+        {
+          "key": "C",
+          "text": "Parent child relationship"
+        },
+        {
+          "key": "D",
+          "text": "Neighborhood relationship"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-7",
+      "paper": "staff-nurse-2082",
+      "number": 7,
+      "prompt": "A patient states that he hears voice telling him that he is \"Madhav\". This misperception is an:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delusion"
+        },
+        {
+          "key": "B",
+          "text": "Hallucination"
+        },
+        {
+          "key": "C",
+          "text": "Illusion"
+        },
+        {
+          "key": "D",
+          "text": "False belief"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-8",
+      "paper": "staff-nurse-2082",
+      "number": 8,
+      "prompt": "The term most commonly used for the superego is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conscience"
+        },
+        {
+          "key": "B",
+          "text": "Ideal self"
+        },
+        {
+          "key": "C",
+          "text": "Self"
+        },
+        {
+          "key": "D",
+          "text": "Narcissism"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-9",
+      "paper": "staff-nurse-2082",
+      "number": 9,
+      "prompt": "Observe and record enough of the situation to make the behavior or incident meaningful is the principle of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anecdotal report"
+        },
+        {
+          "key": "B",
+          "text": "Rating scale"
+        },
+        {
+          "key": "C",
+          "text": "Communication report"
+        },
+        {
+          "key": "D",
+          "text": "Check list"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-10",
+      "paper": "staff-nurse-2082",
+      "number": 10,
+      "prompt": "Authority is the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Expert power"
+        },
+        {
+          "key": "B",
+          "text": "Coercive power"
+        },
+        {
+          "key": "C",
+          "text": "Legitimate power"
+        },
+        {
+          "key": "D",
+          "text": "Political power"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-11",
+      "paper": "staff-nurse-2082",
+      "number": 11,
+      "prompt": "These patients for whom treatment can be delayed for longer hours, need minor care that falls into category:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yellow"
+        },
+        {
+          "key": "B",
+          "text": "Green"
+        },
+        {
+          "key": "C",
+          "text": "Red"
+        },
+        {
+          "key": "D",
+          "text": "Black"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-12",
+      "paper": "staff-nurse-2082",
+      "number": 12,
+      "prompt": "If the leader shares decision making power with the group member and explains to the group reason for personal decision, it is under the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Autocratic leadership style"
+        },
+        {
+          "key": "B",
+          "text": "Laissez faire"
+        },
+        {
+          "key": "C",
+          "text": "Non leadership style"
+        },
+        {
+          "key": "D",
+          "text": "Democratic leadership style"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-13",
+      "paper": "staff-nurse-2082",
+      "number": 13,
+      "prompt": "\"Job description\" is important to provide the employee for clarification of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Role, function and responsibility of an individual"
+        },
+        {
+          "key": "B",
+          "text": "Term of working"
+        },
+        {
+          "key": "C",
+          "text": "Incentive and facilities"
+        },
+        {
+          "key": "D",
+          "text": "Rules and working place"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-14",
+      "paper": "staff-nurse-2082",
+      "number": 14,
+      "prompt": "At birth the normal length of baby is about:",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 cm"
+        },
+        {
+          "key": "B",
+          "text": "40 cm"
+        },
+        {
+          "key": "C",
+          "text": "50 cm"
+        },
+        {
+          "key": "D",
+          "text": "60 cm"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-15",
+      "paper": "staff-nurse-2082",
+      "number": 15,
+      "prompt": "During adolescence, psychological development focuses on:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Becoming industrious"
+        },
+        {
+          "key": "B",
+          "text": "Establishing an identity"
+        },
+        {
+          "key": "C",
+          "text": "Achieving intimacy"
+        },
+        {
+          "key": "D",
+          "text": "Developing initiative"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-16",
+      "paper": "staff-nurse-2082",
+      "number": 16,
+      "prompt": "When instructing the patient to collect a sputum specimen, the nurse should tell the patient to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Collect sputum from evening coughing episode"
+        },
+        {
+          "key": "B",
+          "text": "Collect sputum from first morning coughing episode"
+        },
+        {
+          "key": "C",
+          "text": "Collect sputum from any coughing episode"
+        },
+        {
+          "key": "D",
+          "text": "Keep specimen at room temperature for the duration"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-17",
+      "paper": "staff-nurse-2082",
+      "number": 17,
+      "prompt": "A nursing diagnosis represents the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proposed plan of care"
+        },
+        {
+          "key": "B",
+          "text": "Client's health problem"
+        },
+        {
+          "key": "C",
+          "text": "Assessment of client's data"
+        },
+        {
+          "key": "D",
+          "text": "Actual nursing interventions"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-18",
+      "paper": "staff-nurse-2082",
+      "number": 18,
+      "prompt": "The lowest level of needs in Maslow's hierarchy:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Safety and Security need"
+        },
+        {
+          "key": "B",
+          "text": "Love and belonging"
+        },
+        {
+          "key": "C",
+          "text": "Physiological"
+        },
+        {
+          "key": "D",
+          "text": "Self esteem"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-19",
+      "paper": "staff-nurse-2082",
+      "number": 19,
+      "prompt": "Which drug is used for treatment of anemia?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tetanus toxoid"
+        },
+        {
+          "key": "B",
+          "text": "Paracetamol"
+        },
+        {
+          "key": "C",
+          "text": "Folic acid"
+        },
+        {
+          "key": "D",
+          "text": "Metronidazole"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-20",
+      "paper": "staff-nurse-2082",
+      "number": 20,
+      "prompt": "Which of the following statements is indicative of typical pain experienced by a patient with cholecystitis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The pain is usually below sternum"
+        },
+        {
+          "key": "B",
+          "text": "Eating food makes the pain better"
+        },
+        {
+          "key": "C",
+          "text": "The pain gets worse after eating fatty food"
+        },
+        {
+          "key": "D",
+          "text": "The pain is usually related to constipation."
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-21",
+      "paper": "staff-nurse-2082",
+      "number": 21,
+      "prompt": "Progressive muscle weakness, leading to ascending paralysis is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nephrotic syndrome"
+        },
+        {
+          "key": "B",
+          "text": "Myasthenia gravis"
+        },
+        {
+          "key": "C",
+          "text": "Guillain-Barre syndrome"
+        },
+        {
+          "key": "D",
+          "text": "Multiple sclerosis"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-22",
+      "paper": "staff-nurse-2082",
+      "number": 22,
+      "prompt": "Gout is a disease of the joint, which is caused because of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calcium metabolism disorder"
+        },
+        {
+          "key": "B",
+          "text": "Purine metabolism disorder"
+        },
+        {
+          "key": "C",
+          "text": "Phosphate metabolism disorder"
+        },
+        {
+          "key": "D",
+          "text": "Potassium metabolism disorder"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-23",
+      "paper": "staff-nurse-2082",
+      "number": 23,
+      "prompt": "What do you mean by first aid treatment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediate care according to situation"
+        },
+        {
+          "key": "B",
+          "text": "Let the patient sleep"
+        },
+        {
+          "key": "C",
+          "text": "Nothing to do"
+        },
+        {
+          "key": "D",
+          "text": "Take temperature"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-24",
+      "paper": "staff-nurse-2082",
+      "number": 24,
+      "prompt": "Oxytocin is produced by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anterior part of pituitary gland"
+        },
+        {
+          "key": "B",
+          "text": "Posterior part of pituitary gland"
+        },
+        {
+          "key": "C",
+          "text": "Middle part of pituitary gland"
+        },
+        {
+          "key": "D",
+          "text": "Adrenal gland"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-25",
+      "paper": "staff-nurse-2082",
+      "number": 25,
+      "prompt": "Fertilization occurs in:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vagina"
+        },
+        {
+          "key": "B",
+          "text": "Uterus"
+        },
+        {
+          "key": "C",
+          "text": "Ovary"
+        },
+        {
+          "key": "D",
+          "text": "Fallopian tube"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-26",
+      "paper": "staff-nurse-2082",
+      "number": 26,
+      "prompt": "Covid-19 is declared as a pandemic which is caused by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bacteria"
+        },
+        {
+          "key": "B",
+          "text": "Virus"
+        },
+        {
+          "key": "C",
+          "text": "Parasites"
+        },
+        {
+          "key": "D",
+          "text": "Fungus"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-27",
+      "paper": "staff-nurse-2082",
+      "number": 27,
+      "prompt": "One major early problem of a client with a spinal cord injury is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bladder control"
+        },
+        {
+          "key": "B",
+          "text": "Nutritional intake"
+        },
+        {
+          "key": "C",
+          "text": "Quadriceps setting"
+        },
+        {
+          "key": "D",
+          "text": "Use of aids for ambulation"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-28",
+      "paper": "staff-nurse-2082",
+      "number": 28,
+      "prompt": "Most peptic ulcers occurring in the stomach are in the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pyloric portion"
+        },
+        {
+          "key": "B",
+          "text": "Cardiac portion"
+        },
+        {
+          "key": "C",
+          "text": "Esophageal junction"
+        },
+        {
+          "key": "D",
+          "text": "Body of stomach"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-29",
+      "paper": "staff-nurse-2082",
+      "number": 29,
+      "prompt": "The nurse should position a client recovering from general anesthesia in:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supine position"
+        },
+        {
+          "key": "B",
+          "text": "Side lying position"
+        },
+        {
+          "key": "C",
+          "text": "High fowler's position"
+        },
+        {
+          "key": "D",
+          "text": "Trendelenburg position"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-30",
+      "paper": "staff-nurse-2082",
+      "number": 30,
+      "prompt": "Collapse of lungs is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pneumothorax"
+        },
+        {
+          "key": "B",
+          "text": "Hydrothorax"
+        },
+        {
+          "key": "C",
+          "text": "Bronchitis"
+        },
+        {
+          "key": "D",
+          "text": "Atelectasis"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-31",
+      "paper": "staff-nurse-2082",
+      "number": 31,
+      "prompt": "During the blood transfusion, a client develops chills and headache. The nurse's best action is to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notify the physician"
+        },
+        {
+          "key": "B",
+          "text": "Stop the transfusion immediately"
+        },
+        {
+          "key": "C",
+          "text": "Slow the transfusion flow to keep vein open"
+        },
+        {
+          "key": "D",
+          "text": "Cover the client with extra blanket"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-32",
+      "paper": "staff-nurse-2082",
+      "number": 32,
+      "prompt": "An infection originating in a patient while in a hospital or other health care facility is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Opportunistic infection"
+        },
+        {
+          "key": "B",
+          "text": "Nosocomial infection"
+        },
+        {
+          "key": "C",
+          "text": "Iatrogenic infection"
+        },
+        {
+          "key": "D",
+          "text": "Endemic infection"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-33",
+      "paper": "staff-nurse-2082",
+      "number": 33,
+      "prompt": "AIDS is caused by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cytomegalovirus"
+        },
+        {
+          "key": "B",
+          "text": "Varicella-zoster virus"
+        },
+        {
+          "key": "C",
+          "text": "Human immune deficiency virus"
+        },
+        {
+          "key": "D",
+          "text": "Acquired immune deficiency syndrome virus"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-34",
+      "paper": "staff-nurse-2082",
+      "number": 34,
+      "prompt": "River outfall is method of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse disposal"
+        },
+        {
+          "key": "B",
+          "text": "Sewage disposal"
+        },
+        {
+          "key": "C",
+          "text": "Human excreta disposal"
+        },
+        {
+          "key": "D",
+          "text": "Animal excreta disposal"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-35",
+      "paper": "staff-nurse-2082",
+      "number": 35,
+      "prompt": "Occurrence in the community of a number of cases of disease that is usually large or unexpected is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Endemic"
+        },
+        {
+          "key": "B",
+          "text": "Epidemic"
+        },
+        {
+          "key": "C",
+          "text": "Infection"
+        },
+        {
+          "key": "D",
+          "text": "Pandemic"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-36",
+      "paper": "staff-nurse-2082",
+      "number": 36,
+      "prompt": "Which of the following vaccine is given subcutaneously?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BCG"
+        },
+        {
+          "key": "B",
+          "text": "Polio"
+        },
+        {
+          "key": "C",
+          "text": "Measles"
+        },
+        {
+          "key": "D",
+          "text": "DPT"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-37",
+      "paper": "staff-nurse-2082",
+      "number": 37,
+      "prompt": "For detection of abnormality, breast examination is performed:",
+      "options": [
+        {
+          "key": "A",
+          "text": "One week after menstruation"
+        },
+        {
+          "key": "B",
+          "text": "One week before menstruation"
+        },
+        {
+          "key": "C",
+          "text": "Immediate after each menstruation"
+        },
+        {
+          "key": "D",
+          "text": "In any time between two menstruation"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "ai"
+    },
+    {
+      "id": "staff-nurse-2082-38",
+      "paper": "staff-nurse-2082",
+      "number": 38,
+      "prompt": "'DOTS' is related to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cataract"
+        },
+        {
+          "key": "B",
+          "text": "Pneumonia"
+        },
+        {
+          "key": "C",
+          "text": "Tuberculosis"
+        },
+        {
+          "key": "D",
+          "text": "Bronchitis"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-39",
+      "paper": "staff-nurse-2082",
+      "number": 39,
+      "prompt": "Which of the following vitamin prevent neural tube defect in fetus?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Folic acid"
+        },
+        {
+          "key": "B",
+          "text": "Vita C"
+        },
+        {
+          "key": "C",
+          "text": "Vita D"
+        },
+        {
+          "key": "D",
+          "text": "Vita E"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-40",
+      "paper": "staff-nurse-2082",
+      "number": 40,
+      "prompt": "The main cause of constipation during pregnancy is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decrease physical excretion"
+        },
+        {
+          "key": "B",
+          "text": "Changes in diet"
+        },
+        {
+          "key": "C",
+          "text": "Relaxation of the smooth muscle system"
+        },
+        {
+          "key": "D",
+          "text": "Obstruction to the bowel by presenting part of the fetus"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-41",
+      "paper": "staff-nurse-2082",
+      "number": 41,
+      "prompt": "Gravida refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A serous pregnancy"
+        },
+        {
+          "key": "B",
+          "text": "Number of times a female has been pregnant"
+        },
+        {
+          "key": "C",
+          "text": "Number of children a female has delivered"
+        },
+        {
+          "key": "D",
+          "text": "Number of term pregnancies a female had"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-43",
+      "paper": "staff-nurse-2082",
+      "number": 43,
+      "prompt": "First fetal movement felt by the mother is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lightening"
+        },
+        {
+          "key": "B",
+          "text": "Ballottement"
+        },
+        {
+          "key": "C",
+          "text": "Engagement"
+        },
+        {
+          "key": "D",
+          "text": "Quickening"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-44",
+      "paper": "staff-nurse-2082",
+      "number": 44,
+      "prompt": "A woman experienced passage of stool or flatus through vagina following delivery, what may be the cause?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vesico-vaginal fistula"
+        },
+        {
+          "key": "B",
+          "text": "Vagina urethral fistula"
+        },
+        {
+          "key": "C",
+          "text": "Recto vaginal fistula"
+        },
+        {
+          "key": "D",
+          "text": "Vesico urethral fistula"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-45",
+      "paper": "staff-nurse-2082",
+      "number": 45,
+      "prompt": "Gonorrhea is caused by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neisseria gonorrhea"
+        },
+        {
+          "key": "B",
+          "text": "Treponema pallidum"
+        },
+        {
+          "key": "C",
+          "text": "Papilloma virus"
+        },
+        {
+          "key": "D",
+          "text": "Human immune virus"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-46",
+      "paper": "staff-nurse-2082",
+      "number": 46,
+      "prompt": "त्रिभुवन विश्वविद्यालयले कति प्रकारका प्रमुख सेवाहरूको गठन गर्छ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "२"
+        },
+        {
+          "key": "B",
+          "text": "३"
+        },
+        {
+          "key": "C",
+          "text": "४"
+        },
+        {
+          "key": "D",
+          "text": "५"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-47",
+      "paper": "staff-nurse-2082",
+      "number": 47,
+      "prompt": "शिक्षण सेवाको कुन समूहमा कृषि तथा पशु विज्ञान समावेश छ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "सामान्य समूह"
+        },
+        {
+          "key": "B",
+          "text": "विज्ञान समूह"
+        },
+        {
+          "key": "C",
+          "text": "कृषि तथा पशु विज्ञान समूह"
+        },
+        {
+          "key": "D",
+          "text": "प्राविधिक समूह"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-48",
+      "paper": "staff-nurse-2082",
+      "number": 48,
+      "prompt": "'प्रशासन समूह' कुन सेवामा पर्दछ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "शिक्षण सेवा"
+        },
+        {
+          "key": "B",
+          "text": "पुस्तकालय सेवा"
+        },
+        {
+          "key": "C",
+          "text": "प्रशासन सेवा"
+        },
+        {
+          "key": "D",
+          "text": "प्राविधिक सेवा"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-49",
+      "paper": "staff-nurse-2082",
+      "number": 49,
+      "prompt": "त्रिभुवन विश्वविद्यालयका शिक्षक तथा कर्मचारीलाई अनिवार्य अवकाश कहिले दिइन्छ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "६० वर्ष पुगेपछि"
+        },
+        {
+          "key": "B",
+          "text": "६२ वर्ष पुगेपछि"
+        },
+        {
+          "key": "C",
+          "text": "६३ वर्ष पुगेपछि"
+        },
+        {
+          "key": "D",
+          "text": "६५ वर्ष पुगेपछि"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-50",
+      "paper": "staff-nurse-2082",
+      "number": 50,
+      "prompt": "प्रशासक पदमा कार्यरत कर्मचारीलाई अनिवार्य अवकाश कहिले दिइन्छ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "५ वर्ष सेवा गरेपछि"
+        },
+        {
+          "key": "B",
+          "text": "६० वर्ष उमेरपछि"
+        },
+        {
+          "key": "C",
+          "text": "६३ वर्ष उमेरपछि"
+        },
+        {
+          "key": "D",
+          "text": "१० वर्ष सेवा गरेपछि"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-51",
+      "paper": "staff-nurse-2082",
+      "number": 51,
+      "prompt": "Deficiency of Vitamin B12 can cause:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iron deficiency anemia"
+        },
+        {
+          "key": "B",
+          "text": "Aplastic anemia"
+        },
+        {
+          "key": "C",
+          "text": "Pernicious anemia"
+        },
+        {
+          "key": "D",
+          "text": "Sickle cell anemia"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "staff-nurse-2082-52",
+      "paper": "staff-nurse-2082",
+      "number": 52,
+      "prompt": "A client with osteoporosis is vulnerable to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fatigue fracture"
+        },
+        {
+          "key": "B",
+          "text": "Pathological fracture"
+        },
+        {
+          "key": "C",
+          "text": "Greenstick fracture"
+        },
+        {
+          "key": "D",
+          "text": "Compound fracture"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "highlight"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-1",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 1,
+      "prompt": "Earliest sign of pressure sore",
+      "options": [
+        {
+          "key": "A",
+          "text": "Numbness"
+        },
+        {
+          "key": "B",
+          "text": "Discolored skin"
+        },
+        {
+          "key": "C",
+          "text": "Swelling"
+        },
+        {
+          "key": "D",
+          "text": "Redness"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-2",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 2,
+      "prompt": "Complication of thyroidectomy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anemia"
+        },
+        {
+          "key": "B",
+          "text": "Dyspnea"
+        },
+        {
+          "key": "C",
+          "text": "Fluid and electrolytes imbalance"
+        },
+        {
+          "key": "D",
+          "text": "Hemorrhage"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-3",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 3,
+      "prompt": "Extra pyramidal symptoms are seen in which drugs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anti anxiety drugs"
+        },
+        {
+          "key": "B",
+          "text": "Anti epileleptic drugs"
+        },
+        {
+          "key": "C",
+          "text": "Antipsychotic drugs"
+        },
+        {
+          "key": "D",
+          "text": "Anti diuretic drugs"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-4",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 4,
+      "prompt": "Nursing care approach for mastectomy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individual approach"
+        },
+        {
+          "key": "B",
+          "text": "Family approach"
+        },
+        {
+          "key": "C",
+          "text": "Team approach"
+        },
+        {
+          "key": "D",
+          "text": "Holistic approach"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-5",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 5,
+      "prompt": "Accurate site for taking temperature:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rectal"
+        },
+        {
+          "key": "B",
+          "text": "Oral"
+        },
+        {
+          "key": "C",
+          "text": "Auxiliary"
+        },
+        {
+          "key": "D",
+          "text": "Groin"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-6",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 6,
+      "prompt": "CPR rate in adult",
+      "options": [
+        {
+          "key": "A",
+          "text": "30:2"
+        },
+        {
+          "key": "B",
+          "text": "15:2"
+        },
+        {
+          "key": "C",
+          "text": "30:1"
+        },
+        {
+          "key": "D",
+          "text": "15:1"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-7",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 7,
+      "prompt": "Which of the following is not a symptom of meiner's disease?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vertigo"
+        },
+        {
+          "key": "B",
+          "text": "Nausea"
+        },
+        {
+          "key": "C",
+          "text": "Tinnitus"
+        },
+        {
+          "key": "D",
+          "text": "Diarrhea"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-8",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 8,
+      "prompt": "Common cause of PPH in Nepal is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hypotonic uterine dystocia"
+        },
+        {
+          "key": "B",
+          "text": "Hypertonic uterine dystocia"
+        },
+        {
+          "key": "C",
+          "text": "Primi mother"
+        },
+        {
+          "key": "D",
+          "text": "Young pregnancy"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-9",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 9,
+      "prompt": "Which medicine should be given with caution in liver disease?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Corticosteroid"
+        },
+        {
+          "key": "B",
+          "text": "Vitamin B and C"
+        },
+        {
+          "key": "C",
+          "text": "Vitamin K"
+        },
+        {
+          "key": "D",
+          "text": "Paracetamol"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-10",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 10,
+      "prompt": "Most common choice of drugs for Alcohol withdrawal:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Antidepressant"
+        },
+        {
+          "key": "B",
+          "text": "Antimanic agent"
+        },
+        {
+          "key": "C",
+          "text": "Anti hypertensive agent"
+        },
+        {
+          "key": "D",
+          "text": "Benzodiazepines"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-11",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 11,
+      "prompt": "Prolong gastric irrigation can cause",
+      "options": [
+        {
+          "key": "A",
+          "text": "Metabolic alkalosis"
+        },
+        {
+          "key": "B",
+          "text": "Metabolic acidosis"
+        },
+        {
+          "key": "C",
+          "text": "Respiratory alkalosis"
+        },
+        {
+          "key": "D",
+          "text": "Respiratory acidosis"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-12",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 12,
+      "prompt": "Maximum Suctioning time during the endo-tracheal suctioning is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Five second"
+        },
+        {
+          "key": "B",
+          "text": "Ten second"
+        },
+        {
+          "key": "C",
+          "text": "Fifteen second"
+        },
+        {
+          "key": "D",
+          "text": "Twenty second"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-13",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 13,
+      "prompt": "Which of the following is need to be done in multiple injury",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compression bandage"
+        },
+        {
+          "key": "B",
+          "text": "Immobilization"
+        },
+        {
+          "key": "C",
+          "text": "Physiotherapy"
+        },
+        {
+          "key": "D",
+          "text": "NPO"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-14",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 14,
+      "prompt": "Drugs that can cause renal injury is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thiamine"
+        },
+        {
+          "key": "B",
+          "text": "Salbutamol"
+        },
+        {
+          "key": "C",
+          "text": "ACE inhibitors"
+        },
+        {
+          "key": "D",
+          "text": "Iron"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-15",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 15,
+      "prompt": "Route of charcoal in organophosphate poisoning is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oral"
+        },
+        {
+          "key": "B",
+          "text": "NG"
+        },
+        {
+          "key": "C",
+          "text": "Both 'a' and 'b'"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-16",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 16,
+      "prompt": "In recovery room after surgery, vital sign should be measure in every .......... for first one hour:",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 min"
+        },
+        {
+          "key": "B",
+          "text": "30 minutes"
+        },
+        {
+          "key": "C",
+          "text": "45 minutes"
+        },
+        {
+          "key": "D",
+          "text": "60 minutes"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-17",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 17,
+      "prompt": "Main function of Cerebrum is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coordinates movement"
+        },
+        {
+          "key": "B",
+          "text": "Speech, judgment, thinking and reasoning,"
+        },
+        {
+          "key": "C",
+          "text": "Problem-solving, emotions and learning"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-18",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 18,
+      "prompt": "Most common sign of New born bacterial infection is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hypoglycemia"
+        },
+        {
+          "key": "B",
+          "text": "Sign of distress"
+        },
+        {
+          "key": "C",
+          "text": "Hypothermia"
+        },
+        {
+          "key": "D",
+          "text": "Otitis media"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-19",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 19,
+      "prompt": "Most common technique to prevention of infection in hospital is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hand washing"
+        },
+        {
+          "key": "B",
+          "text": "Wear clean clothes"
+        },
+        {
+          "key": "C",
+          "text": "Use sterile clothes"
+        },
+        {
+          "key": "D",
+          "text": "Wear gloves"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-20",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 20,
+      "prompt": "Ankle-brachial index test is done to identify the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coronary artery disease"
+        },
+        {
+          "key": "B",
+          "text": "Peripheral artery disease"
+        },
+        {
+          "key": "C",
+          "text": "Deep vein thrombosis"
+        },
+        {
+          "key": "D",
+          "text": "Phlebitis"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-21",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 21,
+      "prompt": "Which types of surgery is performed through spinal anesthesia?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower abdominal surgery"
+        },
+        {
+          "key": "B",
+          "text": "Pelvic and perineum surgery"
+        },
+        {
+          "key": "C",
+          "text": "Lower extremity surgery"
+        },
+        {
+          "key": "D",
+          "text": "All of these"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-22",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 22,
+      "prompt": "Side effect of oxytocin:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Irregular pulse"
+        },
+        {
+          "key": "B",
+          "text": "Hypertension"
+        },
+        {
+          "key": "C",
+          "text": "Loss of conscious"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-23",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 23,
+      "prompt": "The neonate is cleaned in the diversion of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Side by side"
+        },
+        {
+          "key": "B",
+          "text": "Back to front"
+        },
+        {
+          "key": "C",
+          "text": "Cephalo-caudal"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-24",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 24,
+      "prompt": "Risk for osteoporosis is seen in:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Menopausal women"
+        },
+        {
+          "key": "B",
+          "text": "Working women"
+        },
+        {
+          "key": "C",
+          "text": "Women with obesity"
+        },
+        {
+          "key": "D",
+          "text": "Children"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-25",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 25,
+      "prompt": "A type of heat loss that occurs when the heat is dissipated by air current:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Convection"
+        },
+        {
+          "key": "B",
+          "text": "Radiation"
+        },
+        {
+          "key": "C",
+          "text": "Evaporation"
+        },
+        {
+          "key": "D",
+          "text": "Conduction"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-26",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 26,
+      "prompt": "Common choice of drugs used in pneumonia is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gentamycine"
+        },
+        {
+          "key": "B",
+          "text": "Gentamycine and Amoxicillin"
+        },
+        {
+          "key": "C",
+          "text": "Amoxicillin"
+        },
+        {
+          "key": "D",
+          "text": "Cortimoxazole"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-27",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 27,
+      "prompt": "Gravida Denotes to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pregnant state"
+        },
+        {
+          "key": "B",
+          "text": "Previous pregnancy"
+        },
+        {
+          "key": "C",
+          "text": "Pregnancy at the state of 30 and above"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-28",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 28,
+      "prompt": "Which of the following is the highest diameter of pelvis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Antero-posterior"
+        },
+        {
+          "key": "B",
+          "text": "Lateral"
+        },
+        {
+          "key": "C",
+          "text": "Oblique diameter"
+        },
+        {
+          "key": "D",
+          "text": "All are equal"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-29",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 29,
+      "prompt": "Which one of the following is not a diuretic?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enalapril"
+        },
+        {
+          "key": "B",
+          "text": "Mannitol"
+        },
+        {
+          "key": "C",
+          "text": "Spironolactone"
+        },
+        {
+          "key": "D",
+          "text": "Furosemide"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-30",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 30,
+      "prompt": "If there is Increasing Increase ICP, which of the following symptoms is present?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decreasing systolic pressure"
+        },
+        {
+          "key": "B",
+          "text": "Widening Pulse pressure"
+        },
+        {
+          "key": "C",
+          "text": "Increasing diastolic pressure"
+        },
+        {
+          "key": "D",
+          "text": "Decreasing pulse"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-31",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 31,
+      "prompt": "Low protein diet is ordered for patients with:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anemia"
+        },
+        {
+          "key": "B",
+          "text": "Acute nephritis"
+        },
+        {
+          "key": "C",
+          "text": "Burns"
+        },
+        {
+          "key": "D",
+          "text": "Gastritis"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-32",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 32,
+      "prompt": "Which of the following is hypotonic solution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.45% sodium chloride"
+        },
+        {
+          "key": "B",
+          "text": "Ringer lactate"
+        },
+        {
+          "key": "C",
+          "text": "0.9% sodium chloride"
+        },
+        {
+          "key": "D",
+          "text": "10% dextrose"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-33",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 33,
+      "prompt": "Initial symptoms of vitamin 'A' deficiency is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conjunctiva xerosis"
+        },
+        {
+          "key": "B",
+          "text": "Night blindness"
+        },
+        {
+          "key": "C",
+          "text": "Bitots sports"
+        },
+        {
+          "key": "D",
+          "text": "Corneal ulcer"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-34",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 34,
+      "prompt": "To prevent of ventilator associated pneumonia (VAP) which of the following intervention is required?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ambulation"
+        },
+        {
+          "key": "B",
+          "text": "Drinks lots of fluid"
+        },
+        {
+          "key": "C",
+          "text": "Keep patient NPO"
+        },
+        {
+          "key": "D",
+          "text": "Chest physiotherapy"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-35",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 35,
+      "prompt": "Red, hot knee, limping gait is common symptoms of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Septic arthritis"
+        },
+        {
+          "key": "B",
+          "text": "Gouty arthritis"
+        },
+        {
+          "key": "C",
+          "text": "Osteoporosis"
+        },
+        {
+          "key": "D",
+          "text": "Osteomyelitis"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-36",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 36,
+      "prompt": "28 years patient admitted in medical ward with chest tube drainage. During the position change, suddenly discontinued the drain tube. What is your immediate intervention?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Call the physician"
+        },
+        {
+          "key": "B",
+          "text": "Change the position of patient"
+        },
+        {
+          "key": "C",
+          "text": "Direct compression on insertion site"
+        },
+        {
+          "key": "D",
+          "text": "Reinsertion of tube"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-37",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 37,
+      "prompt": "We define end stage renal disease if GFR is less than:",
+      "options": [
+        {
+          "key": "A",
+          "text": "50 ml/hour"
+        },
+        {
+          "key": "B",
+          "text": "15 ml/hour"
+        },
+        {
+          "key": "C",
+          "text": "15 ml/minute"
+        },
+        {
+          "key": "D",
+          "text": "90 ml/minute"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-38",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 38,
+      "prompt": "Which of the following is most common complication after total hip replacement surgery?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anemia"
+        },
+        {
+          "key": "B",
+          "text": "Pain"
+        },
+        {
+          "key": "C",
+          "text": "Necrosis"
+        },
+        {
+          "key": "D",
+          "text": "Pulmonary embolism"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-39",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 39,
+      "prompt": "Seven months old male child is admitted in pediatric unit with the history of constipation and some time diarrhea, foul smelling flatus, ribbon like stool and slight abdominal distension. Which of the following disease you suspect after assessment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Intestinal obstruction"
+        },
+        {
+          "key": "B",
+          "text": "Pyloric stenosis"
+        },
+        {
+          "key": "C",
+          "text": "Intussusceptions"
+        },
+        {
+          "key": "D",
+          "text": "Hairspring's disease"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-40",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 40,
+      "prompt": "After unilateral nephrectomy how much time is required for creatinine level to be normal in kidney donor?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Seventy hours"
+        },
+        {
+          "key": "B",
+          "text": "One Twenty four"
+        },
+        {
+          "key": "C",
+          "text": "One Forty eight hour"
+        },
+        {
+          "key": "D",
+          "text": "One seventy hours"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-41",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 41,
+      "prompt": "Medicine used for moderate Covid-19 patients:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Azithromycin"
+        },
+        {
+          "key": "B",
+          "text": "Salbutamol Nebulizer"
+        },
+        {
+          "key": "C",
+          "text": "Ramdesevir"
+        },
+        {
+          "key": "D",
+          "text": "Deramethasone"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-42",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 42,
+      "prompt": "While instilling ear drops, the ear canal of an adult is straightened by pulling the pinna:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Down and back"
+        },
+        {
+          "key": "B",
+          "text": "Up and back"
+        },
+        {
+          "key": "C",
+          "text": "Straight down"
+        },
+        {
+          "key": "D",
+          "text": "Straight back"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-43",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 43,
+      "prompt": "One teaspoonful of medicine is equal to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 ml"
+        },
+        {
+          "key": "B",
+          "text": "15 ml"
+        },
+        {
+          "key": "C",
+          "text": "5 ml"
+        },
+        {
+          "key": "D",
+          "text": "20 ml"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-44",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 44,
+      "prompt": "A client who just had a kidney transplant is transferred from the post anesthesia care unit to the intensive care unit (ICU). The nurse in the ICU should monitor the urinary output every:",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 minutes"
+        },
+        {
+          "key": "B",
+          "text": "Hour"
+        },
+        {
+          "key": "C",
+          "text": "2 hours"
+        },
+        {
+          "key": "D",
+          "text": "3 hours"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-45",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 45,
+      "prompt": "Deaths in COVID-19 is due to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acute Respiratory Distress syndrome"
+        },
+        {
+          "key": "B",
+          "text": "Hepatic encephalopathy"
+        },
+        {
+          "key": "C",
+          "text": "Brain tissue damage"
+        },
+        {
+          "key": "D",
+          "text": "Renal injury"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-46",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 46,
+      "prompt": "Rubbers goods are best sterilized by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chemical sterilization"
+        },
+        {
+          "key": "B",
+          "text": "Autoclave"
+        },
+        {
+          "key": "C",
+          "text": "Radiation"
+        },
+        {
+          "key": "D",
+          "text": "Dry heat"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-47",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 47,
+      "prompt": "Which of the following are NOT the emergency/general danger signs in a sick child?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Convulsions"
+        },
+        {
+          "key": "B",
+          "text": "Inability to breastfeed"
+        },
+        {
+          "key": "C",
+          "text": "Obstructed breathing"
+        },
+        {
+          "key": "D",
+          "text": "Respiratory rate > 60/min"
+        }
+      ],
+      "answer": "D",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-48",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 48,
+      "prompt": "Most common cause of maternal death in Nepal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "APH"
+        },
+        {
+          "key": "B",
+          "text": "PPH"
+        },
+        {
+          "key": "C",
+          "text": "Eclampsia"
+        },
+        {
+          "key": "D",
+          "text": "Infection"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-49",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 49,
+      "prompt": "Diagnostic sign of placenta previa is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower abdominal pain"
+        },
+        {
+          "key": "B",
+          "text": "Painless vaginal bleeding"
+        },
+        {
+          "key": "C",
+          "text": "Vaginal bleeding with pain"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-50",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 50,
+      "prompt": "While removing chest tube after physician has order, as a nurse you will ask patient to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take deep breath and hold it"
+        },
+        {
+          "key": "B",
+          "text": "Do deep breathing and coughing exercise"
+        },
+        {
+          "key": "C",
+          "text": "Do Valsalva maneuver"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-51",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 51,
+      "prompt": "Which drug order by physician should be questions by nurse not used in liver disease patients?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gentamycin"
+        },
+        {
+          "key": "B",
+          "text": "Ursodilol"
+        },
+        {
+          "key": "C",
+          "text": "Paracetamol"
+        },
+        {
+          "key": "D",
+          "text": "All"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-52",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 52,
+      "prompt": "Side effect of Epidural Anesthesia:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hypotension"
+        },
+        {
+          "key": "B",
+          "text": "Hypertension"
+        },
+        {
+          "key": "C",
+          "text": "Hypokalema"
+        },
+        {
+          "key": "D",
+          "text": "Hypercalcemia"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-53",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 53,
+      "prompt": "Effacement means:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dilation of cervix"
+        },
+        {
+          "key": "B",
+          "text": "Softening and thinning of vagina"
+        },
+        {
+          "key": "C",
+          "text": "Softening and thinning of cervix"
+        },
+        {
+          "key": "D",
+          "text": "Baby's head opening through the vagina"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-54",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 54,
+      "prompt": "Which is not a pediatric emergency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acute epiglottis"
+        },
+        {
+          "key": "B",
+          "text": "ARDS"
+        },
+        {
+          "key": "C",
+          "text": "Physiological jaundice"
+        },
+        {
+          "key": "D",
+          "text": "Seizure"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-55",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 55,
+      "prompt": "Which anemia seen in client with vita B12 deficiency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pernicious Anemia"
+        },
+        {
+          "key": "B",
+          "text": "Iron deficiency anemia"
+        },
+        {
+          "key": "C",
+          "text": "Plastic Anemia"
+        },
+        {
+          "key": "D",
+          "text": "Hemolytic anemia"
+        }
+      ],
+      "answer": "A",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-56",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 56,
+      "prompt": "First step when blood transfusion reaction seen:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Informed physician"
+        },
+        {
+          "key": "B",
+          "text": "Stop transfusion"
+        },
+        {
+          "key": "C",
+          "text": "Administer Antihistamine"
+        },
+        {
+          "key": "D",
+          "text": "Slow the infusion rate"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-57",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 57,
+      "prompt": "Carpel tunnel syndrome is due to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Median artery pressure"
+        },
+        {
+          "key": "B",
+          "text": "Compression in median nerve"
+        },
+        {
+          "key": "C",
+          "text": "Compression in lateral nerve"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-58",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 58,
+      "prompt": "What control the muscle contraction of the body?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Na, Ca"
+        },
+        {
+          "key": "B",
+          "text": "Na, Ca, K"
+        },
+        {
+          "key": "C",
+          "text": "Na, K"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-59",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 59,
+      "prompt": "When the fundus and cervix comes down but remain in vagina; which type of inversion of uterus:",
+      "options": [
+        {
+          "key": "A",
+          "text": "First degree"
+        },
+        {
+          "key": "B",
+          "text": "Second degree"
+        },
+        {
+          "key": "C",
+          "text": "Third degree"
+        },
+        {
+          "key": "D",
+          "text": "Fourth degree"
+        }
+      ],
+      "answer": "B",
+      "answerSource": "key"
+    },
+    {
+      "id": "tu-teaching-hospital-2078-60",
+      "paper": "tu-teaching-hospital-2078",
+      "number": 60,
+      "prompt": "Most common cause of coronary artery disease:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hyperglycaemia"
+        },
+        {
+          "key": "B",
+          "text": "Stress"
+        },
+        {
+          "key": "C",
+          "text": "Atherosclerosis"
+        },
+        {
+          "key": "D",
+          "text": "Coronary artery spasm"
+        }
+      ],
+      "answer": "C",
+      "answerSource": "key"
+    }
+  ]
+}

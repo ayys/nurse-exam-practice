@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "staff-nurse-2082-1",
+    "paper": "staff-nurse-2082",
+    "number": 1,
+    "prompt": "Which type of drugs cause fetal malformation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tocolytic agent"
+      },
+      {
+        "key": "B",
+        "text": "Teratogenic agent"
+      },
+      {
+        "key": "C",
+        "text": "Anticoagulant"
+      },
+      {
+        "key": "D",
+        "text": "Oxytocics"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-2",
+    "paper": "staff-nurse-2082",
+    "number": 2,
+    "prompt": "One middle aged woman having the descent of the cervix and the whole uterus through the introitus is considered as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1st degree uterine prolapse"
+      },
+      {
+        "key": "B",
+        "text": "2nd degree uterine prolapse"
+      },
+      {
+        "key": "C",
+        "text": "3rd degree uterine prolapse"
+      },
+      {
+        "key": "D",
+        "text": "4th degree uterine prolapse"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-3",
+    "paper": "staff-nurse-2082",
+    "number": 3,
+    "prompt": "Separation anxiety starts from:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oral stage"
+      },
+      {
+        "key": "B",
+        "text": "Phallic stage"
+      },
+      {
+        "key": "C",
+        "text": "Anal stage"
+      },
+      {
+        "key": "D",
+        "text": "Latent stage"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-4",
+    "paper": "staff-nurse-2082",
+    "number": 4,
+    "prompt": "Common cause of diarrhea in children:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giardia"
+      },
+      {
+        "key": "B",
+        "text": "Adeno virus"
+      },
+      {
+        "key": "C",
+        "text": "E. coli"
+      },
+      {
+        "key": "D",
+        "text": "E. histolytica"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-5",
+    "paper": "staff-nurse-2082",
+    "number": 5,
+    "prompt": "Normal weight of infant at 1 year from birth is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double of birth weight"
+      },
+      {
+        "key": "B",
+        "text": "Triple of birth weight"
+      },
+      {
+        "key": "C",
+        "text": "Quadrupled of birth weight"
+      },
+      {
+        "key": "D",
+        "text": ">10kg"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-6",
+    "paper": "staff-nurse-2082",
+    "number": 6,
+    "prompt": "The relationship that is extremely important in the personality development is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The relationship"
+      },
+      {
+        "key": "B",
+        "text": "Sibling relationship"
+      },
+      {
+        "key": "C",
+        "text": "Parent child relationship"
+      },
+      {
+        "key": "D",
+        "text": "Neighborhood relationship"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-7",
+    "paper": "staff-nurse-2082",
+    "number": 7,
+    "prompt": "A patient states that he hears voice telling him that he is \"Madhav\". This misperception is an:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delusion"
+      },
+      {
+        "key": "B",
+        "text": "Hallucination"
+      },
+      {
+        "key": "C",
+        "text": "Illusion"
+      },
+      {
+        "key": "D",
+        "text": "False belief"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-8",
+    "paper": "staff-nurse-2082",
+    "number": 8,
+    "prompt": "The term most commonly used for the superego is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conscience"
+      },
+      {
+        "key": "B",
+        "text": "Ideal self"
+      },
+      {
+        "key": "C",
+        "text": "Self"
+      },
+      {
+        "key": "D",
+        "text": "Narcissism"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-9",
+    "paper": "staff-nurse-2082",
+    "number": 9,
+    "prompt": "Observe and record enough of the situation to make the behavior or incident meaningful is the principle of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anecdotal report"
+      },
+      {
+        "key": "B",
+        "text": "Rating scale"
+      },
+      {
+        "key": "C",
+        "text": "Communication report"
+      },
+      {
+        "key": "D",
+        "text": "Check list"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-10",
+    "paper": "staff-nurse-2082",
+    "number": 10,
+    "prompt": "Authority is the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expert power"
+      },
+      {
+        "key": "B",
+        "text": "Coercive power"
+      },
+      {
+        "key": "C",
+        "text": "Legitimate power"
+      },
+      {
+        "key": "D",
+        "text": "Political power"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-11",
+    "paper": "staff-nurse-2082",
+    "number": 11,
+    "prompt": "These patients for whom treatment can be delayed for longer hours, need minor care that falls into category:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yellow"
+      },
+      {
+        "key": "B",
+        "text": "Green"
+      },
+      {
+        "key": "C",
+        "text": "Red"
+      },
+      {
+        "key": "D",
+        "text": "Black"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-12",
+    "paper": "staff-nurse-2082",
+    "number": 12,
+    "prompt": "If the leader shares decision making power with the group member and explains to the group reason for personal decision, it is under the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Autocratic leadership style"
+      },
+      {
+        "key": "B",
+        "text": "Laissez faire"
+      },
+      {
+        "key": "C",
+        "text": "Non leadership style"
+      },
+      {
+        "key": "D",
+        "text": "Democratic leadership style"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-13",
+    "paper": "staff-nurse-2082",
+    "number": 13,
+    "prompt": "\"Job description\" is important to provide the employee for clarification of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Role, function and responsibility of an individual"
+      },
+      {
+        "key": "B",
+        "text": "Term of working"
+      },
+      {
+        "key": "C",
+        "text": "Incentive and facilities"
+      },
+      {
+        "key": "D",
+        "text": "Rules and working place"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-14",
+    "paper": "staff-nurse-2082",
+    "number": 14,
+    "prompt": "At birth the normal length of baby is about:",
+    "options": [
+      {
+        "key": "A",
+        "text": "30 cm"
+      },
+      {
+        "key": "B",
+        "text": "40 cm"
+      },
+      {
+        "key": "C",
+        "text": "50 cm"
+      },
+      {
+        "key": "D",
+        "text": "60 cm"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-15",
+    "paper": "staff-nurse-2082",
+    "number": 15,
+    "prompt": "During adolescence, psychological development focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Becoming industrious"
+      },
+      {
+        "key": "B",
+        "text": "Establishing an identity"
+      },
+      {
+        "key": "C",
+        "text": "Achieving intimacy"
+      },
+      {
+        "key": "D",
+        "text": "Developing initiative"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-16",
+    "paper": "staff-nurse-2082",
+    "number": 16,
+    "prompt": "When instructing the patient to collect a sputum specimen, the nurse should tell the patient to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collect sputum from evening coughing episode"
+      },
+      {
+        "key": "B",
+        "text": "Collect sputum from first morning coughing episode"
+      },
+      {
+        "key": "C",
+        "text": "Collect sputum from any coughing episode"
+      },
+      {
+        "key": "D",
+        "text": "Keep specimen at room temperature for the duration"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-17",
+    "paper": "staff-nurse-2082",
+    "number": 17,
+    "prompt": "A nursing diagnosis represents the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proposed plan of care"
+      },
+      {
+        "key": "B",
+        "text": "Client's health problem"
+      },
+      {
+        "key": "C",
+        "text": "Assessment of client's data"
+      },
+      {
+        "key": "D",
+        "text": "Actual nursing interventions"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-18",
+    "paper": "staff-nurse-2082",
+    "number": 18,
+    "prompt": "The lowest level of needs in Maslow's hierarchy:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Safety and Security need"
+      },
+      {
+        "key": "B",
+        "text": "Love and belonging"
+      },
+      {
+        "key": "C",
+        "text": "Physiological"
+      },
+      {
+        "key": "D",
+        "text": "Self esteem"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-19",
+    "paper": "staff-nurse-2082",
+    "number": 19,
+    "prompt": "Which drug is used for treatment of anemia?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tetanus toxoid"
+      },
+      {
+        "key": "B",
+        "text": "Paracetamol"
+      },
+      {
+        "key": "C",
+        "text": "Folic acid"
+      },
+      {
+        "key": "D",
+        "text": "Metronidazole"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-20",
+    "paper": "staff-nurse-2082",
+    "number": 20,
+    "prompt": "Which of the following statements is indicative of typical pain experienced by a patient with cholecystitis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The pain is usually below sternum"
+      },
+      {
+        "key": "B",
+        "text": "Eating food makes the pain better"
+      },
+      {
+        "key": "C",
+        "text": "The pain gets worse after eating fatty food"
+      },
+      {
+        "key": "D",
+        "text": "The pain is usually related to constipation."
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-21",
+    "paper": "staff-nurse-2082",
+    "number": 21,
+    "prompt": "Progressive muscle weakness, leading to ascending paralysis is known as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nephrotic syndrome"
+      },
+      {
+        "key": "B",
+        "text": "Myasthenia gravis"
+      },
+      {
+        "key": "C",
+        "text": "Guillain-Barre syndrome"
+      },
+      {
+        "key": "D",
+        "text": "Multiple sclerosis"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-22",
+    "paper": "staff-nurse-2082",
+    "number": 22,
+    "prompt": "Gout is a disease of the joint, which is caused because of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Calcium metabolism disorder"
+      },
+      {
+        "key": "B",
+        "text": "Purine metabolism disorder"
+      },
+      {
+        "key": "C",
+        "text": "Phosphate metabolism disorder"
+      },
+      {
+        "key": "D",
+        "text": "Potassium metabolism disorder"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-23",
+    "paper": "staff-nurse-2082",
+    "number": 23,
+    "prompt": "What do you mean by first aid treatment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Immediate care according to situation"
+      },
+      {
+        "key": "B",
+        "text": "Let the patient sleep"
+      },
+      {
+        "key": "C",
+        "text": "Nothing to do"
+      },
+      {
+        "key": "D",
+        "text": "Take temperature"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-24",
+    "paper": "staff-nurse-2082",
+    "number": 24,
+    "prompt": "Oxytocin is produced by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anterior part of pituitary gland"
+      },
+      {
+        "key": "B",
+        "text": "Posterior part of pituitary gland"
+      },
+      {
+        "key": "C",
+        "text": "Middle part of pituitary gland"
+      },
+      {
+        "key": "D",
+        "text": "Adrenal gland"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-25",
+    "paper": "staff-nurse-2082",
+    "number": 25,
+    "prompt": "Fertilization occurs in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vagina"
+      },
+      {
+        "key": "B",
+        "text": "Uterus"
+      },
+      {
+        "key": "C",
+        "text": "Ovary"
+      },
+      {
+        "key": "D",
+        "text": "Fallopian tube"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-26",
+    "paper": "staff-nurse-2082",
+    "number": 26,
+    "prompt": "Covid-19 is declared as a pandemic which is caused by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bacteria"
+      },
+      {
+        "key": "B",
+        "text": "Virus"
+      },
+      {
+        "key": "C",
+        "text": "Parasites"
+      },
+      {
+        "key": "D",
+        "text": "Fungus"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-27",
+    "paper": "staff-nurse-2082",
+    "number": 27,
+    "prompt": "One major early problem of a client with a spinal cord injury is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bladder control"
+      },
+      {
+        "key": "B",
+        "text": "Nutritional intake"
+      },
+      {
+        "key": "C",
+        "text": "Quadriceps setting"
+      },
+      {
+        "key": "D",
+        "text": "Use of aids for ambulation"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-28",
+    "paper": "staff-nurse-2082",
+    "number": 28,
+    "prompt": "Most peptic ulcers occurring in the stomach are in the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pyloric portion"
+      },
+      {
+        "key": "B",
+        "text": "Cardiac portion"
+      },
+      {
+        "key": "C",
+        "text": "Esophageal junction"
+      },
+      {
+        "key": "D",
+        "text": "Body of stomach"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-29",
+    "paper": "staff-nurse-2082",
+    "number": 29,
+    "prompt": "The nurse should position a client recovering from general anesthesia in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supine position"
+      },
+      {
+        "key": "B",
+        "text": "Side lying position"
+      },
+      {
+        "key": "C",
+        "text": "High fowler's position"
+      },
+      {
+        "key": "D",
+        "text": "Trendelenburg position"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-30",
+    "paper": "staff-nurse-2082",
+    "number": 30,
+    "prompt": "Collapse of lungs is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pneumothorax"
+      },
+      {
+        "key": "B",
+        "text": "Hydrothorax"
+      },
+      {
+        "key": "C",
+        "text": "Bronchitis"
+      },
+      {
+        "key": "D",
+        "text": "Atelectasis"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-31",
+    "paper": "staff-nurse-2082",
+    "number": 31,
+    "prompt": "During the blood transfusion, a client develops chills and headache. The nurse's best action is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Notify the physician"
+      },
+      {
+        "key": "B",
+        "text": "Stop the transfusion immediately"
+      },
+      {
+        "key": "C",
+        "text": "Slow the transfusion flow to keep vein open"
+      },
+      {
+        "key": "D",
+        "text": "Cover the client with extra blanket"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-32",
+    "paper": "staff-nurse-2082",
+    "number": 32,
+    "prompt": "An infection originating in a patient while in a hospital or other health care facility is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opportunistic infection"
+      },
+      {
+        "key": "B",
+        "text": "Nosocomial infection"
+      },
+      {
+        "key": "C",
+        "text": "Iatrogenic infection"
+      },
+      {
+        "key": "D",
+        "text": "Endemic infection"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-33",
+    "paper": "staff-nurse-2082",
+    "number": 33,
+    "prompt": "AIDS is caused by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cytomegalovirus"
+      },
+      {
+        "key": "B",
+        "text": "Varicella-zoster virus"
+      },
+      {
+        "key": "C",
+        "text": "Human immune deficiency virus"
+      },
+      {
+        "key": "D",
+        "text": "Acquired immune deficiency syndrome virus"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-34",
+    "paper": "staff-nurse-2082",
+    "number": 34,
+    "prompt": "River outfall is method of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Refuse disposal"
+      },
+      {
+        "key": "B",
+        "text": "Sewage disposal"
+      },
+      {
+        "key": "C",
+        "text": "Human excreta disposal"
+      },
+      {
+        "key": "D",
+        "text": "Animal excreta disposal"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-35",
+    "paper": "staff-nurse-2082",
+    "number": 35,
+    "prompt": "Occurrence in the community of a number of cases of disease that is usually large or unexpected is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Endemic"
+      },
+      {
+        "key": "B",
+        "text": "Epidemic"
+      },
+      {
+        "key": "C",
+        "text": "Infection"
+      },
+      {
+        "key": "D",
+        "text": "Pandemic"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-36",
+    "paper": "staff-nurse-2082",
+    "number": 36,
+    "prompt": "Which of the following vaccine is given subcutaneously?",
+    "options": [
+      {
+        "key": "A",
+        "text": "BCG"
+      },
+      {
+        "key": "B",
+        "text": "Polio"
+      },
+      {
+        "key": "C",
+        "text": "Measles"
+      },
+      {
+        "key": "D",
+        "text": "DPT"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-37",
+    "paper": "staff-nurse-2082",
+    "number": 37,
+    "prompt": "For detection of abnormality, breast examination is performed:",
+    "options": [
+      {
+        "key": "A",
+        "text": "One week after menstruation"
+      },
+      {
+        "key": "B",
+        "text": "One week before menstruation"
+      },
+      {
+        "key": "C",
+        "text": "Immediate after each menstruation"
+      },
+      {
+        "key": "D",
+        "text": "In any time between two menstruation"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "ai"
+  },
+  {
+    "id": "staff-nurse-2082-38",
+    "paper": "staff-nurse-2082",
+    "number": 38,
+    "prompt": "'DOTS' is related to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cataract"
+      },
+      {
+        "key": "B",
+        "text": "Pneumonia"
+      },
+      {
+        "key": "C",
+        "text": "Tuberculosis"
+      },
+      {
+        "key": "D",
+        "text": "Bronchitis"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-39",
+    "paper": "staff-nurse-2082",
+    "number": 39,
+    "prompt": "Which of the following vitamin prevent neural tube defect in fetus?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Folic acid"
+      },
+      {
+        "key": "B",
+        "text": "Vita C"
+      },
+      {
+        "key": "C",
+        "text": "Vita D"
+      },
+      {
+        "key": "D",
+        "text": "Vita E"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-40",
+    "paper": "staff-nurse-2082",
+    "number": 40,
+    "prompt": "The main cause of constipation during pregnancy is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decrease physical excretion"
+      },
+      {
+        "key": "B",
+        "text": "Changes in diet"
+      },
+      {
+        "key": "C",
+        "text": "Relaxation of the smooth muscle system"
+      },
+      {
+        "key": "D",
+        "text": "Obstruction to the bowel by presenting part of the fetus"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-41",
+    "paper": "staff-nurse-2082",
+    "number": 41,
+    "prompt": "Gravida refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A serous pregnancy"
+      },
+      {
+        "key": "B",
+        "text": "Number of times a female has been pregnant"
+      },
+      {
+        "key": "C",
+        "text": "Number of children a female has delivered"
+      },
+      {
+        "key": "D",
+        "text": "Number of term pregnancies a female had"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-43",
+    "paper": "staff-nurse-2082",
+    "number": 43,
+    "prompt": "First fetal movement felt by the mother is known as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lightening"
+      },
+      {
+        "key": "B",
+        "text": "Ballottement"
+      },
+      {
+        "key": "C",
+        "text": "Engagement"
+      },
+      {
+        "key": "D",
+        "text": "Quickening"
+      }
+    ],
+    "answer": "D",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-44",
+    "paper": "staff-nurse-2082",
+    "number": 44,
+    "prompt": "A woman experienced passage of stool or flatus through vagina following delivery, what may be the cause?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vesico-vaginal fistula"
+      },
+      {
+        "key": "B",
+        "text": "Vagina urethral fistula"
+      },
+      {
+        "key": "C",
+        "text": "Recto vaginal fistula"
+      },
+      {
+        "key": "D",
+        "text": "Vesico urethral fistula"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-45",
+    "paper": "staff-nurse-2082",
+    "number": 45,
+    "prompt": "Gonorrhea is caused by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Neisseria gonorrhea"
+      },
+      {
+        "key": "B",
+        "text": "Treponema pallidum"
+      },
+      {
+        "key": "C",
+        "text": "Papilloma virus"
+      },
+      {
+        "key": "D",
+        "text": "Human immune virus"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-46",
+    "paper": "staff-nurse-2082",
+    "number": 46,
+    "prompt": "त्रिभुवन विश्वविद्यालयले कति प्रकारका प्रमुख सेवाहरूको गठन गर्छ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "२"
+      },
+      {
+        "key": "B",
+        "text": "३"
+      },
+      {
+        "key": "C",
+        "text": "४"
+      },
+      {
+        "key": "D",
+        "text": "५"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-47",
+    "paper": "staff-nurse-2082",
+    "number": 47,
+    "prompt": "शिक्षण सेवाको कुन समूहमा कृषि तथा पशु विज्ञान समावेश छ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "सामान्य समूह"
+      },
+      {
+        "key": "B",
+        "text": "विज्ञान समूह"
+      },
+      {
+        "key": "C",
+        "text": "कृषि तथा पशु विज्ञान समूह"
+      },
+      {
+        "key": "D",
+        "text": "प्राविधिक समूह"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-48",
+    "paper": "staff-nurse-2082",
+    "number": 48,
+    "prompt": "'प्रशासन समूह' कुन सेवामा पर्दछ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "शिक्षण सेवा"
+      },
+      {
+        "key": "B",
+        "text": "पुस्तकालय सेवा"
+      },
+      {
+        "key": "C",
+        "text": "प्रशासन सेवा"
+      },
+      {
+        "key": "D",
+        "text": "प्राविधिक सेवा"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-49",
+    "paper": "staff-nurse-2082",
+    "number": 49,
+    "prompt": "त्रिभुवन विश्वविद्यालयका शिक्षक तथा कर्मचारीलाई अनिवार्य अवकाश कहिले दिइन्छ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "६० वर्ष पुगेपछि"
+      },
+      {
+        "key": "B",
+        "text": "६२ वर्ष पुगेपछि"
+      },
+      {
+        "key": "C",
+        "text": "६३ वर्ष पुगेपछि"
+      },
+      {
+        "key": "D",
+        "text": "६५ वर्ष पुगेपछि"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-50",
+    "paper": "staff-nurse-2082",
+    "number": 50,
+    "prompt": "प्रशासक पदमा कार्यरत कर्मचारीलाई अनिवार्य अवकाश कहिले दिइन्छ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "५ वर्ष सेवा गरेपछि"
+      },
+      {
+        "key": "B",
+        "text": "६० वर्ष उमेरपछि"
+      },
+      {
+        "key": "C",
+        "text": "६३ वर्ष उमेरपछि"
+      },
+      {
+        "key": "D",
+        "text": "१० वर्ष सेवा गरेपछि"
+      }
+    ],
+    "answer": "A",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-51",
+    "paper": "staff-nurse-2082",
+    "number": 51,
+    "prompt": "Deficiency of Vitamin B12 can cause:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Iron deficiency anemia"
+      },
+      {
+        "key": "B",
+        "text": "Aplastic anemia"
+      },
+      {
+        "key": "C",
+        "text": "Pernicious anemia"
+      },
+      {
+        "key": "D",
+        "text": "Sickle cell anemia"
+      }
+    ],
+    "answer": "C",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-52",
+    "paper": "staff-nurse-2082",
+    "number": 52,
+    "prompt": "A client with osteoporosis is vulnerable to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fatigue fracture"
+      },
+      {
+        "key": "B",
+        "text": "Pathological fracture"
+      },
+      {
+        "key": "C",
+        "text": "Greenstick fracture"
+      },
+      {
+        "key": "D",
+        "text": "Compound fracture"
+      }
+    ],
+    "answer": "B",
+    "answerSource": "highlight"
+  }
+]
