@@ -72,7 +72,7 @@ PAST_PHRASE_KEY = {
     37: "democratic",
     38: "select other",
     39: "hyperkalemia",
-    40: "talip",
+    40: "valgus",
     41: "ward nursing",
     42: "chlomipramine",
     43: "oral candidiasis",
