@@ -100,7 +100,7 @@
         "text": "Holistic approach"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "answerSource": "key"
   },
   {
@@ -438,7 +438,7 @@
         "text": "All of the above"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "answerSource": "key"
   },
   {
@@ -724,7 +724,7 @@
         "text": "All are equal"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "answerSource": "key"
   },
   {
@@ -880,7 +880,7 @@
         "text": "Chest physiotherapy"
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "answerSource": "key"
   },
   {
@@ -913,23 +913,23 @@
     "id": "tu-teaching-hospital-2078-36",
     "paper": "tu-teaching-hospital-2078",
     "number": 36,
-    "prompt": "28 years patient admitted in medical ward with chest tube drainage. During the position change, suddenly discontinued the drain tube. What is your immediate intervention?",
+    "prompt": "A 28-year-old patient with a chest tube has the drain tube accidentally disconnected during a position change. What is the immediate nursing intervention?",
     "options": [
       {
         "key": "A",
-        "text": "Call the physician"
+        "text": "Call the physician first and wait for orders"
       },
       {
         "key": "B",
-        "text": "Change the position of patient"
+        "text": "Change the position of the patient again"
       },
       {
         "key": "C",
-        "text": "Direct compression on insertion site"
+        "text": "Cover the insertion site with a sterile occlusive dressing"
       },
       {
         "key": "D",
-        "text": "Reinsertion of tube"
+        "text": "Reinsert the tube immediately"
       }
     ],
     "answer": "C",
@@ -984,7 +984,7 @@
         "text": "Pulmonary embolism"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "answerSource": "key"
   },
   {
@@ -1017,26 +1017,26 @@
     "id": "tu-teaching-hospital-2078-40",
     "paper": "tu-teaching-hospital-2078",
     "number": 40,
-    "prompt": "After unilateral nephrectomy how much time is required for creatinine level to be normal in kidney donor?",
+    "prompt": "After unilateral nephrectomy in a kidney donor, serum creatinine usually stabilizes in about:",
     "options": [
       {
         "key": "A",
-        "text": "Seventy hours"
+        "text": "12 hours"
       },
       {
         "key": "B",
-        "text": "One Twenty four"
+        "text": "24 hours"
       },
       {
         "key": "C",
-        "text": "One Forty eight hour"
+        "text": "72 hours"
       },
       {
         "key": "D",
-        "text": "One seventy hours"
+        "text": "14 days"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "answerSource": "key"
   },
   {
@@ -1192,7 +1192,7 @@
         "text": "Dry heat"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "answerSource": "key"
   },
   {
@@ -1244,7 +1244,7 @@
         "text": "Infection"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "answerSource": "key"
   },
   {
@@ -1296,7 +1296,7 @@
         "text": "None of the above"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "answerSource": "key"
   },
   {

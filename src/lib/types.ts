@@ -27,7 +27,7 @@ export interface QuestionBank {
   questions: Question[]
 }
 
-export type ExamMode = 'full' | 'practice' | 'retry'
+export type ExamMode = 'full' | 'practice' | 'retry' | 'swipe'
 
 export interface ExamConfig {
   mode: ExamMode
@@ -35,6 +35,38 @@ export interface ExamConfig {
   count?: number
   timed: boolean
   durationMinutes?: number
+}
+
+export interface TrueFalseCard {
+  id: string
+  statement: string
+  isTrue: boolean
+  sourceQuestionId: string
+  paper: string
+}
+
+export interface TrueFalseBank {
+  version: number
+  count: number
+  cards: TrueFalseCard[]
+}
+
+export interface SwipeConfig {
+  count: number
+}
+
+export interface SwipeResultItem {
+  card: TrueFalseCard
+  selected: boolean
+  correct: boolean
+}
+
+export interface SwipeResult {
+  score: number
+  total: number
+  percent: number
+  items: SwipeResultItem[]
+  elapsedSeconds: number
 }
 
 export interface ExamAnswer {

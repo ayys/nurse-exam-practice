@@ -67,7 +67,7 @@
           "text": "Gloving, goggles, masking, gowning"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -223,7 +223,7 @@
           "text": "2:2"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -483,7 +483,7 @@
           "text": "For sleep"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -1199,7 +1199,7 @@
           "text": "Authority"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -1225,7 +1225,7 @@
           "text": "Rectus femoris"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "answerSource": "key"
     },
     {
@@ -1310,23 +1310,23 @@
       "id": "staff-nurse-2080-51",
       "paper": "staff-nurse-2080",
       "number": 51,
-      "prompt": "A woman in labour has cervical dilatation 1cm. It means her cervical effacement is ......................?",
+      "prompt": "A woman in labour has cervical dilatation of 1 cm. This finding is consistent with:",
       "options": [
         {
           "key": "A",
-          "text": "25%"
+          "text": "Latent phase of the first stage of labour"
         },
         {
           "key": "B",
-          "text": "50%"
+          "text": "Active phase of the first stage of labour"
         },
         {
           "key": "C",
-          "text": "75%"
+          "text": "Second stage of labour"
         },
         {
           "key": "D",
-          "text": "80%"
+          "text": "Third stage of labour"
         }
       ],
       "answer": "A",
@@ -1381,7 +1381,7 @@
           "text": "Artery forcep"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -1563,7 +1563,7 @@
           "text": "24hr"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -1641,7 +1641,7 @@
           "text": "Earl discharge from hospital"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "answerSource": "key"
     },
     {
@@ -1771,7 +1771,7 @@
           "text": "Urinary incontinence"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "answerSource": "key"
     },
     {
@@ -1804,27 +1804,27 @@
       "id": "staff-nurse-2080-70",
       "paper": "staff-nurse-2080",
       "number": 70,
-      "prompt": "Why position is changed slowly in patient in immediate postoperative period?",
+      "prompt": "Why is the patient's position changed slowly in the immediate postoperative period?",
       "options": [
         {
           "key": "A",
-          "text": "To prevent sudden BP changes"
+          "text": "To prevent sudden blood pressure changes"
         },
         {
           "key": "B",
-          "text": "For circulation"
+          "text": "To promote wound healing"
         },
         {
           "key": "C",
-          "text": "......."
+          "text": "To reduce the need for analgesics"
         },
         {
           "key": "D",
-          "text": "......."
+          "text": "To prevent constipation"
         }
       ],
       "answer": "A",
-      "answerSource": "ai"
+      "answerSource": "key"
     },
     {
       "id": "staff-nurse-2080-71",
@@ -1882,7 +1882,7 @@
       "id": "staff-nurse-2080-73",
       "paper": "staff-nurse-2080",
       "number": 73,
-      "prompt": "At what angle insulin is administered........................?",
+      "prompt": "At what angle is insulin usually administered subcutaneously with a short needle?",
       "options": [
         {
           "key": "A",
@@ -1894,14 +1894,14 @@
         },
         {
           "key": "C",
-          "text": "30 degree"
+          "text": "90 degree"
         },
         {
           "key": "D",
           "text": "60 degree"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "answerSource": "key"
     },
     {
@@ -1975,7 +1975,7 @@
           "text": "Steady inspiration and slow expiration"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -2027,7 +2027,7 @@
           "text": "Raised JVP"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -2261,34 +2261,34 @@
           "text": "To remove normal flora"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "answerSource": "key"
     },
     {
       "id": "staff-nurse-2080-88",
       "paper": "staff-nurse-2080",
       "number": 88,
-      "prompt": "To maintain sterile field ................................",
+      "prompt": "Which action helps maintain a sterile field?",
       "options": [
         {
           "key": "A",
-          "text": "Do not step forward or backward across/through the sterile field"
+          "text": "Do not reach or walk across/through the sterile field"
         },
         {
           "key": "B",
-          "text": "......."
+          "text": "Keep sterile items below waist level"
         },
         {
           "key": "C",
-          "text": "......."
+          "text": "Talk or cough freely over the sterile field"
         },
         {
           "key": "D",
-          "text": "......."
+          "text": "Turn your back to the sterile field when handing items"
         }
       ],
       "answer": "A",
-      "answerSource": "ai"
+      "answerSource": "key"
     },
     {
       "id": "staff-nurse-2080-89",
@@ -2443,7 +2443,7 @@
           "text": "To prevent infection"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -2547,7 +2547,7 @@
           "text": "Primary menarche"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -2573,7 +2573,7 @@
           "text": "None"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -2647,7 +2647,7 @@
           "text": "4th degree uterine prolapse"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "answerSource": "highlight"
     },
     {
@@ -2688,7 +2688,7 @@
         },
         {
           "key": "B",
-          "text": "Adeno virus"
+          "text": "Adenovirus"
         },
         {
           "key": "C",
@@ -2696,11 +2696,11 @@
         },
         {
           "key": "D",
-          "text": "E. histolytica"
+          "text": "Rotavirus"
         }
       ],
-      "answer": "C",
-      "answerSource": "highlight"
+      "answer": "D",
+      "answerSource": "key"
     },
     {
       "id": "staff-nurse-2082-5",
@@ -3895,7 +3895,7 @@
           "text": "१० वर्ष सेवा गरेपछि"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "answerSource": "highlight"
     },
     {
@@ -4051,7 +4051,7 @@
           "text": "Holistic approach"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "answerSource": "key"
     },
     {
@@ -4389,7 +4389,7 @@
           "text": "All of the above"
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -4675,7 +4675,7 @@
           "text": "All are equal"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -4831,7 +4831,7 @@
           "text": "Chest physiotherapy"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -4864,23 +4864,23 @@
       "id": "tu-teaching-hospital-2078-36",
       "paper": "tu-teaching-hospital-2078",
       "number": 36,
-      "prompt": "28 years patient admitted in medical ward with chest tube drainage. During the position change, suddenly discontinued the drain tube. What is your immediate intervention?",
+      "prompt": "A 28-year-old patient with a chest tube has the drain tube accidentally disconnected during a position change. What is the immediate nursing intervention?",
       "options": [
         {
           "key": "A",
-          "text": "Call the physician"
+          "text": "Call the physician first and wait for orders"
         },
         {
           "key": "B",
-          "text": "Change the position of patient"
+          "text": "Change the position of the patient again"
         },
         {
           "key": "C",
-          "text": "Direct compression on insertion site"
+          "text": "Cover the insertion site with a sterile occlusive dressing"
         },
         {
           "key": "D",
-          "text": "Reinsertion of tube"
+          "text": "Reinsert the tube immediately"
         }
       ],
       "answer": "C",
@@ -4935,7 +4935,7 @@
           "text": "Pulmonary embolism"
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -4968,26 +4968,26 @@
       "id": "tu-teaching-hospital-2078-40",
       "paper": "tu-teaching-hospital-2078",
       "number": 40,
-      "prompt": "After unilateral nephrectomy how much time is required for creatinine level to be normal in kidney donor?",
+      "prompt": "After unilateral nephrectomy in a kidney donor, serum creatinine usually stabilizes in about:",
       "options": [
         {
           "key": "A",
-          "text": "Seventy hours"
+          "text": "12 hours"
         },
         {
           "key": "B",
-          "text": "One Twenty four"
+          "text": "24 hours"
         },
         {
           "key": "C",
-          "text": "One Forty eight hour"
+          "text": "72 hours"
         },
         {
           "key": "D",
-          "text": "One seventy hours"
+          "text": "14 days"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "answerSource": "key"
     },
     {
@@ -5143,7 +5143,7 @@
           "text": "Dry heat"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "answerSource": "key"
     },
     {
@@ -5195,7 +5195,7 @@
           "text": "Infection"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "answerSource": "key"
     },
     {
@@ -5247,7 +5247,7 @@
           "text": "None of the above"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "answerSource": "key"
     },
     {

@@ -1,16 +1,19 @@
 import { useMemo, useState } from 'react'
-import type { ExamConfig, QuestionBank } from '../lib/types'
+import type { ExamConfig, QuestionBank, SwipeConfig } from '../lib/types'
 import { getHistory, getRetryIds } from '../lib/storage'
 
 interface HomeProps {
   bank: QuestionBank
+  swipeCount: number
   onStart: (config: ExamConfig) => void
+  onStartSwipe: (config: SwipeConfig) => void
 }
 
-export function Home({ bank, onStart }: HomeProps) {
+export function Home({ bank, swipeCount, onStart, onStartSwipe }: HomeProps) {
   const [paperId, setPaperId] = useState(bank.papers[0]?.id ?? '')
   const [practicePaper, setPracticePaper] = useState('all')
   const [count, setCount] = useState(20)
+  const [swipeSize, setSwipeSize] = useState(40)
   const [timed, setTimed] = useState(true)
   const retryCount = getRetryIds().length
   const history = useMemo(() => getHistory().slice(0, 5), [])
@@ -127,6 +130,49 @@ export function Home({ bank, onStart }: HomeProps) {
             }
           >
             Start practice
+          </button>
+        </div>
+      </section>
+
+      <section className="panel stack">
+        <div>
+          <h2 className="brand" style={{ fontSize: '1.45rem', margin: '0 0 0.25rem' }}>Swipe True / False</h2>
+          <p className="muted" style={{ margin: 0 }}>
+            Tinder-style practice from the MCQ bank. Right = True, left = False. Missed cards go to a retry pile.
+          </p>
+        </div>
+        <div className="row">
+          <div className="field">
+            <label htmlFor="swipe-count">Cards</label>
+            <select
+              id="swipe-count"
+              value={Math.min(swipeSize, swipeCount || 1)}
+              onChange={(e) => setSwipeSize(Number(e.target.value))}
+              disabled={swipeCount === 0}
+            >
+              {[20, 40, 80]
+                .filter((n) => n < swipeCount)
+                .map((n) => (
+                  <option key={n} value={n}>
+                    {n}
+                  </option>
+                ))}
+              {swipeCount > 0 && (
+                <option value={swipeCount}>All ({swipeCount})</option>
+              )}
+            </select>
+          </div>
+        </div>
+        <div>
+          <button
+            type="button"
+            className="btn btn-primary"
+            disabled={swipeCount === 0}
+            onClick={() =>
+              onStartSwipe({ count: Math.min(swipeSize, swipeCount) })
+            }
+          >
+            Start swiping
           </button>
         </div>
       </section>

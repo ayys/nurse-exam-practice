@@ -6,6 +6,7 @@ Practice TU Staff Nurse / Teaching Hospital past MCQs in the browser. Score at t
 
 - **Full paper** — one past set, optional 60-minute timer
 - **Practice quiz** — shuffled subset from one paper or all
+- **Swipe True/False** — Tinder-style cards generated from MCQs (right = True)
 - **Retry later** — questions you mark during review
 - Answer sources labeled: highlight, answer key, or AI best-effort
 
@@ -30,4 +31,4 @@ Enable GitHub Pages → Source: **GitHub Actions** (workflow deploys from `main`
 
 ## Question bank
 
-Questions live in `public/data/questions.json`. Rebuild helpers are under `scripts/`.
+Questions live in `public/data/questions.json`. Swipe cards are in `public/data/true-false.json` (regenerate with `npm run generate:tf`). Helpers are under `scripts/`.

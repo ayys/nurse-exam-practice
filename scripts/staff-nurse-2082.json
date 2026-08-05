@@ -48,7 +48,7 @@
         "text": "4th degree uterine prolapse"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "answerSource": "highlight"
   },
   {
@@ -89,7 +89,7 @@
       },
       {
         "key": "B",
-        "text": "Adeno virus"
+        "text": "Adenovirus"
       },
       {
         "key": "C",
@@ -97,11 +97,11 @@
       },
       {
         "key": "D",
-        "text": "E. histolytica"
+        "text": "Rotavirus"
       }
     ],
-    "answer": "C",
-    "answerSource": "highlight"
+    "answer": "D",
+    "answerSource": "key"
   },
   {
     "id": "staff-nurse-2082-5",
@@ -1296,7 +1296,7 @@
         "text": "१० वर्ष सेवा गरेपछि"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "answerSource": "highlight"
   },
   {

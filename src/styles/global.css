@@ -306,6 +306,149 @@ a {
   transition: width 240ms ease;
 }
 
+.swipe-shell {
+  max-width: 34rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.swipe-stage {
+  position: relative;
+  min-height: 22rem;
+  display: grid;
+  place-items: center;
+  touch-action: none;
+  user-select: none;
+}
+
+.swipe-card {
+  width: min(100%, 28rem);
+  min-height: 18rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 1.4rem;
+  padding: 1.4rem 1.5rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  cursor: grab;
+  position: relative;
+  z-index: 2;
+}
+
+.swipe-card:active {
+  cursor: grabbing;
+}
+
+.swipe-statement {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 4vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.35;
+  flex: 1;
+}
+
+.swipe-stamp {
+  position: absolute;
+  top: 1.75rem;
+  z-index: 3;
+  pointer-events: none;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: 1.4rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.55rem;
+  border: 3px solid;
+  transform: rotate(-12deg);
+  transition: opacity 80ms linear;
+}
+
+.swipe-stamp-true {
+  right: 12%;
+  color: var(--ok);
+  border-color: var(--ok);
+  background: var(--ok-bg);
+  transform: rotate(12deg);
+}
+
+.swipe-stamp-false {
+  left: 12%;
+  color: var(--coral);
+  border-color: var(--coral);
+  background: var(--bad-bg);
+}
+
+.swipe-feedback {
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.swipe-feedback.ok {
+  color: var(--ok);
+}
+
+.swipe-feedback.bad {
+  color: var(--bad);
+}
+
+.swipe-flash-ok {
+  background: var(--ok-bg);
+}
+
+.swipe-flash-bad {
+  background: var(--bad-bg);
+}
+
+@keyframes swipe-fly-right {
+  to {
+    transform: translateX(130%) rotate(18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes swipe-fly-left {
+  to {
+    transform: translateX(-130%) rotate(-18deg);
+    opacity: 0;
+  }
+}
+
+.swipe-exit-right {
+  animation: swipe-fly-right 480ms ease forwards;
+}
+
+.swipe-exit-left {
+  animation: swipe-fly-left 480ms ease forwards;
+}
+
+.swipe-actions {
+  justify-content: center;
+  gap: 1rem;
+}
+
+.swipe-btn {
+  min-width: 8.5rem;
+}
+
+.swipe-missed-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.swipe-missed-list li {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+
 @media (max-width: 640px) {
   .app-shell {
     width: min(100% - 1.25rem, 920px);
@@ -314,5 +457,13 @@ a {
 
   .panel {
     padding: 1rem;
+  }
+
+  .swipe-stage {
+    min-height: 20rem;
+  }
+
+  .swipe-card {
+    min-height: 16rem;
   }
 }
