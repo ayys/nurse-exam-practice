@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { ExamResult } from '../lib/types'
 import { formatTime, sourceLabel } from '../lib/exam'
+import { congratsForAkshu } from '../lib/congrats'
 import { isMarkedRetry, toggleRetry } from '../lib/storage'
 
 interface ResultsProps {
@@ -13,18 +14,25 @@ export function Results({ result, onRetryWrong, onHome }: ResultsProps) {
   const [retryIds, setRetryIds] = useState(() =>
     result.items.map((i) => i.question.id).filter((id) => isMarkedRetry(id)),
   )
+  const [congrats] = useState(() => congratsForAkshu(result.percent))
 
   const wrongCount = result.items.filter((i) => !i.correct).length
 
   return (
     <div className="stack rise">
-      <section className="panel stack" style={{ textAlign: 'center' }}>
+      <section className="panel stack congrats" style={{ textAlign: 'center' }}>
         <p className="muted" style={{ margin: 0, textTransform: 'uppercase', letterSpacing: '0.06em', fontSize: '0.8rem', fontWeight: 600 }}>
           Results
         </p>
-        <h1 className="brand" style={{ fontSize: 'clamp(2.5rem, 8vw, 3.8rem)', margin: 0 }}>
-          {result.percent}%
+        <h1 className="brand" style={{ fontSize: 'clamp(1.8rem, 5vw, 2.4rem)', margin: 0 }}>
+          {congrats.title}
         </h1>
+        <p className="congrats-message" style={{ margin: 0, fontSize: '1.1rem', maxWidth: '28rem', marginInline: 'auto' }}>
+          {congrats.message}
+        </p>
+        <p className="brand" style={{ fontSize: 'clamp(2.5rem, 8vw, 3.8rem)', margin: '0.35rem 0 0' }}>
+          {result.percent}%
+        </p>
         <p style={{ margin: 0, fontSize: '1.15rem' }}>
           {result.score} of {result.total} correct
         </p>

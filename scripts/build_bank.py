@@ -82,7 +82,7 @@ PAST_PHRASE_KEY = {
     47: "gluteus",
     48: "cartilage",
     49: "fiber",
-    50: "ng",
+    50: "urinary",
     51: "25",
     52: "epiglottis",
     53: "allis",

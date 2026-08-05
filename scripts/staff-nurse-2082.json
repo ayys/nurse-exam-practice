@@ -204,8 +204,8 @@
         "text": "Narcissism"
       }
     ],
-    "answer": "B",
-    "answerSource": "highlight"
+    "answer": "A",
+    "answerSource": "ai"
   },
   {
     "id": "staff-nurse-2082-9",
@@ -1063,6 +1063,32 @@
       }
     ],
     "answer": "B",
+    "answerSource": "highlight"
+  },
+  {
+    "id": "staff-nurse-2082-42",
+    "paper": "staff-nurse-2082",
+    "number": 42,
+    "prompt": "At birth the normal length of baby is about:",
+    "options": [
+      {
+        "key": "A",
+        "text": "30 cm"
+      },
+      {
+        "key": "B",
+        "text": "40 cm"
+      },
+      {
+        "key": "C",
+        "text": "50 cm"
+      },
+      {
+        "key": "D",
+        "text": "60 cm"
+      }
+    ],
+    "answer": "C",
     "answerSource": "highlight"
   },
   {
