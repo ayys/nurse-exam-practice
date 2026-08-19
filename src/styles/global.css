@@ -467,3 +467,373 @@ a {
     min-height: 16rem;
   }
 }
+
+.sr-audio {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.app-shell.study-shell {
+  width: min(1100px, calc(100% - 2rem));
+}
+
+.app-shell.has-mini-player {
+  padding-bottom: 8.5rem;
+}
+
+.letter-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.45rem;
+  border-radius: 0.55rem;
+  background: var(--sea);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.continue-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(11, 110, 106, 0.28);
+  background: rgba(11, 110, 106, 0.08);
+  border-radius: 1rem;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.continue-banner:hover {
+  background: rgba(11, 110, 106, 0.14);
+}
+
+.player-card {
+  border-color: rgba(11, 110, 106, 0.22);
+}
+
+.player-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.player-tools .field {
+  min-width: 7.5rem;
+}
+
+.icon-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  border-radius: 999px;
+  min-width: 3.1rem;
+  height: 2.7rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  border-color: rgba(11, 110, 106, 0.45);
+}
+
+.icon-btn-play {
+  min-width: 5.5rem;
+  background: var(--sea);
+  color: #fff;
+  border-color: transparent;
+}
+
+.seek {
+  position: relative;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+}
+
+.seek-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0.42rem;
+  border-radius: 999px;
+  background: rgba(18, 38, 58, 0.1);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.seek-buffered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(11, 110, 106, 0.22);
+}
+
+.seek-played {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, var(--sea), #1fa39b);
+}
+
+.seek-input {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.seek-input::-webkit-slider-thumb {
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--sea-deep);
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(16, 42, 67, 0.25);
+}
+
+.seek-input::-moz-range-thumb {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--sea-deep);
+  border: 2px solid #fff;
+}
+
+.seek-input::-moz-range-track {
+  background: transparent;
+}
+
+.lecture-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.lecture-item {
+  width: 100%;
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.78);
+  border-radius: 1rem;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.lecture-item:hover,
+.lecture-item.active {
+  border-color: rgba(11, 110, 106, 0.5);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.lecture-item.done {
+  border-color: rgba(31, 122, 76, 0.35);
+}
+
+.lecture-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.lecture-item-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  font-weight: 650;
+}
+
+.lecture-item-meta {
+  font-size: 0.88rem;
+}
+
+.lecture-progress {
+  margin-top: 0.25rem;
+}
+
+.bookmark-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.bookmark-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.linkish,
+.text-btn {
+  appearance: none;
+  border: 0;
+  background: none;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.linkish {
+  color: var(--sea-deep);
+  text-align: left;
+  font-weight: 600;
+}
+
+.text-btn {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.mini-player {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.85rem;
+  width: min(920px, calc(100% - 1.5rem));
+  z-index: 40;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) auto;
+  grid-template-areas:
+    'title controls'
+    'seek seek';
+  gap: 0.45rem 0.75rem;
+  padding: 0.8rem 1rem;
+}
+
+.mini-player-title {
+  grid-area: title;
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  min-width: 0;
+  appearance: none;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+}
+
+.mini-player-title span:last-child {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.mini-player-title strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mini-player-controls {
+  grid-area: controls;
+  display: flex;
+  gap: 0.35rem;
+  justify-content: flex-end;
+}
+
+.mini-player .seek {
+  grid-area: seek;
+}
+
+.pdf-page {
+  min-height: calc(100vh - 4rem);
+}
+
+.pdf-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.pdf-tab {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.pdf-tab.active {
+  background: var(--sea);
+  color: #fff;
+  border-color: transparent;
+}
+
+.pdf-toolbar {
+  align-items: flex-end;
+}
+
+.pdf-frame-wrap {
+  padding: 0;
+  overflow: hidden;
+  min-height: min(78vh, 920px);
+}
+
+.pdf-frame {
+  width: 100%;
+  height: min(78vh, 920px);
+  border: 0;
+  background: #d7e0e6;
+}
+
+@media (max-width: 720px) {
+  .mini-player {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'controls'
+      'seek';
+  }
+
+  .mini-player-controls {
+    justify-content: center;
+  }
+
+  .pdf-frame,
+  .pdf-frame-wrap {
+    min-height: 70vh;
+    height: 70vh;
+  }
+}

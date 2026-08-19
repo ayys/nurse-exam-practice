@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "generate:tf": "python3 scripts/generate_true_false.py"
+    "generate:tf": "python3 scripts/generate_true_false.py",
+    "klimek:copy": "python3 scripts/copy-klimek.py"
   },
   "dependencies": {
     "react": "^19.2.8",

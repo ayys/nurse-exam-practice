@@ -1,15 +1,35 @@
 import { useMemo, useState } from 'react'
-import type { ExamConfig, QuestionBank, SwipeConfig } from '../lib/types'
+import {
+  LECTURES,
+  formatPrettyDuration,
+  getAllProgress,
+  getLastLectureId,
+  isLectureDone,
+  lectureById,
+  listenedSummary,
+  progressRatio,
+} from '../lib/klimek'
+import { useKlimekPlayer } from '../lib/KlimekPlayer'
 import { getHistory, getRetryIds } from '../lib/storage'
+import type { ExamConfig, QuestionBank, SwipeConfig } from '../lib/types'
 
 interface HomeProps {
   bank: QuestionBank
   swipeCount: number
   onStart: (config: ExamConfig) => void
   onStartSwipe: (config: SwipeConfig) => void
+  onOpenLectures: () => void
+  onOpenPdfs: () => void
 }
 
-export function Home({ bank, swipeCount, onStart, onStartSwipe }: HomeProps) {
+export function Home({ bank, swipeCount, onStart, onStartSwipe, onOpenLectures, onOpenPdfs }: HomeProps) {
+  const player = useKlimekPlayer()
+  const klimekProgress = getAllProgress()
+  const klimekStats = listenedSummary(klimekProgress)
+  const lastLecture = lectureById(getLastLectureId() ?? '')
+  const lastProg = lastLecture ? klimekProgress[lastLecture.id] : null
+  const canResume =
+    Boolean(lastLecture && lastProg && lastProg.time > 15 && !isLectureDone(lastProg.time, lastProg.duration || lastLecture.duration))
   const [paperId, setPaperId] = useState(bank.papers[0]?.id ?? '')
   const [practicePaper, setPracticePaper] = useState('all')
   const [count, setCount] = useState(20)
@@ -36,6 +56,44 @@ export function Home({ bank, swipeCount, onStart, onStartSwipe }: HomeProps) {
           Practice from TU Teaching Hospital and Staff Nurse question sets. Score at the end, review every item, and save tough ones for later.
         </p>
       </header>
+
+      <section className="panel stack">
+        <div>
+          <h2 className="brand" style={{ fontSize: '1.45rem', margin: '0 0 0.25rem' }}>Mark Klimek lectures</h2>
+          <p className="muted" style={{ margin: 0 }}>
+            {LECTURES.length} audio lectures plus Blue Book, Yellow Book, outlines, and notes.
+            {klimekStats.started > 0
+              ? ` ${klimekStats.done} finished, ${formatPrettyDuration(klimekStats.seconds)} listened.`
+              : ' Resume, speed control, bookmarks, and listen-while-you-read.'}
+          </p>
+        </div>
+        {canResume && lastLecture && lastProg && (
+          <button
+            type="button"
+            className="continue-banner"
+            onClick={() => {
+              player.load(lastLecture.id, { play: true })
+              onOpenLectures()
+            }}
+          >
+            <span>
+              Continue {lastLecture.letter}. {lastLecture.title}
+              <span className="muted">
+                {' '}
+                · {Math.round(progressRatio(lastProg.time, lastProg.duration || lastLecture.duration) * 100)}%
+              </span>
+            </span>
+          </button>
+        )}
+        <div className="row">
+          <button type="button" className="btn btn-primary" onClick={onOpenLectures}>
+            Open lectures
+          </button>
+          <button type="button" className="btn btn-secondary" onClick={onOpenPdfs}>
+            Open PDFs
+          </button>
+        </div>
+      </section>
 
       <section className="panel stack">
         <div>

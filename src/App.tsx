@@ -1,11 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { Home } from './components/Home'
 import { Exam } from './components/Exam'
 import { Results } from './components/Results'
 import { SwipeDeck } from './components/SwipeDeck'
 import { SwipeResults } from './components/SwipeResults'
+import { Lectures } from './components/Lectures'
+import { Pdfs } from './components/Pdfs'
+import { MiniPlayer } from './components/MiniPlayer'
 import { loadBank, loadTrueFalseBank, pickSwipeDeck } from './lib/bank'
 import { buildExamQuestions, scoreExam } from './lib/exam'
+import { KlimekPlayerProvider, useKlimekPlayer } from './lib/KlimekPlayer'
 import { getRetryIds, pushHistory, setRetryIds } from './lib/storage'
 import type {
   ExamConfig,
@@ -18,9 +22,18 @@ import type {
   TrueFalseCard,
 } from './lib/types'
 
-type Screen = 'home' | 'exam' | 'results' | 'swipe' | 'swipe-results'
+type Screen = 'home' | 'exam' | 'results' | 'swipe' | 'swipe-results' | 'lectures' | 'pdfs'
 
 export default function App() {
+  return (
+    <KlimekPlayerProvider>
+      <NurseApp />
+    </KlimekPlayerProvider>
+  )
+}
+
+function NurseApp() {
+  const player = useKlimekPlayer()
   const [bank, setBank] = useState<QuestionBank | null>(null)
   const [tfBank, setTfBank] = useState<TrueFalseBank | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -31,6 +44,7 @@ export default function App() {
   const [swipeCards, setSwipeCards] = useState<TrueFalseCard[]>([])
   const [swipeConfig, setSwipeConfig] = useState<SwipeConfig | null>(null)
   const [swipeResult, setSwipeResult] = useState<SwipeResult | null>(null)
+  const [pdfId, setPdfId] = useState<string | undefined>()
 
   useEffect(() => {
     Promise.all([loadBank(), loadTrueFalseBank()])
@@ -105,27 +119,76 @@ export default function App() {
     startExam({ mode: 'retry', timed: false })
   }
 
-  if (error && !bank) {
+  const showMini = Boolean(player.lecture) && screen !== 'lectures'
+  const study = screen === 'lectures' || screen === 'pdfs'
+
+  function openPdfs(id?: string) {
+    setPdfId(id)
+    setScreen('pdfs')
+  }
+
+  function studyShell(children: ReactNode) {
     return (
-      <div className="app-shell">
-        <div className="panel">
-          <h1 className="brand">TU Nurse Exam</h1>
-          <p>{error}</p>
-        </div>
+      <div className={`app-shell${showMini ? ' has-mini-player' : ''}${study ? ' study-shell' : ''}`}>
+        {children}
+        {showMini && <MiniPlayer onOpenLectures={() => setScreen('lectures')} />}
       </div>
+    )
+  }
+
+  if (study) {
+    return studyShell(
+      <>
+        {screen === 'lectures' && (
+          <Lectures onBack={() => setScreen('home')} onOpenPdf={(id) => openPdfs(id)} />
+        )}
+        {screen === 'pdfs' && (
+          <Pdfs
+            key={pdfId ?? 'pdfs'}
+            initialId={pdfId}
+            onBack={() => setScreen('home')}
+            onOpenLectures={() => setScreen('lectures')}
+          />
+        )}
+      </>,
+    )
+  }
+
+  if (error && !bank) {
+    return studyShell(
+      <div className="panel stack">
+        <h1 className="brand">TU Nurse Exam</h1>
+        <p>{error}</p>
+        <div className="row">
+          <button type="button" className="btn btn-primary" onClick={() => setScreen('lectures')}>
+            Open lectures
+          </button>
+          <button type="button" className="btn btn-secondary" onClick={() => openPdfs()}>
+            Open PDFs
+          </button>
+        </div>
+      </div>,
     )
   }
 
   if (!bank || !tfBank) {
-    return (
-      <div className="app-shell">
+    return studyShell(
+      <div className="stack">
         <div className="panel muted">Loading question bank…</div>
-      </div>
+        <div className="row">
+          <button type="button" className="btn btn-primary" onClick={() => setScreen('lectures')}>
+            Open lectures
+          </button>
+          <button type="button" className="btn btn-secondary" onClick={() => openPdfs()}>
+            Open PDFs
+          </button>
+        </div>
+      </div>,
     )
   }
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell${showMini ? ' has-mini-player' : ''}`}>
       {error && screen === 'home' && (
         <div className="panel badge-bad" style={{ marginBottom: '1rem' }}>
           {error}
@@ -137,6 +200,8 @@ export default function App() {
           swipeCount={tfBank.count}
           onStart={startExam}
           onStartSwipe={startSwipe}
+          onOpenLectures={() => setScreen('lectures')}
+          onOpenPdfs={() => openPdfs()}
         />
       )}
       {screen === 'exam' && config && (
@@ -165,6 +230,7 @@ export default function App() {
           onAgain={() => startSwipe(swipeConfig ?? { count: 40 })}
         />
       )}
+      {showMini && <MiniPlayer onOpenLectures={() => setScreen('lectures')} />}
     </div>
   )
 }
