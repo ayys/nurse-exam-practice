@@ -49,8 +49,7 @@ export function cueIndexAt(cues: Cue[], time: number): number {
       hi = mid - 1
     }
   }
-  if (ans >= 0 && time < cues[ans].end) return ans
-  return -1
+  return ans
 }
 
 export function cueAt(cues: Cue[], time: number): Cue | null {
