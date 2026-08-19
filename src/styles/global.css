@@ -888,7 +888,98 @@ a {
   background: #d7e0e6;
 }
 
+.lecture-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+.lecture-row .lecture-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.lecture-quiz-btn {
+  align-self: center;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.quiz-card {
+  border-color: rgba(11, 110, 106, 0.22);
+}
+
+.quiz-prompt-row {
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.quiz-prompt-row h2 {
+  flex: 1;
+  min-width: 0;
+}
+
+.copy-question {
+  flex-shrink: 0;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.option.correct {
+  border-color: var(--ok);
+  background: var(--ok-bg);
+}
+
+.option.wrong {
+  border-color: var(--bad);
+  background: var(--bad-bg);
+}
+
+.option:disabled {
+  cursor: default;
+  transform: none;
+}
+
+.quiz-rationale {
+  border-radius: 0.9rem;
+  padding: 0.9rem 1rem;
+  background: rgba(238, 244, 247, 0.9);
+  border: 1px solid var(--line);
+}
+
+.quiz-feedback.ok {
+  color: var(--ok);
+}
+
+.quiz-feedback.bad {
+  color: var(--bad);
+}
+
+.quiz-source {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
 @media (max-width: 720px) {
+  .lecture-row {
+    flex-direction: column;
+  }
+
+  .lecture-quiz-btn {
+    align-self: stretch;
+  }
+
+  .quiz-prompt-row {
+    flex-direction: column;
+  }
+
+  .copy-question {
+    align-self: flex-start;
+  }
+
   .mini-player {
     grid-template-columns: 1fr;
     grid-template-areas:

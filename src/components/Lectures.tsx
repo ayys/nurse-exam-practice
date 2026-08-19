@@ -17,6 +17,7 @@ import {
   vttFile,
 } from '../lib/klimek'
 import { useKlimekPlayer, type SleepMode } from '../lib/KlimekPlayer'
+import { getQuizScores } from '../lib/klimek-quiz'
 import { parseVtt, searchCues, type Cue } from '../lib/vtt'
 import { SeekBar } from './SeekBar'
 import { Transcript } from './Transcript'
@@ -24,6 +25,7 @@ import { Transcript } from './Transcript'
 interface LecturesProps {
   onBack: () => void
   onOpenPdf: (pdfId: string) => void
+  onOpenQuiz?: (lectureId: string) => void
 }
 
 const SLEEP_OPTIONS: { label: string; value: SleepMode }[] = [
@@ -41,7 +43,7 @@ function sleepEquals(a: SleepMode, b: SleepMode): boolean {
   return true
 }
 
-export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
+export function Lectures({ onBack, onOpenPdf, onOpenQuiz }: LecturesProps) {
   const player = useKlimekPlayer()
   const [query, setQuery] = useState('')
   const [note, setNote] = useState('')
@@ -51,6 +53,8 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
   const lastId = getLastLectureId()
   const last = LECTURES.find((l) => l.id === lastId)
   const lastProg = last ? progress[last.id] : null
+  const quizScores = getQuizScores()
+  const current = player.lecture
 
   const filtered = LECTURES.filter((l) => {
     if (matchesLectureQuery(l, query)) return true
@@ -58,7 +62,6 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
     const cues = l.id === current?.id ? player.cues : transcripts[l.id] ?? []
     return searchCues(cues, query).length > 0
   })
-  const current = player.lecture
   const activeCue = player.cueIndex >= 0 ? player.cues[player.cueIndex] : null
   const captionHits = query.trim().length >= 3
     ? LECTURES.flatMap((lecture) => {
@@ -157,10 +160,22 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
                 {current.summary}
               </p>
             </div>
-            <button type="button" className="btn btn-secondary" onClick={() => onOpenPdf(current.companionPdf)}>
-              Open outlines
-            </button>
+            <div className="row" style={{ justifyContent: 'flex-end' }}>
+              {onOpenQuiz && (
+                <button type="button" className="btn btn-primary" onClick={() => onOpenQuiz(current.id)}>
+                  Quiz this lecture
+                </button>
+              )}
+              <button type="button" className="btn btn-secondary" onClick={() => onOpenPdf(current.companionPdf)}>
+                Open outlines
+              </button>
+            </div>
           </div>
+          {quizScores[current.id] && (
+            <p className="muted" style={{ margin: 0, fontSize: '0.9rem' }}>
+              Last quiz: {quizScores[current.id].score}/{quizScores[current.id].total}
+            </p>
+          )}
 
           <SeekBar
             currentTime={player.currentTime}
@@ -366,8 +381,10 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
           const done = ratio >= COMPLETE_AT
           const active = current?.id === lecture.id
 
+          const quizScore = quizScores[lecture.id]
+
           return (
-            <li key={lecture.id}>
+            <li key={lecture.id} className="lecture-row">
               <button
                 type="button"
                 className={`lecture-item ${active ? 'active' : ''} ${done ? 'done' : ''}`}
@@ -379,6 +396,9 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
                     {lecture.title}
                     {done && <span className="badge badge-ok">Done</span>}
                     {active && !done && <span className="badge">Playing</span>}
+                    {quizScore && (
+                      <span className="badge">Quiz {quizScore.score}/{quizScore.total}</span>
+                    )}
                   </span>
                   <span className="muted lecture-item-meta">
                     {formatPrettyDuration(lecture.duration)}
@@ -391,6 +411,15 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
                   </span>
                 </span>
               </button>
+              {onOpenQuiz && (
+                <button
+                  type="button"
+                  className="btn btn-secondary lecture-quiz-btn"
+                  onClick={() => onOpenQuiz(lecture.id)}
+                >
+                  Quiz this lecture
+                </button>
+              )}
             </li>
           )
         })}

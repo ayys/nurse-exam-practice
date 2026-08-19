@@ -5,9 +5,18 @@ import { Results } from './components/Results'
 import { SwipeDeck } from './components/SwipeDeck'
 import { SwipeResults } from './components/SwipeResults'
 import { Lectures } from './components/Lectures'
+import { KlimekQuiz } from './components/KlimekQuiz'
 import { Pdfs } from './components/Pdfs'
 import { MiniPlayer } from './components/MiniPlayer'
 import { loadBank, loadTrueFalseBank, pickSwipeDeck } from './lib/bank'
+import {
+  buildNclexQuiz,
+  loadKlimekQuizzes,
+  quizByLecture,
+  type KlimekQuizBank,
+  type LectureQuiz,
+  type NclexQuizConfig,
+} from './lib/klimek-quiz'
 import { buildExamQuestions, scoreExam } from './lib/exam'
 import { KlimekPlayerProvider, useKlimekPlayer } from './lib/KlimekPlayer'
 import { getRetryIds, pushHistory, setRetryIds } from './lib/storage'
@@ -22,7 +31,15 @@ import type {
   TrueFalseCard,
 } from './lib/types'
 
-type Screen = 'home' | 'exam' | 'results' | 'swipe' | 'swipe-results' | 'lectures' | 'pdfs'
+type Screen =
+  | 'home'
+  | 'exam'
+  | 'results'
+  | 'swipe'
+  | 'swipe-results'
+  | 'lectures'
+  | 'pdfs'
+  | 'klimek-quiz'
 
 export default function App() {
   return (
@@ -45,6 +62,9 @@ function NurseApp() {
   const [swipeConfig, setSwipeConfig] = useState<SwipeConfig | null>(null)
   const [swipeResult, setSwipeResult] = useState<SwipeResult | null>(null)
   const [pdfId, setPdfId] = useState<string | undefined>()
+  const [quizBank, setQuizBank] = useState<KlimekQuizBank | null>(null)
+  const [activeQuiz, setActiveQuiz] = useState<LectureQuiz | null>(null)
+  const [quizOrigin, setQuizOrigin] = useState<'home' | 'lectures'>('lectures')
 
   useEffect(() => {
     Promise.all([loadBank(), loadTrueFalseBank()])
@@ -55,6 +75,12 @@ function NurseApp() {
       .catch((err: unknown) =>
         setError(err instanceof Error ? err.message : 'Failed to load questions'),
       )
+  }, [])
+
+  useEffect(() => {
+    loadKlimekQuizzes()
+      .then(setQuizBank)
+      .catch(() => setQuizBank(null))
   }, [])
 
   function startExam(next: ExamConfig) {
@@ -120,11 +146,42 @@ function NurseApp() {
   }
 
   const showMini = Boolean(player.lecture) && screen !== 'lectures'
-  const study = screen === 'lectures' || screen === 'pdfs'
+  const study = screen === 'lectures' || screen === 'pdfs' || screen === 'klimek-quiz'
 
   function openPdfs(id?: string) {
     setPdfId(id)
     setScreen('pdfs')
+  }
+
+  function openQuiz(lectureId: string) {
+    if (!quizBank) return
+    const quiz = quizByLecture(quizBank, lectureId)
+    if (!quiz) {
+      setError('That lecture quiz could not be loaded.')
+      return
+    }
+    setError(null)
+    setQuizOrigin('lectures')
+    setActiveQuiz(quiz)
+    setScreen('klimek-quiz')
+  }
+
+  function startNclex(config: NclexQuizConfig) {
+    if (!quizBank) return
+    const quiz = buildNclexQuiz(quizBank, config)
+    if (!quiz || quiz.questions.length === 0) {
+      setError('No NCLEX questions available for that selection.')
+      return
+    }
+    setError(null)
+    setQuizOrigin('home')
+    setActiveQuiz(quiz)
+    setScreen('klimek-quiz')
+  }
+
+  function closeQuiz() {
+    setActiveQuiz(null)
+    setScreen(quizOrigin === 'home' ? 'home' : 'lectures')
   }
 
   function studyShell(children: ReactNode) {
@@ -140,7 +197,11 @@ function NurseApp() {
     return studyShell(
       <>
         {screen === 'lectures' && (
-          <Lectures onBack={() => setScreen('home')} onOpenPdf={(id) => openPdfs(id)} />
+          <Lectures
+            onBack={() => setScreen('home')}
+            onOpenPdf={(id) => openPdfs(id)}
+            onOpenQuiz={quizBank ? openQuiz : undefined}
+          />
         )}
         {screen === 'pdfs' && (
           <Pdfs
@@ -149,6 +210,26 @@ function NurseApp() {
             onBack={() => setScreen('home')}
             onOpenLectures={() => setScreen('lectures')}
           />
+        )}
+        {screen === 'klimek-quiz' && activeQuiz && quizBank && (
+          <KlimekQuiz
+            key={`${activeQuiz.lectureId}:${activeQuiz.questions.map((q) => q.id).join(',')}`}
+            quiz={activeQuiz}
+            attribution={quizBank.attribution}
+            backLabel={quizOrigin === 'home' ? 'Back home' : 'Back to lectures'}
+            onBack={closeQuiz}
+            onNextLectureQuiz={quizOrigin === 'lectures' ? openQuiz : undefined}
+          />
+        )}
+        {screen === 'klimek-quiz' && !activeQuiz && (
+          <div className="stack rise study-page">
+            <div className="panel stack">
+              <p style={{ margin: 0 }}>This quiz could not be loaded. Lectures still work.</p>
+              <button type="button" className="btn btn-secondary" onClick={closeQuiz}>
+                {quizOrigin === 'home' ? 'Back home' : 'Back to lectures'}
+              </button>
+            </div>
+          </div>
         )}
       </>,
     )
@@ -198,8 +279,10 @@ function NurseApp() {
         <Home
           bank={bank}
           swipeCount={tfBank.count}
+          quizBank={quizBank}
           onStart={startExam}
           onStartSwipe={startSwipe}
+          onStartNclex={startNclex}
           onOpenLectures={() => setScreen('lectures')}
           onOpenPdfs={() => openPdfs()}
         />

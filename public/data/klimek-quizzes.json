@@ -1,0 +1,3514 @@
+{
+  "version": 1,
+  "attribution": "Open RN by Chippewa Valley Technical College / WisTech Open, CC BY 4.0.",
+  "quizzes": [
+    {
+      "lectureId": "a",
+      "title": "Acid-Base Principles",
+      "questions": [
+        {
+          "id": "klimek-a-1",
+          "prompt": "A client's ABG results are pH 7.28, PaCO2 56 mm Hg, and HCO3 24 mEq/L. Which acid-base imbalance should the nurse document?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Respiratory acidosis"
+            },
+            {
+              "key": "B",
+              "text": "Respiratory alkalosis"
+            },
+            {
+              "key": "C",
+              "text": "Metabolic acidosis"
+            },
+            {
+              "key": "D",
+              "text": "Metabolic alkalosis"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Low pH with high PaCO2 and a normal bicarbonate means the lungs are retaining CO2, which is respiratory acidosis. Respiratory alkalosis would show high pH and low PaCO2. Metabolic acidosis would show low HCO3 moving with the low pH. Metabolic alkalosis would show high pH and high HCO3.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Fundamentals 2e, 15.5 Acid-Base Balance",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/15-5-acid-base-balance/"
+          }
+        },
+        {
+          "id": "klimek-a-2",
+          "prompt": "Which ABG set is within the expected adult reference range?",
+          "options": [
+            {
+              "key": "A",
+              "text": "pH 7.32, PaCO2 48 mm Hg, HCO3 20 mEq/L"
+            },
+            {
+              "key": "B",
+              "text": "pH 7.40, PaCO2 40 mm Hg, HCO3 24 mEq/L"
+            },
+            {
+              "key": "C",
+              "text": "pH 7.50, PaCO2 30 mm Hg, HCO3 24 mEq/L"
+            },
+            {
+              "key": "D",
+              "text": "pH 7.28, PaCO2 38 mm Hg, HCO3 16 mEq/L"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Adult ABG normals are pH 7.35–7.45, PaCO2 35–45 mm Hg, and HCO3 22–26 mEq/L. Option B is the only fully normal set. A is acidotic with high CO2 and low HCO3. C is alkalotic with low CO2. D is metabolic acidosis.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Skills 2e, 11.2 Basic Concepts of Oxygenation",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingskills/chapter/11-2-basic-concepts-of-oxygenation/"
+          }
+        },
+        {
+          "id": "klimek-a-3",
+          "prompt": "A client with COPD is hypoventilating. The nurse should anticipate which ABG change first?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Decreased PaCO2 and increased pH"
+            },
+            {
+              "key": "B",
+              "text": "Increased PaCO2 and decreased pH"
+            },
+            {
+              "key": "C",
+              "text": "Increased HCO3 and increased pH"
+            },
+            {
+              "key": "D",
+              "text": "Decreased PaO2 with a normal pH only"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Hypoventilation causes CO2 to accumulate (hypercapnia). Extra CO2 lowers pH, producing respiratory acidosis. Hyperventilation would lower PaCO2 and raise pH. A high HCO3 with high pH is metabolic alkalosis, not the first change from hypoventilation. Low PaO2 can occur but does not explain the acid-base shift by itself.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Skills 2e, 11.2 Basic Concepts of Oxygenation",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingskills/chapter/11-2-basic-concepts-of-oxygenation/"
+          }
+        },
+        {
+          "id": "klimek-a-4",
+          "prompt": "Which finding is an early sign of hypoxia that the nurse should report promptly?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Clubbing of the fingertips"
+            },
+            {
+              "key": "B",
+              "text": "Cyanosis of the lips"
+            },
+            {
+              "key": "C",
+              "text": "Restlessness and agitation"
+            },
+            {
+              "key": "D",
+              "text": "Loss of consciousness"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Restlessness, anxiety, and confusion are early hypoxia signs. Cyanosis and loss of consciousness are late. Clubbing reflects chronic hypoxia, not an acute early change.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Skills 2e, 11.2 Basic Concepts of Oxygenation",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingskills/chapter/11-2-basic-concepts-of-oxygenation/"
+          }
+        },
+        {
+          "id": "klimek-a-5",
+          "prompt": "A postoperative client is hyperventilating from pain and anxiety. Which acid-base imbalance is most likely?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Respiratory acidosis from CO2 retention"
+            },
+            {
+              "key": "B",
+              "text": "Respiratory alkalosis from blowing off CO2"
+            },
+            {
+              "key": "C",
+              "text": "Metabolic acidosis from lactic acid buildup"
+            },
+            {
+              "key": "D",
+              "text": "Metabolic alkalosis from gastric losses"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Overventilating blows off CO2, so PaCO2 falls and pH rises (respiratory alkalosis). Underventilating would retain CO2 and cause respiratory acidosis. Metabolic acidosis is not the first result of anxiety hyperventilation. Metabolic alkalosis is associated with vomiting or suction, not fast breathing.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-a-6",
+          "prompt": "A client with diabetic ketoacidosis is breathing with deep, rapid respirations. What is the physiologic purpose of this pattern?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To retain carbon dioxide and raise pH"
+            },
+            {
+              "key": "B",
+              "text": "To blow off carbon dioxide and compensate for metabolic acidosis"
+            },
+            {
+              "key": "C",
+              "text": "To increase bicarbonate production by the lungs"
+            },
+            {
+              "key": "D",
+              "text": "To correct hypoxemia caused by pneumonia"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Kussmaul respirations compensate for metabolic acidosis by exhaling CO2, which helps raise pH. The lungs do not make bicarbonate. This pattern is not primarily a pneumonia response. Retaining CO2 would worsen acidosis.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-a-7",
+          "prompt": "A client has pH 7.52 and HCO3 34 mEq/L with a near-normal PaCO2. Which clinical picture best matches these values?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Prolonged vomiting with muscle cramps"
+            },
+            {
+              "key": "B",
+              "text": "Opioid overdose with slow respirations"
+            },
+            {
+              "key": "C",
+              "text": "Panic attack with numbness of the fingers"
+            },
+            {
+              "key": "D",
+              "text": "Severe diarrhea with Kussmaul breathing"
+            }
+          ],
+          "answer": "A",
+          "rationale": "High pH with high HCO3 is metabolic alkalosis, classically from gastric acid loss (vomiting). Opioid hypoventilation causes respiratory acidosis. A panic attack causes respiratory alkalosis (low PaCO2). Diarrhea causes metabolic acidosis.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-a-8",
+          "prompt": "When arterial pH falls, which potassium change should the nurse anticipate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Serum potassium falls as potassium shifts into cells"
+            },
+            {
+              "key": "B",
+              "text": "Serum potassium rises as potassium shifts out of cells"
+            },
+            {
+              "key": "C",
+              "text": "Potassium is unrelated to pH"
+            },
+            {
+              "key": "D",
+              "text": "Only ionized calcium changes; potassium stays the same"
+            }
+          ],
+          "answer": "B",
+          "rationale": "In acidosis, hydrogen ions enter cells and potassium leaves, so serum K+ tends to rise. Alkalosis does the opposite (K+ drops). Potassium and pH are tightly linked in acid-base disorders. Calcium can also change, but it does not replace the potassium shift.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-a-9",
+          "prompt": "A client with chronic COPD has pH 7.36, PaCO2 58 mm Hg, and HCO3 32 mEq/L. How should the nurse interpret this ABG?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Uncompensated respiratory acidosis"
+            },
+            {
+              "key": "B",
+              "text": "Fully compensated respiratory acidosis"
+            },
+            {
+              "key": "C",
+              "text": "Uncompensated metabolic alkalosis"
+            },
+            {
+              "key": "D",
+              "text": "Uncompensated respiratory alkalosis"
+            }
+          ],
+          "answer": "B",
+          "rationale": "pH is in the normal (slightly acid) range while CO2 is high and HCO3 is also high, showing renal compensation for chronic CO2 retention. Uncompensated respiratory acidosis would have a low pH and a still-normal HCO3. The high HCO3 is compensation, not a primary metabolic alkalosis. CO2 is high, not low, so this is not alkalosis from hyperventilation.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Fundamentals 2e, 15.5 Acid-Base Balance",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingfundamentals/chapter/15-5-acid-base-balance/"
+          }
+        },
+        {
+          "id": "klimek-a-10",
+          "prompt": "Which client is the highest priority based on acid-base status?",
+          "options": [
+            {
+              "key": "A",
+              "text": "pH 7.33 after a mild asthma flare, speaking in full sentences"
+            },
+            {
+              "key": "B",
+              "text": "pH 7.29 with Kussmaul respirations in new DKA, alert and oriented"
+            },
+            {
+              "key": "C",
+              "text": "pH 7.18 with decreasing level of consciousness"
+            },
+            {
+              "key": "D",
+              "text": "pH 7.47 after an anxiety attack, tingling fingers"
+            }
+          ],
+          "answer": "C",
+          "rationale": "A pH in the low 7.1s with a falling LOC is immediately life-threatening. Mild acidosis with a talking client is less urgent. DKA needs treatment but this client is still alert. Anxiety alkalosis is uncomfortable but usually not the first priority over a crashing pH.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "b",
+      "title": "Alcohol",
+      "questions": [
+        {
+          "id": "klimek-b-1",
+          "prompt": "A client with alcohol use disorder says, “I can stop whenever I want; I just drink to be social.” Which defense mechanism is this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Projection"
+            },
+            {
+              "key": "B",
+              "text": "Denial"
+            },
+            {
+              "key": "C",
+              "text": "Displacement"
+            },
+            {
+              "key": "D",
+              "text": "Sublimation"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Denial is refusing to accept the reality of a problem. Projection attributes one’s own feelings to others. Displacement shifts feelings onto a safer target. Sublimation channels impulses into acceptable activity.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-2",
+          "prompt": "A client with a long alcohol history is confused, ataxic, and has confabulation. Which intervention is essential?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fluid restriction to prevent cerebral edema"
+            },
+            {
+              "key": "B",
+              "text": "Thiamine (vitamin B1) before or with glucose"
+            },
+            {
+              "key": "C",
+              "text": "High-dose vitamin D and calcium"
+            },
+            {
+              "key": "D",
+              "text": "Immediate antipsychotic for the confabulation"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Wernicke-Korsakoff syndrome is caused by thiamine deficiency; give B1 and do not delay it. Fluid restriction is for SIADH, not this syndrome. Vitamin D is unrelated. Confabulation is a memory gap, not a primary psychosis requiring an antipsychotic first.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-3",
+          "prompt": "Which statement correctly distinguishes alcohol withdrawal syndrome (AWS) from delirium tremens (DT)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "AWS is always life-threatening; DT is uncomfortable but safe"
+            },
+            {
+              "key": "B",
+              "text": "Every person who stops heavy drinking gets DT within 6 hours"
+            },
+            {
+              "key": "C",
+              "text": "AWS is common after stopping alcohol; DT is a minority and is life-threatening"
+            },
+            {
+              "key": "D",
+              "text": "DT occurs only in people who have never had withdrawal before"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Most withdrawing clients have AWS, which is not automatically lethal. DT is less common, starts later, and can kill. AWS is not “always” life-threatening. DT does not happen to everyone at 6 hours, and prior withdrawal actually raises DT risk.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-4",
+          "prompt": "The nurse is planning care 24 hours after a client’s last drink. The client is anxious and tremulous but oriented. Which room assignment is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Private room near the nurses’ station, NPO, leather restraints"
+            },
+            {
+              "key": "B",
+              "text": "Semi-private room, regular diet, no automatic restraints"
+            },
+            {
+              "key": "C",
+              "text": "Seclusion room with four-point restraints until tremors stop"
+            },
+            {
+              "key": "D",
+              "text": "ICU bed with an endotracheal tube on standby for all AWS clients"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Uncomplicated AWS can usually be managed in a semi-private setting with oral intake. Private room, NPO, and restraints are reserved for DT-level danger. Seclusion and intubation are not default AWS care.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-5",
+          "prompt": "A client overdoses on a stimulant (“upper”). Which findings should the nurse expect?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Bradycardia, hypothermia, and pinpoint pupils"
+            },
+            {
+              "key": "B",
+              "text": "Respiratory depression and coma"
+            },
+            {
+              "key": "C",
+              "text": "Tachycardia, restlessness, and hyperreflexia"
+            },
+            {
+              "key": "D",
+              "text": "Flaccid muscles and absent bowel sounds"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Uppers make everything go up: HR, reflexes, mood, and seizure risk. Bradycardia, coma, flaccid muscles, and respiratory depression are downer-overdose pictures.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-6",
+          "prompt": "A newborn’s mother used a long-acting opioid throughout pregnancy. At 24 hours of life the infant is irritable with a high-pitched cry. What does this most likely represent?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Intoxication from residual opioid (too much downer)"
+            },
+            {
+              "key": "B",
+              "text": "Withdrawal (too little downer), so signs go up"
+            },
+            {
+              "key": "C",
+              "text": "Wernicke encephalopathy"
+            },
+            {
+              "key": "D",
+              "text": "Physiologic jaundice"
+            }
+          ],
+          "answer": "B",
+          "rationale": "After birth the infant no longer receives the opioid, so withdrawal makes signs go up (irritability, shrill cry). Intoxication would look sedated. Wernicke is a thiamine problem in adults. Jaundice does not cause a high-pitched cry by itself.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-7",
+          "prompt": "Disulfiram teaching is effective when the client states which of the following?",
+          "options": [
+            {
+              "key": "A",
+              "text": "“I can have wine if I wait 2 hours after the pill.”"
+            },
+            {
+              "key": "B",
+              "text": "“I must avoid alcohol, including hidden sources, for about 2 weeks after stopping the drug.”"
+            },
+            {
+              "key": "C",
+              "text": "“Mouthwash and aftershave are safe because they are not drinks.”"
+            },
+            {
+              "key": "D",
+              "text": "“This drug reduces my craving so alcohol will not make me sick.”"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Disulfiram causes a sick reaction with alcohol and stays a risk for about 2 weeks after the last dose. Hidden alcohol (mouthwash, aftershave) counts. It is aversion therapy, not a craving-blocker that makes drinking safe.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-8",
+          "prompt": "Which overdose is most likely to cause respiratory arrest?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cocaine overdose"
+            },
+            {
+              "key": "B",
+              "text": "Caffeine overdose"
+            },
+            {
+              "key": "C",
+              "text": "Benzodiazepine overdose"
+            },
+            {
+              "key": "D",
+              "text": "Amphetamine overdose"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Downer overdose depresses respiration. Cocaine, caffeine, and amphetamines are uppers; their overdose risk is seizure more than apnea.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-9",
+          "prompt": "Which medications are commonly part of care for both AWS and DT?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Antihypertensive, benzodiazepine, and thiamine"
+            },
+            {
+              "key": "B",
+              "text": "Insulin, metformin, and potassium"
+            },
+            {
+              "key": "C",
+              "text": "Heparin, warfarin, and vitamin K"
+            },
+            {
+              "key": "D",
+              "text": "Levothyroxine, iodine, and beta blocker"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Both AWS and DT are treated with a downer (often a benzo), BP support as needed, and B1 to prevent Wernicke. Diabetes, anticoagulation, and thyroid drugs are not the core withdrawal bundle.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-b-10",
+          "prompt": "A client withdrawing from a benzodiazepine is at greatest risk for which complication?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pinpoint pupils and constipation"
+            },
+            {
+              "key": "B",
+              "text": "Seizure because the nervous system is no longer down"
+            },
+            {
+              "key": "C",
+              "text": "Immediate Wernicke-Korsakoff without alcohol history"
+            },
+            {
+              "key": "D",
+              "text": "Hypoglycemia from excess insulin release"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Withdrawal from a downer lets the nervous system rebound up, so seizure is the feared event. Pinpoint pupils fit opioid intoxication. Wernicke is thiamine/alcohol. Insulin release is not the primary benzo-withdrawal mechanism.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "c",
+      "title": "Cardiac and Pharm",
+      "questions": [
+        {
+          "id": "klimek-c-1",
+          "prompt": "Before giving digoxin, the nurse assesses an apical pulse of 52/min. What is the priority action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give the dose; bradycardia means the drug is working"
+            },
+            {
+              "key": "B",
+              "text": "Hold the dose and notify the provider"
+            },
+            {
+              "key": "C",
+              "text": "Double the next dose to compensate"
+            },
+            {
+              "key": "D",
+              "text": "Switch the route from oral to IV immediately"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Digoxin has a negative chronotropic effect. If the apical rate is under 60/min, hold the dose and call the provider unless other parameters are ordered. Giving or doubling the dose risks toxicity. Changing route is not an independent nursing decision here.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 6.7 Cardiac Glycosides",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/6-7-cardiac-glycosides/"
+          }
+        },
+        {
+          "id": "klimek-c-2",
+          "prompt": "A client on digoxin reports nausea and yellow-green visual halos. Potassium is 3.1 mEq/L. What should the nurse do first?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give the scheduled digoxin with a snack"
+            },
+            {
+              "key": "B",
+              "text": "Withhold digoxin, check the apical pulse, and notify the provider"
+            },
+            {
+              "key": "C",
+              "text": "Encourage a high-fiber diet and reassess in 8 hours"
+            },
+            {
+              "key": "D",
+              "text": "Administer a PRN antiemetic only and continue the drug"
+            }
+          ],
+          "answer": "B",
+          "rationale": "GI symptoms plus visual changes suggest digoxin toxicity, and hypokalemia increases that risk. Hold the drug, assess the pulse, and notify the provider. An antiemetic or diet change does not treat toxicity.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 6.7 Cardiac Glycosides",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/6-7-cardiac-glycosides/"
+          }
+        },
+        {
+          "id": "klimek-c-3",
+          "prompt": "A client takes sublingual nitroglycerin for angina. After the first dose, pain is unchanged at 5 minutes. What is the correct teaching?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Take a second dose and call emergency services if pain continues after three doses"
+            },
+            {
+              "key": "B",
+              "text": "Wait 30 minutes before another tablet"
+            },
+            {
+              "key": "C",
+              "text": "Swallow the next tablet with water for faster action"
+            },
+            {
+              "key": "D",
+              "text": "Stop all doses if a headache occurs, even if chest pain remains"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Reassess pain after about 5 minutes and repeat up to three sublingual doses; if pain persists, activate emergency care. Swallowing SL NTG delays effect. Headache is common from vasodilation and is not a reason to ignore ongoing chest pain.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, Chapter 6 Cardiovascular",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/chapter-6/"
+          }
+        },
+        {
+          "id": "klimek-c-4",
+          "prompt": "Sotalol is being started for a life-threatening arrhythmia. Which monitoring is essential because of a boxed warning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Serum amylase every 4 hours"
+            },
+            {
+              "key": "B",
+              "text": "QTc interval after doses during initiation"
+            },
+            {
+              "key": "C",
+              "text": "Hourly capillary blood glucose only"
+            },
+            {
+              "key": "D",
+              "text": "Peak and trough vancomycin levels"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Sotalol prolongs the QT interval and can cause drug-induced arrhythmias; QTc is checked 2–4 hours after doses when therapy starts. Amylase, isolated glucose checks, and vancomycin levels are not the boxed-warning focus.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 6.6 Antiarrhythmics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/6-6-antiarrhythmics/"
+          }
+        },
+        {
+          "id": "klimek-c-5",
+          "prompt": "Diltiazem is ordered for a client with SVT. The nurse should withhold the dose and call the provider for which finding?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Blood pressure 88/54 mm Hg"
+            },
+            {
+              "key": "B",
+              "text": "Heart rate 102/min"
+            },
+            {
+              "key": "C",
+              "text": "Mild ankle edema that is chronic"
+            },
+            {
+              "key": "D",
+              "text": "Atrial fibrillation with a rapid rate"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Calcium channel blockers are not given to hypotensive clients; they can worsen BP and heart block. Tachycardia/SVT or AF with RVR may be indications. Mild chronic edema is a known effect to monitor, not an automatic hold for SVT treatment if BP is adequate.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 6.6 Antiarrhythmics (calcium channel blockers)",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/6-6-antiarrhythmics/"
+          }
+        },
+        {
+          "id": "klimek-c-6",
+          "prompt": "Which statement about calcium channel blockers is accurate for exam-style cardiac use?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are first-line drugs to convert ventricular fibrillation"
+            },
+            {
+              "key": "B",
+              "text": "They calm the heart and are useful for rate control in SVT and atrial arrhythmias"
+            },
+            {
+              "key": "C",
+              "text": "They must be given in asystole before epinephrine"
+            },
+            {
+              "key": "D",
+              "text": "They increase contractility like digoxin"
+            }
+          ],
+          "answer": "B",
+          "rationale": "CCBs (including -dipines, verapamil, diltiazem) decrease HR and BP and help SVT/atrial rate control. They are not VF or asystole drugs and they are negative inotropes, not digoxin-like boosters of squeeze.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-c-7",
+          "prompt": "A chest tube to water seal has continuous bubbling. What does this most likely indicate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Normal tidaling with respiration"
+            },
+            {
+              "key": "B",
+              "text": "An air leak that needs assessment of connections and the insertion site"
+            },
+            {
+              "key": "C",
+              "text": "The collection chamber is full and should be emptied hourly"
+            },
+            {
+              "key": "D",
+              "text": "The client needs immediate clamping of the tube for 8 hours"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Continuous bubbling in the water seal suggests a leak. Intermittent bubbling with a pneumothorax can be expected; tidaling is rise/fall with breathing. Do not routinely clamp a chest tube for hours. The collection chamber is not emptied like a Foley.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-c-8",
+          "prompt": "Which congenital heart defect is cyanotic and needs surgical attention rather than a “watch and wait” VSD-type plan?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Patent ductus arteriosus that is closing"
+            },
+            {
+              "key": "B",
+              "text": "Ventricular septal defect with a small murmur"
+            },
+            {
+              "key": "C",
+              "text": "Tetralogy of Fallot"
+            },
+            {
+              "key": "D",
+              "text": "Atrial septal defect in an asymptomatic school-age child"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Tetralogy of Fallot is a TRouBLe (cyanotic, right-to-left) defect. Small VSD, ASD, and many PDAs are acyanotic left-to-right lesions that may be observed.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-c-9",
+          "prompt": "A client is in asystole. After starting CPR, which medication is the priority?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Adenosine 6 mg rapid IV push"
+            },
+            {
+              "key": "B",
+              "text": "Epinephrine"
+            },
+            {
+              "key": "C",
+              "text": "Sotalol PO"
+            },
+            {
+              "key": "D",
+              "text": "Diltiazem infusion"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Asystole is treated with CPR and epinephrine (atropine may also be used). Adenosine is for SVT. Oral sotalol and diltiazem are not asystole drugs.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-c-10",
+          "prompt": "Which rhythm is the highest priority to defibrillate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sinus bradycardia at 52/min in a sleeping athlete"
+            },
+            {
+              "key": "B",
+              "text": "Occasional PVCs in a client on a telemetry unit"
+            },
+            {
+              "key": "C",
+              "text": "Pulseless ventricular fibrillation"
+            },
+            {
+              "key": "D",
+              "text": "First-degree AV block with a PR of 0.22 seconds"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Pulseless VF is a shockable lethal rhythm. Sleeping bradycardia, rare PVCs, and first-degree block are lower priority and are not defibrillated.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "d",
+      "title": "Canes, Crutches, Walkers & Psych",
+      "questions": [
+        {
+          "id": "klimek-d-1",
+          "prompt": "How should axillary crutches be fitted?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pads pressing firmly into the axilla to bear all weight"
+            },
+            {
+              "key": "B",
+              "text": "About 2–3 finger widths between the axilla and the pad, weight through the hands"
+            },
+            {
+              "key": "C",
+              "text": "Handgrips at the shoulders so elbows are locked"
+            },
+            {
+              "key": "D",
+              "text": "Crutch tips 18 inches in front of the toes at rest"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Leave 2–3 finger widths under the axilla; body weight goes through the hands, not the armpits (nerve injury risk). Elbows should be slightly flexed. Tips sit slightly in front and lateral, not 18 inches straight ahead.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-2",
+          "prompt": "A client with even bilateral weakness is learning crutch walking. Which gait is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Three-point gait (both crutches with the weak leg, then the strong leg)"
+            },
+            {
+              "key": "B",
+              "text": "Two-point gait (right crutch with left foot, then left crutch with right foot)"
+            },
+            {
+              "key": "C",
+              "text": "Swing-through gait only"
+            },
+            {
+              "key": "D",
+              "text": "Four-point gait is never used for weakness"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Two-point (and four-point) gaits are for even/bilateral weakness. Three-point is for one weak or non-weight-bearing leg. Swing-through is for non-weight-bearing or braced legs, not the default for mild even weakness.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-3",
+          "prompt": "Which teaching about stairs and crutches is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lead with the weak leg going up and the strong leg going down"
+            },
+            {
+              "key": "B",
+              "text": "Up with the good, down with the bad"
+            },
+            {
+              "key": "C",
+              "text": "Always move the crutches last on both up and down"
+            },
+            {
+              "key": "D",
+              "text": "Hop both feet together on every stair"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Going up, the strong leg leads; going down, the weak leg (and crutches) go first. The opposite pattern is unsafe. Crutches move with the weak side on stairs.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-4",
+          "prompt": "A client with left-leg weakness is prescribed a cane. Where should the cane be held?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On the weak (left) side"
+            },
+            {
+              "key": "B",
+              "text": "On the strong (right) side"
+            },
+            {
+              "key": "C",
+              "text": "Alternating hands each day"
+            },
+            {
+              "key": "D",
+              "text": "In both hands like a walker"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Hold the cane on the strong side so it supports the weak leg during stance. Holding it on the weak side reduces support. A cane is one-handed, not a walker.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-5",
+          "prompt": "Correct walker use is demonstrated when the client:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Picks the walker up, sets it down, then walks to it"
+            },
+            {
+              "key": "B",
+              "text": "Rocks the walker forward on the back legs while leaning"
+            },
+            {
+              "key": "C",
+              "text": "Ties belongings to the front bar so they swing"
+            },
+            {
+              "key": "D",
+              "text": "Uses the walker on stairs without a second person"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Pick it up, set it down, walk to it. Rocking or hanging bags can tip the walker. Walkers are not for stairs.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-6",
+          "prompt": "A client with schizophrenia says, “The FBI planted a chip in my tooth.” What is the best first response?",
+          "options": [
+            {
+              "key": "A",
+              "text": "“That is not true. Stop talking about it.”"
+            },
+            {
+              "key": "B",
+              "text": "“I know you feel afraid. I do not hear evidence of a chip, and you are safe here.”"
+            },
+            {
+              "key": "C",
+              "text": "“Tell me more details so we can find the chip.”"
+            },
+            {
+              "key": "D",
+              "text": "“You will be secluded until you admit this is a lie.”"
+            }
+          ],
+          "answer": "B",
+          "rationale": "For functional psychosis: acknowledge feeling, present reality, and set limits if needed. Arguing or exploring the delusion as fact reinforces it. Punishment/seclusion is not the first communication tool.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-7",
+          "prompt": "A client with Alzheimer disease is looking for a deceased spouse. What is the priority approach?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Orient firmly to the death every 5 minutes"
+            },
+            {
+              "key": "B",
+              "text": "Redirect to a safe, comforting activity"
+            },
+            {
+              "key": "C",
+              "text": "Present reality until the client agrees"
+            },
+            {
+              "key": "D",
+              "text": "Agree that the spouse is in the next room"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Dementia clients cannot learn reality the way functional psychosis can; redirect. Repeated confrontation increases distress. Lying that the spouse is nearby is not the goal; comfort and safety are.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-8",
+          "prompt": "A client with a UTI becomes acutely confused and sees “bugs on the wall.” After safety, what is the priority?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Start a long-term antipsychotic for schizophrenia"
+            },
+            {
+              "key": "B",
+              "text": "Treat the underlying cause (infection) and reassure that the experience will pass"
+            },
+            {
+              "key": "C",
+              "text": "Teach insight-oriented psychotherapy tonight"
+            },
+            {
+              "key": "D",
+              "text": "Ignore the confusion because it is expected aging"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Delirium is acute and often medical; treat the cause and reassure. This is not a new schizophrenia diagnosis. Insight work is not the acute priority. Acute confusion is not “normal aging.”",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-9",
+          "prompt": "A client points to a fire extinguisher and says, “That red box is a bomb.” This is best classified as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "A hallucination (no sensory referent)"
+            },
+            {
+              "key": "B",
+              "text": "An illusion (misinterpretation of a real object)"
+            },
+            {
+              "key": "C",
+              "text": "Loose association"
+            },
+            {
+              "key": "D",
+              "text": "A flight of ideas"
+            }
+          ],
+          "answer": "B",
+          "rationale": "An illusion misreads a real stimulus. A hallucination has no external object. Loose association and flight of ideas are thought-process problems, not this misperception.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-d-10",
+          "prompt": "Which client statement is an example of a hallucination?",
+          "options": [
+            {
+              "key": "A",
+              "text": "“The IV pump alarm is a police siren.”"
+            },
+            {
+              "key": "B",
+              "text": "“I hear a voice telling me I am worthless when the room is quiet.”"
+            },
+            {
+              "key": "C",
+              "text": "“My thoughts jump from cars to soup to the president.”"
+            },
+            {
+              "key": "D",
+              "text": "“People on TV are sending me coded messages.”"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Hearing a voice with no external sound is a hallucination. The IV-pump example is an illusion. Jumping topics is flight of ideas. TV messages are a delusion.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "e",
+      "title": "Diabetes",
+      "questions": [
+        {
+          "id": "klimek-e-1",
+          "prompt": "Which statement about type 1 versus type 2 diabetes is accurate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Type 1 is primarily insulin resistance; oral drugs always replace insulin"
+            },
+            {
+              "key": "B",
+              "text": "Type 1 involves absent insulin production, so insulin is required"
+            },
+            {
+              "key": "C",
+              "text": "Type 2 never progresses to needing insulin"
+            },
+            {
+              "key": "D",
+              "text": "Only type 2 can develop diabetic ketoacidosis"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Type 1 is autoimmune beta-cell failure; insulin is essential. Type 2 is mainly resistance and may later need insulin. DKA is classic in type 1 but can occur in type 2 as well; it is not exclusive to type 2.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-2",
+          "prompt": "Insulin lispro is ordered with breakfast. When should the nurse administer it?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Within 15 minutes before the meal or right after eating"
+            },
+            {
+              "key": "B",
+              "text": "Two hours before the tray arrives"
+            },
+            {
+              "key": "C",
+              "text": "At bedtime only"
+            },
+            {
+              "key": "D",
+              "text": "Only if the blood glucose is below 70 mg/dL"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Rapid-acting (prandial) insulin is given within 15 minutes of a meal because onset is fast. Giving it long before food or when the client is already hypoglycemic risks a dangerous drop. It is not a bedtime basal insulin.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-3",
+          "prompt": "Regular insulin is given subcutaneously at 0730. When is the client at highest risk for hypoglycemia related to peak effect?",
+          "options": [
+            {
+              "key": "A",
+              "text": "About 15 minutes later"
+            },
+            {
+              "key": "B",
+              "text": "About 3 hours later"
+            },
+            {
+              "key": "C",
+              "text": "About 24 hours later with no peak"
+            },
+            {
+              "key": "D",
+              "text": "Immediately, because regular insulin has no onset delay"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Open RN lists regular insulin peak around 3 hours (onset ~30 minutes, duration ~8 hours). Rapid-acting peaks sooner. Long-acting insulins lack a pronounced peak. Regular does have an onset delay of about 30 minutes.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-4",
+          "prompt": "Which action is correct when mixing NPH with regular insulin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Draw NPH first, then regular, because NPH is clear"
+            },
+            {
+              "key": "B",
+              "text": "Draw regular (clear) first, then NPH (cloudy); roll NPH to resuspend"
+            },
+            {
+              "key": "C",
+              "text": "Shake both vials hard until foamy"
+            },
+            {
+              "key": "D",
+              "text": "Mix glargine into the same syringe with NPH"
+            }
+          ],
+          "answer": "B",
+          "rationale": "NPH is cloudy and is rolled, not shaken hard. Clear regular is drawn before cloudy NPH. Glargine must not be mixed with other insulins.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-5",
+          "prompt": "Why must insulin glargine not be mixed in the same syringe with other insulins?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It has a relatively peakless 24-hour profile and mixing alters that action"
+            },
+            {
+              "key": "B",
+              "text": "It is the only insulin given intravenously"
+            },
+            {
+              "key": "C",
+              "text": "It is cloudy and will precipitate regular insulin"
+            },
+            {
+              "key": "D",
+              "text": "It must be given within 15 minutes of meals only"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Long-acting glargine/detemir are clear, peakless basal insulins given subcutaneously and not mixed. They are not meal-only rapid insulins and are not the standard IV insulin (regular is).",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-6",
+          "prompt": "A conscious client has blood glucose 58 mg/dL and is sweaty and shaky. What is the nurse’s first action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give 15 grams of rapid carbohydrate such as 4 oz fruit juice"
+            },
+            {
+              "key": "B",
+              "text": "Give NPH insulin to stabilize the glucose"
+            },
+            {
+              "key": "C",
+              "text": "Start a metformin tablet"
+            },
+            {
+              "key": "D",
+              "text": "Wait 30 minutes to recheck before treating"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Hypoglycemia below 70 mg/dL in a client who can swallow is treated with about 15 g of fast carbohydrate. Insulin or metformin would worsen hypoglycemia. Do not delay treatment.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-7",
+          "prompt": "A client with diabetes is unresponsive with glucose 38 mg/dL and no IV access. Which medication should the nurse prepare?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Subcutaneous insulin lispro"
+            },
+            {
+              "key": "B",
+              "text": "Glucagon IM or subcutaneous, then carbohydrate when safe to swallow"
+            },
+            {
+              "key": "C",
+              "text": "Oral glipizide"
+            },
+            {
+              "key": "D",
+              "text": "IV potassium chloride first"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Severe hypoglycemia with inability to swallow is treated with glucagon (or IV dextrose if access exists). Insulin and sulfonylureas lower glucose further. Potassium is not the first rescue drug for this scene.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-8",
+          "prompt": "Which features best distinguish DKA from hyperosmolar hyperglycemic state (HHS/HHNK)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "DKA has ketones and acidosis, more often in type 1; HHS is extreme hyperglycemia without significant ketones, more often in type 2"
+            },
+            {
+              "key": "B",
+              "text": "HHS always has Kussmaul respirations; DKA never does"
+            },
+            {
+              "key": "C",
+              "text": "Only HHS needs insulin; DKA is treated with oral fluids alone"
+            },
+            {
+              "key": "D",
+              "text": "DKA occurs only after age 65; HHS occurs only in children"
+            }
+          ],
+          "answer": "A",
+          "rationale": "DKA = ketosis/acidosis, classically type 1. HHS = very high glucose, dehydration, little ketosis, classically type 2. Kussmaul is a DKA compensation. Both need fluids and usually insulin. Age patterns are opposite of option D.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-e-9",
+          "prompt": "Why should the nurse monitor potassium in a client receiving insulin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Insulin shifts potassium into cells and can cause hypokalemia"
+            },
+            {
+              "key": "B",
+              "text": "Insulin always raises serum potassium within minutes"
+            },
+            {
+              "key": "C",
+              "text": "Potassium is unaffected by insulin"
+            },
+            {
+              "key": "D",
+              "text": "Insulin binds potassium in the gut"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Insulin drives potassium intracellularly; untreated hypokalemia can cause dysrhythmias. Insulin does not raise serum K+ or bind it in the gut.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        },
+        {
+          "id": "klimek-e-10",
+          "prompt": "A client taking metformin is scheduled for a CT scan with iodinated contrast. What is the priority teaching?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Double the metformin dose the morning of the scan"
+            },
+            {
+              "key": "B",
+              "text": "Metformin is often held around contrast because of kidney injury and lactic acidosis risk"
+            },
+            {
+              "key": "C",
+              "text": "Metformin must be given IV during the scan"
+            },
+            {
+              "key": "D",
+              "text": "Contrast has no interaction with metformin"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Metformin is contraindicated with significant kidney disease and is typically stopped around iodinated contrast to reduce lactic acidosis risk. Do not double the dose or give it IV for a scan.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Pharmacology 2e, 9.4 Antidiabetics",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/pharmacology2e/chapter/9-4-antidiabetics/"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "f",
+      "title": "Psych Pharm & Hernias",
+      "questions": [
+        {
+          "id": "klimek-f-1",
+          "prompt": "A client starts a first-generation phenothiazine antipsychotic. Which teaching about onset is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mood will fully normalize in 30 minutes"
+            },
+            {
+              "key": "B",
+              "text": "It is a major tranquilizer; large doses treat psychosis, and effects build over days to weeks"
+            },
+            {
+              "key": "C",
+              "text": "It is only used as a one-time sleep aid and never long term"
+            },
+            {
+              "key": "D",
+              "text": "It has no neurologic side effects"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Phenothiazines (many end in -zine) are major tranquilizers used in larger doses for psychosis. They are not instant mood cures, not “no neuro effects” (think ABCDEFG: anticholinergic, blur, constipation, drowsiness, EPS, photosensitivity, agranulocytosis). They can be used longer than one night.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-2",
+          "prompt": "The therapeutic serum lithium level the nurse should expect is:",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.1–0.3 mEq/L"
+            },
+            {
+              "key": "B",
+              "text": "0.6–1.2 mEq/L"
+            },
+            {
+              "key": "C",
+              "text": "2.5–3.5 mEq/L"
+            },
+            {
+              "key": "D",
+              "text": "4.0–5.0 mEq/L"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Open RN lists the therapeutic lithium range as 0.6–1.2 mEq/L, drawn 10–12 hours after the last dose. Lower is subtherapeutic; 2.5+ is a medical emergency even if the client looks well.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Mental Health and Community Concepts 2e, 6.4 Mood Stabilizers — Lithium",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingmhcc/chapter/6-4-mood-stabilizers/"
+          }
+        },
+        {
+          "id": "klimek-f-3",
+          "prompt": "Which cluster is an early sign of lithium toxicity?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nausea, vomiting, diarrhea, thirst, polyuria, and fine tremor"
+            },
+            {
+              "key": "B",
+              "text": "Coarse tremor, ataxia, severe hypotension, and clonic movements only"
+            },
+            {
+              "key": "C",
+              "text": "Agranulocytosis and a sore throat only"
+            },
+            {
+              "key": "D",
+              "text": "Torsades de pointes from QT prolongation only"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Early toxicity (<1.5 mEq/L) includes GI upset, thirst, polyuria, slurred speech, weakness, and fine tremor. Coarse tremor, ataxia, and seizures are later/severe. Agranulocytosis is clozapine. QT risk is more ziprasidone/sotalol.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Mental Health and Community Concepts 2e, 6.4 Mood Stabilizers — Lithium",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingmhcc/chapter/6-4-mood-stabilizers/"
+          }
+        },
+        {
+          "id": "klimek-f-4",
+          "prompt": "Which instruction is appropriate for a client starting lithium?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Restrict fluids to 500 mL/day to keep the level high"
+            },
+            {
+              "key": "B",
+              "text": "Aim for about 1.5–3 L of water daily and avoid NSAIDs, which can raise lithium levels"
+            },
+            {
+              "key": "C",
+              "text": "Take NSAIDs daily to protect the kidneys"
+            },
+            {
+              "key": "D",
+              "text": "Skip blood tests after the first week"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Recommended intake is 1.5–3 L/day. NSAIDs can increase lithium levels. Dehydration and fluid restriction raise toxicity risk. Levels must be monitored regularly.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Mental Health and Community Concepts 2e, 6.4 Mood Stabilizers — Lithium",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingmhcc/chapter/6-4-mood-stabilizers/"
+          }
+        },
+        {
+          "id": "klimek-f-5",
+          "prompt": "A client on a MAOI should be taught to avoid which foods?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fresh apples and steamed broccoli"
+            },
+            {
+              "key": "B",
+              "text": "Aged cheese, smoked meats, and other high-tyramine foods"
+            },
+            {
+              "key": "C",
+              "text": "White rice and skinless chicken"
+            },
+            {
+              "key": "D",
+              "text": "All carbohydrates"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Tyramine plus a MAOI can cause hypertensive crisis. Fresh produce and plain chicken/rice are generally fine. Carbohydrates as a class are not banned.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-6",
+          "prompt": "Fluoxetine is ordered once daily. Which administration time is best and why?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At bedtime, because it is highly sedating for everyone"
+            },
+            {
+              "key": "B",
+              "text": "In the morning, because it can cause insomnia"
+            },
+            {
+              "key": "C",
+              "text": "Only with an MAOI to boost effect"
+            },
+            {
+              "key": "D",
+              "text": "Once weekly crushed into hot tea"
+            }
+          ],
+          "answer": "B",
+          "rationale": "SSRIs like fluoxetine often cause insomnia, so they are given before noon. Combining with a MAOI risks serotonin syndrome. It is not routinely a bedtime sedative.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-7",
+          "prompt": "Which teaching is correct for hiatal hernia symptom control?",
+          "options": [
+            {
+              "key": "A",
+              "text": "High-Fowler after meals, higher fluids, and higher carbohydrate meals to empty the stomach faster"
+            },
+            {
+              "key": "B",
+              "text": "Lie flat after meals and restrict all fluids"
+            },
+            {
+              "key": "C",
+              "text": "Increase protein and lie on the left side to slow emptying"
+            },
+            {
+              "key": "D",
+              "text": "Treat it the same as dumping syndrome"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Hiatal hernia: want faster emptying so the stomach is not full when lying (high HOB, high fluids, high carbs). Dumping syndrome is the opposite (low HOB, low fluids with meals, low carbs, high protein). Lying flat after meals worsens reflux/hernia symptoms.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-8",
+          "prompt": "A client after gastric surgery has diaphoresis, tachycardia, and abdominal cramping 20 minutes after meals. Which teaching is appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Drink a large glass of water with every bite"
+            },
+            {
+              "key": "B",
+              "text": "Lie down after meals, restrict fluids with food, and increase protein"
+            },
+            {
+              "key": "C",
+              "text": "Sit high-Fowler and eat extra simple sugars"
+            },
+            {
+              "key": "D",
+              "text": "Skip meals and take phenothiazines instead"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Dumping syndrome: slow emptying (lie down, low fluids with meals, low simple carbs, higher protein). Extra water and sweets worsen dumping. Antipsychotics are not the treatment.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-9",
+          "prompt": "Benzodiazepines used as minor tranquilizers should be taught as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Safe to stop suddenly after 6 months of daily use"
+            },
+            {
+              "key": "B",
+              "text": "Useful for short-term (about 2–4 weeks) because of dependence risk"
+            },
+            {
+              "key": "C",
+              "text": "The only lifelong treatment for schizophrenia"
+            },
+            {
+              "key": "D",
+              "text": "Free of sedation or withdrawal seizures"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Benzos work quickly but are intended short-term; long use brings dependence and withdrawal seizures if stopped abruptly. They are not antipsychotic maintenance for schizophrenia.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-f-10",
+          "prompt": "A client starts a tricyclic antidepressant. What should the nurse teach about timing of benefit?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Full effect in 15 minutes, like nitroglycerin"
+            },
+            {
+              "key": "B",
+              "text": "Mood lift may take 2–4 weeks; drowsiness and anticholinergic effects can start sooner"
+            },
+            {
+              "key": "C",
+              "text": "If there is no change in 48 hours, the drug has failed"
+            },
+            {
+              "key": "D",
+              "text": "Tricyclics have no cardiac risk in overdose"
+            }
+          ],
+          "answer": "B",
+          "rationale": "TCAs take weeks for antidepressant effect while side effects (dry mouth, drowsiness) appear earlier. They are dangerous in overdose (cardiac). Failure is not judged at 48 hours.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "g",
+      "title": "Endocrine",
+      "questions": [
+        {
+          "id": "klimek-g-1",
+          "prompt": "A client with Graves disease is most likely to show which cluster?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Weight gain, bradycardia, and cold intolerance"
+            },
+            {
+              "key": "B",
+              "text": "Weight loss, heat intolerance, and tachycardia"
+            },
+            {
+              "key": "C",
+              "text": "Bronze skin and craving salt"
+            },
+            {
+              "key": "D",
+              "text": "Moon face and buffalo hump"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Hyperthyroidism is a high-metabolism state. Hypothyroidism is the opposite. Bronze skin/salt craving is Addison. Moon face is Cushing.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-2",
+          "prompt": "Which findings suggest thyroid storm after thyroid surgery?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hypothermia, bradycardia, and coma only"
+            },
+            {
+              "key": "B",
+              "text": "Very high fever, extreme hypertension/tachycardia, and delirium"
+            },
+            {
+              "key": "C",
+              "text": "Trousseau sign and stridor from hypocalcemia only"
+            },
+            {
+              "key": "D",
+              "text": "Polyuria and dilute urine from ADH block"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Thyroid storm is an extreme hypermetabolic crisis (fever, high BP/HR, psychosis). Hypothermia is myxedema. Tetany/stridor is hypocalcemia after parathyroid removal. Polyuria from ADH block is lithium/DI, not thyroid storm.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-3",
+          "prompt": "After a total thyroidectomy, which assessment is the highest priority in the first 12 hours besides airway/hemorrhage?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chvostek or Trousseau signs from hypocalcemia"
+            },
+            {
+              "key": "B",
+              "text": "Moon face from sudden cortisol excess"
+            },
+            {
+              "key": "C",
+              "text": "Ketones in the urine"
+            },
+            {
+              "key": "D",
+              "text": "A positive Brudzinski sign"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Total thyroidectomy often takes parathyroids, so calcium can crash (tetany, laryngospasm). Cushingoid face, ketones, and meningeal signs are not the classic early total-thyroidectomy issues.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-4",
+          "prompt": "After a subtotal (partial) thyroidectomy, the nurse watches most closely for:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lifelong hypocalcemia as the first concern"
+            },
+            {
+              "key": "B",
+              "text": "Thyroid storm because remaining tissue can dump hormone"
+            },
+            {
+              "key": "C",
+              "text": "Addisonian crisis"
+            },
+            {
+              "key": "D",
+              "text": "Diabetes insipidus"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Partial thyroidectomy leaves tissue that can release hormone (storm risk). Total thyroidectomy is the bigger hypocalcemia risk. Addison and DI are other endocrine axes.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-5",
+          "prompt": "A client with myxedema is scheduled for surgery. Which order should the nurse question?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give the morning levothyroxine with a sip of water"
+            },
+            {
+              "key": "B",
+              "text": "Hold thyroid hormone because the client is NPO"
+            },
+            {
+              "key": "C",
+              "text": "Use a warming blanket for hypothermia"
+            },
+            {
+              "key": "D",
+              "text": "Monitor for respiratory depression with sedatives"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Never hold thyroid replacement in hypothyroidism; these clients already have a low metabolic rate and do poorly if sedated or under-replaced. Warming and caution with sedatives are appropriate.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-6",
+          "prompt": "Addison disease is best described as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Over-secretion of adrenal steroids"
+            },
+            {
+              "key": "B",
+              "text": "Under-secretion of adrenal steroids; risk of shock with stress"
+            },
+            {
+              "key": "C",
+              "text": "Excess ADH with water intoxication"
+            },
+            {
+              "key": "D",
+              "text": "Excess growth hormone in adulthood"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Addison is adrenal insufficiency (need steroids, high risk of crisis with stress). Cushing is over-secretion. SIADH is ADH excess. Acromegaly is GH excess.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-7",
+          "prompt": "A client with Addison disease has vomiting, fever, and hypotension after a viral illness. What is the priority?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hold steroids until cultures return"
+            },
+            {
+              "key": "B",
+              "text": "Treat Addisonian crisis: shock care and steroid replacement"
+            },
+            {
+              "key": "C",
+              "text": "Give a loop diuretic for fluid overload"
+            },
+            {
+              "key": "D",
+              "text": "Start radioactive iodine"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Stress plus vomiting can precipitate crisis; they need fluids/pressors as ordered and steroids, not a hold. They are volume-down, not overloaded. RAI is for hyperthyroid.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-8",
+          "prompt": "Which appearance is most consistent with Cushing syndrome?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Thin extremities, moon face, truncal obesity, and high glucose"
+            },
+            {
+              "key": "B",
+              "text": "Tan skin, weight loss, and craving salt"
+            },
+            {
+              "key": "C",
+              "text": "Exophthalmos and a goiter only"
+            },
+            {
+              "key": "D",
+              "text": "Tetany and a positive Trousseau sign"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Cushing = excess steroids (moon face, buffalo hump, truncal obesity, high glucose, immunosuppression, bruising). Tan/salt craving is Addison. Exophthalmos is Graves. Tetany is hypocalcemia.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-9",
+          "prompt": "After bilateral adrenalectomy for Cushing disease, the nurse should anticipate:",
+          "options": [
+            {
+              "key": "A",
+              "text": "No further hormone therapy will ever be needed"
+            },
+            {
+              "key": "B",
+              "text": "The client will require lifelong steroid replacement and is at Addison-crisis risk if doses are missed"
+            },
+            {
+              "key": "C",
+              "text": "Immediate radioactive iodine"
+            },
+            {
+              "key": "D",
+              "text": "A high-sodium restriction forever without steroids"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Removing both adrenals creates Addison disease; lifelong replacement is required. RAI is thyroid. Sodium handling depends on mineralocorticoid replacement, not “restriction without steroids.”",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-g-10",
+          "prompt": "A client is taking high-dose steroids. Which infection-control teaching is essential?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Steroids have no effect on immunity"
+            },
+            {
+              "key": "B",
+              "text": "Report fever early; steroids mask signs of infection and suppress immunity"
+            },
+            {
+              "key": "C",
+              "text": "Stop steroids the day a fever starts without calling the provider"
+            },
+            {
+              "key": "D",
+              "text": "Vaccines are never a concern on steroids"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Glucocorticoids raise infection risk and hide fever. Abrupt stops can cause crisis. Live vaccines may be restricted; the client should still discuss immunization plans with the provider.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "h",
+      "title": "Labs",
+      "questions": [
+        {
+          "id": "klimek-h-1",
+          "prompt": "A serum creatinine of 1.0 mg/dL in an adult is best interpreted as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "A deadly value requiring dialysis tonight"
+            },
+            {
+              "key": "B",
+              "text": "Typically a low-priority “A” level reflecting kidney function"
+            },
+            {
+              "key": "C",
+              "text": "Diagnostic of acute hyperkalemia"
+            },
+            {
+              "key": "D",
+              "text": "The same as a critical INR"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Creatinine ~0.6–1.2 mg/dL is the best indicator of kidney function and is usually not an emergency by itself. It does not equal potassium or INR urgency.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-2",
+          "prompt": "A client on warfarin has an INR of 4.8. What is the nurse’s priority?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give the next warfarin dose early"
+            },
+            {
+              "key": "B",
+              "text": "Hold warfarin, assess for bleeding, and notify the provider (often vitamin K)"
+            },
+            {
+              "key": "C",
+              "text": "Start heparin infusion to “balance” the INR"
+            },
+            {
+              "key": "D",
+              "text": "Ignore it; INR is only used for heparin"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Therapeutic INR on warfarin is often ~2–3; ≥4 is high risk for bleeding. Hold the drug and call. Heparin is monitored with aPTT, not by stacking it onto a high INR.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-3",
+          "prompt": "Which potassium result is a deadly emergency requiring a rapid response?",
+          "options": [
+            {
+              "key": "A",
+              "text": "K+ 3.8 mEq/L"
+            },
+            {
+              "key": "B",
+              "text": "K+ 4.5 mEq/L"
+            },
+            {
+              "key": "C",
+              "text": "K+ 6.2 mEq/L with ECG changes"
+            },
+            {
+              "key": "D",
+              "text": "K+ 3.6 mEq/L in a client eating bananas"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Potassium ≥6 mEq/L (especially with ECG changes) is a D-level emergency. Mid-normal values are not.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-4",
+          "prompt": "A client’s arterial pH is 6.92. What is the priority action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reassess in 4 hours; this is a mild change"
+            },
+            {
+              "key": "B",
+              "text": "Treat as a deadly emergency: assess vitals and call the provider/rapid response while addressing the cause"
+            },
+            {
+              "key": "C",
+              "text": "Give PO sodium bicarbonate and send the client to x-ray unattended"
+            },
+            {
+              "key": "D",
+              "text": "Document and continue the meal tray"
+            }
+          ],
+          "answer": "B",
+          "rationale": "pH in the 6s is immediately life-threatening. Do not delay or leave the client. Oral bicarb and an unattended trip are unsafe.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-5",
+          "prompt": "PaCO2 is 58 mm Hg in a client who is still breathing effectively. The best first nursing action is:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Prepare for immediate intubation as the only option"
+            },
+            {
+              "key": "B",
+              "text": "Assess respiratory status and purse-lip breathing/ventilation support while notifying the provider"
+            },
+            {
+              "key": "C",
+              "text": "Give a bolus of potassium"
+            },
+            {
+              "key": "D",
+              "text": "Start a fluid restriction"
+            }
+          ],
+          "answer": "B",
+          "rationale": "CO2 in the 50s is critical but often managed with assessment and ventilation coaching (e.g., pursed-lip) plus provider notification. The 60s with failing ventilation is closer to respiratory failure/intubation. K+ bolus and fluid restriction do not fix CO2.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-6",
+          "prompt": "Which oxygenation value is most consistent with respiratory failure needing aggressive intervention?",
+          "options": [
+            {
+              "key": "A",
+              "text": "PaO2 92 mm Hg, SpO2 97%"
+            },
+            {
+              "key": "B",
+              "text": "PaO2 78 mm Hg, client speaking in sentences"
+            },
+            {
+              "key": "C",
+              "text": "PaO2 58 mm Hg with dyspnea and falling SpO2"
+            },
+            {
+              "key": "D",
+              "text": "SpO2 94% in a client with chronic COPD at their baseline"
+            }
+          ],
+          "answer": "C",
+          "rationale": "PaO2 normally 80–100 mm Hg; the 60s with distress is a deadly hypoxia picture. Mid-70s needs assessment and oxygen but may not equal arrest. COPD baselines can be 88–92% SpO2.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Skills 2e, 11.2 Basic Concepts of Oxygenation",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/nursingskills/chapter/11-2-basic-concepts-of-oxygenation/"
+          }
+        },
+        {
+          "id": "klimek-h-7",
+          "prompt": "A platelet count of 28,000/mm3 means the nurse should:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Encourage IM injections and rectal temperatures"
+            },
+            {
+              "key": "B",
+              "text": "Implement bleeding precautions and notify the provider; this is a high-risk (often “D”) value"
+            },
+            {
+              "key": "C",
+              "text": "Start heparin to prevent clots"
+            },
+            {
+              "key": "D",
+              "text": "Treat it as a normal count"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Platelets <40,000 (and often <90,000 as critical) mean bleeding risk. Avoid IM/rectal trauma. Heparin would worsen bleeding. 28k is not normal.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-8",
+          "prompt": "An absolute neutrophil count (ANC) of 400/mm3 requires which priority?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Place the client on neutropenic precautions"
+            },
+            {
+              "key": "B",
+              "text": "Give a live-virus vaccine today"
+            },
+            {
+              "key": "C",
+              "text": "Send the client to a crowded waiting room"
+            },
+            {
+              "key": "D",
+              "text": "Stop all hand hygiene because gloves are enough"
+            }
+          ],
+          "answer": "A",
+          "rationale": "ANC <500 is severe neutropenia: protect from infection. Live vaccines and crowds are dangerous. Hand hygiene remains essential.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-9",
+          "prompt": "Sodium is 150 mEq/L and the client’s only new finding is thirst. How urgent is this compared with sodium 128 mEq/L plus a sudden change in LOC?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The isolated high sodium is more urgent than a low sodium with LOC change"
+            },
+            {
+              "key": "B",
+              "text": "Abnormal sodium plus a change in consciousness is the higher priority"
+            },
+            {
+              "key": "C",
+              "text": "Both are equally non-urgent"
+            },
+            {
+              "key": "D",
+              "text": "Sodium disorders never affect the brain"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Sodium abnormalities become an emergency when LOC changes (safety/seizure risk). Isolated abnormal Na with only thirst is still important but lower than a neuro change. Sodium strongly affects the brain.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-h-10",
+          "prompt": "An elevated BNP is most useful as a marker for which condition?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Acute myocardial infarction exclusively"
+            },
+            {
+              "key": "B",
+              "text": "Heart failure (ventricular stretch)"
+            },
+            {
+              "key": "C",
+              "text": "Hepatitis A"
+            },
+            {
+              "key": "D",
+              "text": "Hypothyroidism"
+            }
+          ],
+          "answer": "B",
+          "rationale": "BNP rises with ventricular stretch/heart failure. It is not the MI gold standard (troponin), not a hepatitis test, and not a TSH substitute. It is often a lower-urgency lab than the five deadly values (pH, K, CO2, O2, platelets).",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "i",
+      "title": "Psych Drugs",
+      "questions": [
+        {
+          "id": "klimek-i-1",
+          "prompt": "A client on haloperidol develops high fever, lead-pipe rigidity, and autonomic instability. What is the nurse’s interpretation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Expected extrapyramidal side effects; give a PRN snack"
+            },
+            {
+              "key": "B",
+              "text": "Neuroleptic malignant syndrome — a medical emergency"
+            },
+            {
+              "key": "C",
+              "text": "Serotonin syndrome from too little dopamine"
+            },
+            {
+              "key": "D",
+              "text": "Agranulocytosis, which always presents with muscle rigidity"
+            }
+          ],
+          "answer": "B",
+          "rationale": "NMS is fever + severe rigidity + unstable vitals after antipsychotics. EPS is tremor/dystonia/akathisia without that malignant picture. Serotonin syndrome is more hyperreflexia/clonus with serotonergic drugs. Agranulocytosis is infection from low WBCs, not rigidity.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-2",
+          "prompt": "Why is a high fever in an older adult on haloperidol especially concerning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Older adults cannot get NMS"
+            },
+            {
+              "key": "B",
+              "text": "They are at higher NMS risk; fever and rigidity need immediate evaluation"
+            },
+            {
+              "key": "C",
+              "text": "Fever always means the dose should be doubled"
+            },
+            {
+              "key": "D",
+              "text": "Haloperidol treats fever"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Elderly clients are more sensitive to typical antipsychotics and NMS. Do not increase the dose for fever. Haldol is not an antipyretic.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-3",
+          "prompt": "Clozapine requires which laboratory monitoring because of a life-threatening adverse effect?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Weekly (then periodic) WBC/ANC for agranulocytosis"
+            },
+            {
+              "key": "B",
+              "text": "Daily amylase only"
+            },
+            {
+              "key": "C",
+              "text": "Serum lithium levels"
+            },
+            {
+              "key": "D",
+              "text": "Fasting lipid panel every shift"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Clozapine can cause agranulocytosis; WBC/ANC monitoring is mandatory. Lithium levels are for lithium. Lipids matter with some atypicals but not every shift. Amylase is not the clozapine hallmark.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-4",
+          "prompt": "A client on sertraline starts St. John’s wort. What is the main risk?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Severe hypotension from MAOI crisis only"
+            },
+            {
+              "key": "B",
+              "text": "Serotonin syndrome from excess serotonergic activity"
+            },
+            {
+              "key": "C",
+              "text": "Complete loss of any antidepressant effect in 10 minutes"
+            },
+            {
+              "key": "D",
+              "text": "Immediate agranulocytosis"
+            }
+          ],
+          "answer": "B",
+          "rationale": "SSRIs plus St. John’s wort (or other serotonergic agents) raise serotonin syndrome risk. MAOI/tyramine is a different crisis. Agranulocytosis is clozapine. Effect loss is not instantaneous from one herb dose in that way.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-5",
+          "prompt": "Ziprasidone (Geodon) teaching should include which cardiac caution?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It has no ECG effects"
+            },
+            {
+              "key": "B",
+              "text": "It can prolong QT and increase arrhythmia risk"
+            },
+            {
+              "key": "C",
+              "text": "It is the drug of choice in congenital long-QT syndrome"
+            },
+            {
+              "key": "D",
+              "text": "It must be combined with sotalol to protect the QT"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Ziprasidone prolongs QT. Do not pair QT-prolonging drugs casually. It is not indicated to treat long-QT syndrome.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-6",
+          "prompt": "Which cluster suggests serotonin syndrome rather than NMS?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lead-pipe rigidity, very high fever, bradyreflexia after a typical antipsychotic"
+            },
+            {
+              "key": "B",
+              "text": "Hyperreflexia, clonus, diarrhea, and agitation after an SSRI/MAOI combination"
+            },
+            {
+              "key": "C",
+              "text": "Isolated dry mouth from anticholinergic effect"
+            },
+            {
+              "key": "D",
+              "text": "A sore throat and ANC of 400 on clozapine"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Serotonin syndrome: clonus/hyperreflexia, GI upset, agitation, often after serotonergic combos. NMS is rigid and bradyreflexic. Dry mouth is anticholinergic. Low ANC is agranulocytosis.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-7",
+          "prompt": "A client stopped a MAOI yesterday and is due for an SSRI today. What should the nurse do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Give both; they cancel each other’s side effects"
+            },
+            {
+              "key": "B",
+              "text": "Hold the SSRI and clarify the washout period with the provider"
+            },
+            {
+              "key": "C",
+              "text": "Crush the SSRI into the MAOI dose"
+            },
+            {
+              "key": "D",
+              "text": "Give a tyramine snack to test safety"
+            }
+          ],
+          "answer": "B",
+          "rationale": "MAOIs and SSRIs need a washout to avoid serotonin syndrome. They do not cancel. Tyramine testing is dangerous.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-8",
+          "prompt": "EPS (dystonia, Parkinsonism, akathisia) from a typical antipsychotic is usually treated with:",
+          "options": [
+            {
+              "key": "A",
+              "text": "A bolus of insulin"
+            },
+            {
+              "key": "B",
+              "text": "An anticholinergic such as benztropine"
+            },
+            {
+              "key": "C",
+              "text": "A second typical antipsychotic"
+            },
+            {
+              "key": "D",
+              "text": "Immediate dialysis"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Anticholinergics (benztropine, diphenhydramine) treat EPS. Adding another typical or using insulin/dialysis is not EPS care.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-9",
+          "prompt": "A client on clozapine reports a sore throat and fever. Priority action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reassure that this is expected dry mouth"
+            },
+            {
+              "key": "B",
+              "text": "Hold the drug, obtain WBC/ANC, and notify the provider"
+            },
+            {
+              "key": "C",
+              "text": "Give ibuprofen and the next clozapine dose"
+            },
+            {
+              "key": "D",
+              "text": "Start St. John’s wort"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Fever and sore throat on clozapine may signal agranulocytosis. Hold, labs, provider. Do not keep dosing or add an herb.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-i-10",
+          "prompt": "Which statement about “-zine” typical antipsychotics versus “-zapine” atypicals is most accurate for safety monitoring?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Typicals: watch EPS/NMS; clozapine-class atypicals: watch WBC"
+            },
+            {
+              "key": "B",
+              "text": "Neither class needs any lab or neuro checks"
+            },
+            {
+              "key": "C",
+              "text": "Only atypicals can cause EPS; typicals never do"
+            },
+            {
+              "key": "D",
+              "text": "NMS occurs only with SSRIs"
+            }
+          ],
+          "answer": "A",
+          "rationale": "First-generation (“zines,” haloperidol) are famous for EPS/NMS. Clozapine is famous for agranulocytosis. Typicals cause more EPS, not less. NMS is an antipsychotic emergency, not an SSRI one.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "j",
+      "title": "Maternity & OB",
+      "questions": [
+        {
+          "id": "klimek-j-1",
+          "prompt": "A client’s last menstrual period began April 10. Using Naegele’s rule, which estimated due date is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "January 3 of the next year"
+            },
+            {
+              "key": "B",
+              "text": "January 17 of the next year"
+            },
+            {
+              "key": "C",
+              "text": "July 10 of the same year"
+            },
+            {
+              "key": "D",
+              "text": "November 10 of the same year"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Naegele: add 7 days and subtract 3 months (or add 9 months + 7 days). April 10 + 7 days = April 17, minus 3 months = January 17. January 3 is 7 days short. July and November are wrong month math.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-2",
+          "prompt": "Total recommended weight gain for a client with a normal pre-pregnancy BMI is about:",
+          "options": [
+            {
+              "key": "A",
+              "text": "10 lb total"
+            },
+            {
+              "key": "B",
+              "text": "28 lb (about 25–35 lb), with roughly 1 lb/week in the second and third trimesters after ~3 lb in the first"
+            },
+            {
+              "key": "C",
+              "text": "60 lb in the first trimester alone"
+            },
+            {
+              "key": "D",
+              "text": "No weight gain is advised"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Average gain is about 28 ± 3 lb (25–35 lb for normal BMI). 10 lb is too little; 60 lb in trimester one is excessive. Some gain is expected.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-3",
+          "prompt": "At 24 weeks, the fundus is most likely:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Non-palpable"
+            },
+            {
+              "key": "B",
+              "text": "At the umbilicus (about 20–22 weeks) plus a few centimeters corresponding to weeks"
+            },
+            {
+              "key": "C",
+              "text": "At the xiphoid, as at term"
+            },
+            {
+              "key": "D",
+              "text": "In the pelvis only, as at 8 weeks"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Fundus is at the umbilicus around 20–22 weeks; after that, centimeters ≈ weeks (24 cm at 24 weeks). It is not still pelvic or already at the xiphoid.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-4",
+          "prompt": "Which is a positive (diagnostic) sign of pregnancy?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Amenorrhea"
+            },
+            {
+              "key": "B",
+              "text": "Fetal heart activity on ultrasound"
+            },
+            {
+              "key": "C",
+              "text": "Nausea"
+            },
+            {
+              "key": "D",
+              "text": "Urinary frequency"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Positive signs are fetal heart tones, visualization of the fetus, and examiner-felt fetal movement. Amenorrhea, nausea, and frequency are presumptive.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-5",
+          "prompt": "The first stage of labor is best defined as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Delivery of the placenta"
+            },
+            {
+              "key": "B",
+              "text": "Onset of regular contractions to full cervical dilation"
+            },
+            {
+              "key": "C",
+              "text": "The hour after the baby is born"
+            },
+            {
+              "key": "D",
+              "text": "Pushing only, regardless of dilation"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Stage 1: labor onset to 10 cm. Stage 2: delivery of the baby. Stage 3: placenta. Stage 4: recovery (about 2 hours). Pushing is stage 2.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-6",
+          "prompt": "Late decelerations on the fetal monitor most likely indicate:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Head compression that is usually benign"
+            },
+            {
+              "key": "B",
+              "text": "Uteroplacental insufficiency — a nonreassuring pattern needing intervention"
+            },
+            {
+              "key": "C",
+              "text": "Cord compression that always resolves with amnioinfusion only"
+            },
+            {
+              "key": "D",
+              "text": "A healthy acceleration"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Late decels follow the peak of the contraction and signal placental insufficiency (VEAL CHOP: L = late = placenta). Early = head. Variable = cord. Accelerations are reassuring.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 10.5 Fetal Heart Rate Monitoring",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/10-5-fetal-heart-rate-monitoring/"
+          }
+        },
+        {
+          "id": "klimek-j-7",
+          "prompt": "The nurse notes abrupt, variable-shaped decelerations. What is the usual cause and a first action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Head compression; no action needed ever"
+            },
+            {
+              "key": "B",
+              "text": "Cord compression; reposition the client (often side-lying)"
+            },
+            {
+              "key": "C",
+              "text": "Maternal fever; start antibiotics immediately without assessment"
+            },
+            {
+              "key": "D",
+              "text": "Fetal sleep cycle; turn off the monitor"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Variables = cord compression; move the mother. Early decels from head compression can be expected in late labor. Fever is a different problem. Never just turn off the monitor.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 10.5 Fetal Heart Rate Monitoring",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/10-5-fetal-heart-rate-monitoring/"
+          }
+        },
+        {
+          "id": "klimek-j-8",
+          "prompt": "Early decelerations that mirror contractions in a client who is 9 cm dilated are usually:",
+          "options": [
+            {
+              "key": "A",
+              "text": "A sign to prepare for crash cesarean for placental abruption"
+            },
+            {
+              "key": "B",
+              "text": "Expected from fetal head compression"
+            },
+            {
+              "key": "C",
+              "text": "Proof of uteroplacental failure"
+            },
+            {
+              "key": "D",
+              "text": "The same as a prolonged deceleration to 60 bpm for 8 minutes"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Early decels are typically benign head compression in active/transition labor. They are not abruption or late-decel pathology. A long, deep deceleration is a different emergency.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 10.5 Fetal Heart Rate Monitoring",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/10-5-fetal-heart-rate-monitoring/"
+          }
+        },
+        {
+          "id": "klimek-j-9",
+          "prompt": "Fetal heart rate is 90 bpm and not recovering. After calling for help, which cluster is the priority (LION-style intrauterine resuscitation)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Leave the client supine, stop oxygen, and increase oxytocin"
+            },
+            {
+              "key": "B",
+              "text": "Left side, stop oxytocin if infusing, IV bolus as ordered, oxygen, notify the provider"
+            },
+            {
+              "key": "C",
+              "text": "Ambulate in the hall to “wake the baby”"
+            },
+            {
+              "key": "D",
+              "text": "Give terbutaline and send the client home"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Low FHR: side-lying, IV, oxygen, stop Pitocin, notify. Supine position and more oxytocin worsen perfusion. Walking and discharge are unsafe.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-j-10",
+          "prompt": "Fetal station 0 means the presenting part is:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Floating above the pelvic inlet"
+            },
+            {
+              "key": "B",
+              "text": "At the ischial spines (engaged)"
+            },
+            {
+              "key": "C",
+              "text": "Visible on the perineum (crowning)"
+            },
+            {
+              "key": "D",
+              "text": "In the fundus"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Station 0 is engagement at the ischial spines. Negative station is above (floating). Positive station is below, toward crowning. The fundus is the top of the uterus, not station.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "k",
+      "title": "OB 2",
+      "questions": [
+        {
+          "id": "klimek-k-1",
+          "prompt": "Preterm labor is defined as regular contractions with cervical change between:",
+          "options": [
+            {
+              "key": "A",
+              "text": "12 and 16 weeks"
+            },
+            {
+              "key": "B",
+              "text": "20 and 37 weeks"
+            },
+            {
+              "key": "C",
+              "text": "38 and 42 weeks"
+            },
+            {
+              "key": "D",
+              "text": "After 42 weeks only"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Preterm labor is 20–37 weeks. Before 20 weeks is a different loss category. 38–42 is term. After 42 is post-term.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-2",
+          "prompt": "Why are tocolytics given in preterm labor?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To strengthen contractions for immediate delivery"
+            },
+            {
+              "key": "B",
+              "text": "To reduce contractions long enough to give antenatal corticosteroids for fetal lung maturity"
+            },
+            {
+              "key": "C",
+              "text": "To permanently stop all future labors"
+            },
+            {
+              "key": "D",
+              "text": "To treat neonatal hypoglycemia after birth"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Tocolysis buys time (often ~48 hours) for betamethasone/dexamethasone. Oxytocics strengthen labor. Tocolytics are not lifelong and do not treat newborn glucose.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-3",
+          "prompt": "Terbutaline is infusing for preterm labor. Which finding is a reason to hold the dose and notify the provider?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Maternal heart rate 128/min"
+            },
+            {
+              "key": "B",
+              "text": "Mild flushing after nifedipine yesterday"
+            },
+            {
+              "key": "C",
+              "text": "Fetal heart rate 140/min"
+            },
+            {
+              "key": "D",
+              "text": "Contractions decreasing from every 3 minutes to every 8 minutes"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Terbutaline is a beta agonist; maternal tachycardia >120 is a contraindication/hold. A FHR of 140 is normal. Fewer contractions mean the drug may be working. Flushing is more a nifedipine vasodilator effect.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-4",
+          "prompt": "A client on magnesium sulfate for preterm labor has absent patellar reflexes and respirations of 10/min. What should the nurse do first?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Increase the magnesium rate to stop remaining contractions"
+            },
+            {
+              "key": "B",
+              "text": "Stop the infusion, support respirations, and prepare calcium gluconate as the antidote per protocol"
+            },
+            {
+              "key": "C",
+              "text": "Give another bolus of magnesium"
+            },
+            {
+              "key": "D",
+              "text": "Discharge home with oral magnesium"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Loss of DTRs and respiratory depression are toxicity. Stop mag, airway support, calcium gluconate. More mag worsens toxicity.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-5",
+          "prompt": "Why is indomethacin generally avoided as a tocolytic after 32 weeks?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It causes maternal tachycardia like terbutaline"
+            },
+            {
+              "key": "B",
+              "text": "It risks premature closure of the fetal ductus arteriosus"
+            },
+            {
+              "key": "C",
+              "text": "It is an oxytocin analog"
+            },
+            {
+              "key": "D",
+              "text": "It is the drug of choice after 34 weeks"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Indomethacin (NSAID) can close the ductus, so it is used <32 weeks and only briefly. After 34 weeks, tocolysis is usually not justified. It is not an oxytocic.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-6",
+          "prompt": "Betamethasone is ordered at 29 weeks with likely delivery this week. The nurse explains the purpose is to:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stop contractions permanently"
+            },
+            {
+              "key": "B",
+              "text": "Speed fetal lung maturity by promoting surfactant-related changes"
+            },
+            {
+              "key": "C",
+              "text": "Treat maternal preeclampsia as a first-line antihypertensive"
+            },
+            {
+              "key": "D",
+              "text": "Replace neonatal vitamin K at birth"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Antenatal corticosteroids (22 weeks to 33+6 if delivery is likely within 7 days) mature fetal lungs. They are not tocolytics, antihypertensives, or vitamin K.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Nursing Health Promotion, 19.10 Preterm Labor",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthpromo/chapter/19-10-preterm-labor/"
+          }
+        },
+        {
+          "id": "klimek-k-7",
+          "prompt": "Which medication is an oxytocic used to stimulate labor, not a tocolytic?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nifedipine"
+            },
+            {
+              "key": "B",
+              "text": "Terbutaline"
+            },
+            {
+              "key": "C",
+              "text": "Oxytocin (Pitocin)"
+            },
+            {
+              "key": "D",
+              "text": "Indomethacin"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Oxytocin/methergine-class drugs stimulate uterine contraction. Nifedipine, terbutaline, and indomethacin are tocolytics.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-k-8",
+          "prompt": "Methylergonovine is ordered for postpartum hemorrhage. The nurse should withhold it for which finding?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Blood pressure 168/110 mm Hg"
+            },
+            {
+              "key": "B",
+              "text": "A boggy fundus that firms with massage"
+            },
+            {
+              "key": "C",
+              "text": "Lochia rubra on day 1"
+            },
+            {
+              "key": "D",
+              "text": "Breastfeeding interest"
+            }
+          ],
+          "answer": "A",
+          "rationale": "Methergine constricts vessels and is contraindicated in hypertension. A boggy fundus is a reason to treat PPH (after massage). Rubra on day 1 and breastfeeding are expected.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-k-9",
+          "prompt": "A 36-hour-old newborn has jaundice and a bilirubin of 18 mg/dL. This is concerning because:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Jaundice in the first days of life is always physiologic and ignored"
+            },
+            {
+              "key": "B",
+              "text": "High bilirubin, especially early, can be pathologic and risk kernicterus"
+            },
+            {
+              "key": "C",
+              "text": "Bilirubin of 18 is below any treatment threshold"
+            },
+            {
+              "key": "D",
+              "text": "Only cephalhematoma prevents jaundice"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Pathologic jaundice is earlier/higher and can injure the brain (kernicterus). Physiologic jaundice is later and milder. Cephalhematoma can worsen jaundice; it does not prevent it.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-k-10",
+          "prompt": "Two hours after a vaginal birth, the fundus is boggy and displaced to the right. What should the nurse do first?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Call for an operating room for hysterectomy"
+            },
+            {
+              "key": "B",
+              "text": "Assist the client to void, then reassess and massage the fundus if still boggy"
+            },
+            {
+              "key": "C",
+              "text": "Give terbutaline to relax the uterus"
+            },
+            {
+              "key": "D",
+              "text": "Start magnesium sulfate"
+            }
+          ],
+          "answer": "B",
+          "rationale": "A full bladder displaces the uterus and causes atony. Empty the bladder, then massage and oxytocics as ordered. Tocolytics/mag would worsen bleeding. Surgery is not first-line.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    },
+    {
+      "lectureId": "l",
+      "title": "Prioritization & Delegation",
+      "questions": [
+        {
+          "id": "klimek-l-1",
+          "prompt": "Which client should the nurse see first?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chronic emphysema with usual 2 L oxygen and SpO2 91%"
+            },
+            {
+              "key": "B",
+              "text": "A client 4 hours after abdominal surgery with new restlessness and a falling blood pressure"
+            },
+            {
+              "key": "C",
+              "text": "A client with a 2-year history of heart failure awaiting a scheduled oral diuretic"
+            },
+            {
+              "key": "D",
+              "text": "A client ready for discharge teaching after an uncomplicated appendectomy 3 days ago"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Fresh postoperative (especially <12 hours) plus unexpected instability beats chronic expected findings and discharge teaching. Acute and unstable outrank chronic and stable.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-l-2",
+          "prompt": "Among these, who is the most unstable?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Expected colostomy output in a 2-day post-op client"
+            },
+            {
+              "key": "B",
+              "text": "A client with COPD whose ABG matches their chronic compensated baseline"
+            },
+            {
+              "key": "C",
+              "text": "New-onset chest pain in a client admitted for observation"
+            },
+            {
+              "key": "D",
+              "text": "A client with diabetes whose glucose is 140 mg/dL before lunch"
+            }
+          ],
+          "answer": "C",
+          "rationale": "Unexpected acute chest pain is unstable. Expected ostomy drainage, chronic compensated COPD, and a modest pre-lunch glucose are more stable.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-l-3",
+          "prompt": "Which order of priority rules is the best NCLEX approach?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Age first, then diagnosis name, then whoever complains loudest"
+            },
+            {
+              "key": "B",
+              "text": "Unstable over stable, acute over chronic, unexpected over expected; tie-break with organ vitality (brain, lung, heart, kidney)"
+            },
+            {
+              "key": "C",
+              "text": "Always see the client with the most equipment first"
+            },
+            {
+              "key": "D",
+              "text": "Always see the youngest client first"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Prioritize unstable/acute/unexpected. Vital organs help break ties. Age, noise, and gadget count are not the primary rules.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        },
+        {
+          "id": "klimek-l-4",
+          "prompt": "Which is one of the five rights of delegation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Right task, circumstance, person, directions/communication, and supervision/evaluation"
+            },
+            {
+              "key": "B",
+              "text": "Right diagnosis, right room, and right visiting hours"
+            },
+            {
+              "key": "C",
+              "text": "Right overtime and right shift length only"
+            },
+            {
+              "key": "D",
+              "text": "Right to refuse all documentation"
+            }
+          ],
+          "answer": "A",
+          "rationale": "NCSBN/ANA five rights: task, circumstance, person, communication, supervision. The other lists are not the delegation framework.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-5",
+          "prompt": "Which task cannot be delegated to an LPN/VN?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Administering oral antibiotics to a stable client per policy"
+            },
+            {
+              "key": "B",
+              "text": "Collecting routine data such as a pulse on a stable client"
+            },
+            {
+              "key": "C",
+              "text": "Performing the admission assessment and creating the nursing care plan independently"
+            },
+            {
+              "key": "D",
+              "text": "Reinforcing teaching the RN has already planned"
+            }
+          ],
+          "answer": "C",
+          "rationale": "LPNs cannot independently do admission/initial postoperative assessments, analyze data into diagnoses, or create/evaluate the care plan. They can collect data, give many meds (not high-risk/titrated), and reinforce RN-planned teaching.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-6",
+          "prompt": "Which task is appropriate to assign to UAP?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nursing assessment of a reddened sacral area to stage a pressure injury"
+            },
+            {
+              "key": "B",
+              "text": "Assisting a stable client with a bed bath and reporting skin concerns to the nurse"
+            },
+            {
+              "key": "C",
+              "text": "Discharge teaching about new warfarin"
+            },
+            {
+              "key": "D",
+              "text": "Titrating a heparin infusion"
+            }
+          ],
+          "answer": "B",
+          "rationale": "UAP can do ADLs for stable clients and report concerns. They cannot perform nursing assessments, client education, or titrate high-risk drips. The RN still assesses the skin.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-7",
+          "prompt": "Vital signs may be delegated to assistive personnel when:",
+          "options": [
+            {
+              "key": "A",
+              "text": "The client is unstable in shock"
+            },
+            {
+              "key": "B",
+              "text": "The client is stable and the task is routine"
+            },
+            {
+              "key": "C",
+              "text": "The UAP wants to practice clinical judgment on an ICU admission"
+            },
+            {
+              "key": "D",
+              "text": "The RN is off the unit and unreachable for the shift"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Right circumstance: delegate VS on stable clients. Unstable clients need the licensed nurse. The RN must remain available to supervise. UAP cannot take on clinical judgment.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-8",
+          "prompt": "After delegating a task, who remains accountable for the client’s overall outcome?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Only the UAP who accepted the task"
+            },
+            {
+              "key": "B",
+              "text": "The licensed nurse who delegated, while the delegatee is responsible for doing the task correctly"
+            },
+            {
+              "key": "C",
+              "text": "The hospital CEO only"
+            },
+            {
+              "key": "D",
+              "text": "Nobody, once the words “I delegate” are spoken"
+            }
+          ],
+          "answer": "B",
+          "rationale": "The licensed nurse keeps accountability for the client; the delegatee is responsible for the specific activity. Accountability does not vanish.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-9",
+          "prompt": "An LPN says an assigned stable client now has new stridor. What should the RN do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tell the LPN to keep the original plan without reassessment"
+            },
+            {
+              "key": "B",
+              "text": "Reassess personally; a changing condition means delegation may no longer be appropriate"
+            },
+            {
+              "key": "C",
+              "text": "Ask UAP to decide if intubation is needed"
+            },
+            {
+              "key": "D",
+              "text": "Ignore stridor because the client was stable at 0700"
+            }
+          ],
+          "answer": "B",
+          "rationale": "If the client’s condition changes, the delegatee must report and the RN must reassess and possibly take the task back. UAP cannot make airway decisions. Old stability does not override new stridor.",
+          "source": {
+            "kind": "open-rn",
+            "work": "Open RN Health Alterations, 1.8 Delegation and Supervision",
+            "license": "CC BY 4.0",
+            "url": "https://wtcs.pressbooks.pub/healthalts/chapter/1-8-delegation-and-supervision/"
+          }
+        },
+        {
+          "id": "klimek-l-10",
+          "prompt": "A staff member is about to give a medication by the wrong route. What is the charge nurse’s first action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Write a long email after the shift"
+            },
+            {
+              "key": "B",
+              "text": "Intervene immediately to stop harm, then deal with education/discipline"
+            },
+            {
+              "key": "C",
+              "text": "Ask the UAP if the route “seems fine”"
+            },
+            {
+              "key": "D",
+              "text": "Ignore it if the staff member is senior"
+            }
+          ],
+          "answer": "B",
+          "rationale": "Illegal or immediately harmful acts are stopped first. Inappropriate (not illegal/unsafe) behavior can be approached later. Seniority does not allow a wrong route. UAP do not validate medication routes.",
+          "source": {
+            "kind": "original",
+            "work": "Original NCLEX-style item for this lecture"
+          }
+        }
+      ]
+    }
+  ]
+}

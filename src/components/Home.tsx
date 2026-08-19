@@ -10,19 +10,31 @@ import {
   progressRatio,
 } from '../lib/klimek'
 import { useKlimekPlayer } from '../lib/KlimekPlayer'
+import { allQuizQuestions, getQuizScores, type KlimekQuizBank, type NclexQuizConfig } from '../lib/klimek-quiz'
 import { getHistory, getRetryIds } from '../lib/storage'
 import type { ExamConfig, QuestionBank, SwipeConfig } from '../lib/types'
 
 interface HomeProps {
   bank: QuestionBank
   swipeCount: number
+  quizBank: KlimekQuizBank | null
   onStart: (config: ExamConfig) => void
   onStartSwipe: (config: SwipeConfig) => void
+  onStartNclex: (config: NclexQuizConfig) => void
   onOpenLectures: () => void
   onOpenPdfs: () => void
 }
 
-export function Home({ bank, swipeCount, onStart, onStartSwipe, onOpenLectures, onOpenPdfs }: HomeProps) {
+export function Home({
+  bank,
+  swipeCount,
+  quizBank,
+  onStart,
+  onStartSwipe,
+  onStartNclex,
+  onOpenLectures,
+  onOpenPdfs,
+}: HomeProps) {
   const player = useKlimekPlayer()
   const klimekProgress = getAllProgress()
   const klimekStats = listenedSummary(klimekProgress)
@@ -35,6 +47,8 @@ export function Home({ bank, swipeCount, onStart, onStartSwipe, onOpenLectures, 
   const [count, setCount] = useState(20)
   const [swipeSize, setSwipeSize] = useState(40)
   const [timed, setTimed] = useState(true)
+  const [nclexTopic, setNclexTopic] = useState('all')
+  const [nclexCount, setNclexCount] = useState(10)
   const retryCount = getRetryIds().length
   const history = useMemo(() => getHistory().slice(0, 5), [])
 
@@ -42,6 +56,14 @@ export function Home({ bank, swipeCount, onStart, onStartSwipe, onOpenLectures, 
     if (practicePaper === 'all') return bank.questions.filter((q) => q.answer).length
     return bank.questions.filter((q) => q.paper === practicePaper && q.answer).length
   }, [bank, practicePaper])
+
+  const nclexTotal = useMemo(() => {
+    if (!quizBank) return 0
+    if (nclexTopic === 'all') return allQuizQuestions(quizBank).length
+    return quizBank.quizzes.find((q) => q.lectureId === nclexTopic)?.questions.length ?? 0
+  }, [quizBank, nclexTopic])
+  const nclexScores = getQuizScores()
+  const scoredLectures = LECTURES.filter((l) => nclexScores[l.id]).length
 
   return (
     <div className="stack rise">
@@ -188,6 +210,77 @@ export function Home({ bank, swipeCount, onStart, onStartSwipe, onOpenLectures, 
             }
           >
             Start practice
+          </button>
+        </div>
+      </section>
+
+      <section className="panel stack">
+        <div>
+          <h2 className="brand" style={{ fontSize: '1.45rem', margin: '0 0 0.25rem' }}>NCLEX quiz</h2>
+          <p className="muted" style={{ margin: 0 }}>
+            {quizBank
+              ? `Teach-mode items with rationales. ${allQuizQuestions(quizBank).length} questions across ${quizBank.quizzes.length} Klimek topics${
+                  scoredLectures > 0
+                    ? ` · ${scoredLectures} topic${scoredLectures === 1 ? '' : 's'} scored in this browser`
+                    : ''
+                }.`
+              : 'NCLEX lecture quizzes are still loading.'}
+          </p>
+        </div>
+        <div className="row">
+          <div className="field">
+            <label htmlFor="nclex-topic">Topic</label>
+            <select
+              id="nclex-topic"
+              value={nclexTopic}
+              onChange={(e) => setNclexTopic(e.target.value)}
+              disabled={!quizBank}
+            >
+              <option value="all">All topics</option>
+              {LECTURES.map((lecture) => (
+                <option key={lecture.id} value={lecture.id}>
+                  {lecture.letter}. {lecture.title}
+                  {nclexScores[lecture.id]
+                    ? ` (${nclexScores[lecture.id].score}/${nclexScores[lecture.id].total})`
+                    : ''}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="field">
+            <label htmlFor="nclex-count">Questions</label>
+            <select
+              id="nclex-count"
+              value={Math.min(nclexCount, nclexTotal || 1)}
+              onChange={(e) => setNclexCount(Number(e.target.value))}
+              disabled={nclexTotal === 0}
+            >
+              {[10, 20, 30, 50]
+                .filter((n) => n <= nclexTotal)
+                .map((n) => (
+                  <option key={n} value={n}>
+                    {n}
+                  </option>
+                ))}
+              {nclexTotal > 0 && ![10, 20, 30, 50].includes(nclexTotal) && (
+                <option value={nclexTotal}>All ({nclexTotal})</option>
+              )}
+            </select>
+          </div>
+        </div>
+        <div>
+          <button
+            type="button"
+            className="btn btn-primary"
+            disabled={nclexTotal === 0}
+            onClick={() =>
+              onStartNclex({
+                lectureId: nclexTopic,
+                count: Math.min(nclexCount, nclexTotal),
+              })
+            }
+          >
+            Start NCLEX quiz
           </button>
         </div>
       </section>
