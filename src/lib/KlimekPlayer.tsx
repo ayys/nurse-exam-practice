@@ -21,10 +21,12 @@ import {
   savePrefs,
   saveProgress,
   setLastLectureId,
+  vttFile,
   type Bookmark,
   type Lecture,
   type PlayerPrefs,
 } from './klimek'
+import { cueIndexAt, parseVtt, type Cue } from './vtt'
 
 export type SleepMode = { kind: 'off' } | { kind: 'minutes'; minutes: number } | { kind: 'end' }
 
@@ -44,6 +46,8 @@ interface PlayerValue {
   sleepRemainingMs: number | null
   bookmarks: Bookmark[]
   error: string | null
+  cues: Cue[]
+  cueIndex: number
   load: (id: string, opts?: { play?: boolean; time?: number }) => void
   toggle: () => void
   pause: () => void
@@ -52,6 +56,7 @@ interface PlayerValue {
   setRate: (rate: number) => void
   setVolume: (volume: number) => void
   setAutoplay: (autoplay: boolean) => void
+  setCaptions: (captions: boolean) => void
   setSleep: (sleep: SleepMode) => void
   next: () => void
   prev: () => void
@@ -88,6 +93,7 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
   const [sleepRemainingMs, setSleepRemainingMs] = useState<number | null>(null)
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
   const [error, setError] = useState<string | null>(null)
+  const [cues, setCues] = useState<Cue[]>([])
 
   const persistProgress = useCallback(() => {
     const audio = audioRef.current
@@ -131,6 +137,7 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
       setBookmarks(getBookmarks(id))
       setPlaying(false)
       setError(null)
+      setCues([])
 
       const saved = getProgress(id)
       const resume =
@@ -156,6 +163,23 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
     },
     [applyMediaSession],
   )
+
+  useEffect(() => {
+    if (!lecture) {
+      setCues([])
+      return
+    }
+    const ac = new AbortController()
+    fetch(mediaUrl(vttFile(lecture.file)), { signal: ac.signal })
+      .then((r) => (r.ok ? r.text() : Promise.reject(new Error('missing captions'))))
+      .then((text) => {
+        if (!ac.signal.aborted) setCues(parseVtt(text))
+      })
+      .catch(() => {
+        if (!ac.signal.aborted) setCues([])
+      })
+    return () => ac.abort()
+  }, [lecture])
 
   const pause = useCallback(() => {
     audioRef.current?.pause()
@@ -224,6 +248,7 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
   const setRate = useCallback((rate: number) => updatePrefs({ rate }), [updatePrefs])
   const setVolume = useCallback((volume: number) => updatePrefs({ volume }), [updatePrefs])
   const setAutoplay = useCallback((autoplay: boolean) => updatePrefs({ autoplay }), [updatePrefs])
+  const setCaptions = useCallback((captions: boolean) => updatePrefs({ captions }), [updatePrefs])
 
   const setSleep = useCallback((nextSleep: SleepMode) => {
     sleepRef.current = nextSleep
@@ -360,11 +385,13 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
         prev()
       } else if (event.key === 'b' || event.key === 'B') {
         bookmark()
+      } else if (event.key === 'c' || event.key === 'C') {
+        setCaptions(!prefsRef.current.captions)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [bookmark, next, prev, setRate, skip, toggle])
+  }, [bookmark, next, prev, setCaptions, setRate, skip, toggle])
 
   useEffect(() => {
     if (!('mediaSession' in navigator)) return
@@ -401,6 +428,8 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
     }
   }, [persistProgress])
 
+  const cueIndex = useMemo(() => cueIndexAt(cues, currentTime), [cues, currentTime])
+
   const value = useMemo<PlayerValue>(
     () => ({
       lecture,
@@ -413,6 +442,8 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
       sleepRemainingMs,
       bookmarks,
       error,
+      cues,
+      cueIndex,
       load,
       toggle,
       pause,
@@ -421,6 +452,7 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
       setRate,
       setVolume,
       setAutoplay,
+      setCaptions,
       setSleep,
       next,
       prev,
@@ -431,6 +463,8 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
       bookmark,
       bookmarks,
       buffered,
+      cueIndex,
+      cues,
       currentTime,
       deleteBookmark,
       duration,
@@ -444,6 +478,7 @@ export function KlimekPlayerProvider({ children }: { children: ReactNode }) {
       prev,
       seek,
       setAutoplay,
+      setCaptions,
       setRate,
       setSleep,
       setVolume,

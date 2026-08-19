@@ -195,6 +195,10 @@ export function mediaUrl(file: string): string {
   return `${base}klimek/${file}`
 }
 
+export function vttFile(audioFile: string): string {
+  return audioFile.replace(/\.mp3$/i, '.vtt')
+}
+
 export function lectureById(id: string): Lecture | undefined {
   return LECTURES.find((l) => l.id === id)
 }
@@ -267,6 +271,7 @@ export interface PlayerPrefs {
   rate: number
   autoplay: boolean
   volume: number
+  captions: boolean
 }
 
 export interface PdfPrefs {
@@ -353,6 +358,7 @@ export function getPrefs(): PlayerPrefs {
     rate,
     autoplay: Boolean(prefs.autoplay),
     volume: typeof prefs.volume === 'number' ? Math.min(1, Math.max(0, prefs.volume)) : 1,
+    captions: prefs.captions !== false,
   }
 }
 

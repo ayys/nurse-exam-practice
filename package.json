@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "generate:tf": "python3 scripts/generate_true_false.py",
-    "klimek:copy": "python3 scripts/copy-klimek.py"
+    "klimek:copy": "python3 scripts/copy-klimek.py",
+    "klimek:subs": "PATH=/opt/homebrew/bin:$PATH python3 scripts/transcribe-klimek.py --jobs 2"
   },
   "dependencies": {
     "react": "^19.2.8",

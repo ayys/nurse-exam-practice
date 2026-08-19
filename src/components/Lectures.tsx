@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   COMPLETE_AT,
   LECTURES,
@@ -12,10 +12,14 @@ import {
   isLectureDone,
   listenedSummary,
   matchesLectureQuery,
+  mediaUrl,
   progressRatio,
+  vttFile,
 } from '../lib/klimek'
 import { useKlimekPlayer, type SleepMode } from '../lib/KlimekPlayer'
+import { parseVtt, searchCues, type Cue } from '../lib/vtt'
 import { SeekBar } from './SeekBar'
+import { Transcript } from './Transcript'
 
 interface LecturesProps {
   onBack: () => void
@@ -41,16 +45,53 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
   const player = useKlimekPlayer()
   const [query, setQuery] = useState('')
   const [note, setNote] = useState('')
+  const [transcripts, setTranscripts] = useState<Record<string, Cue[]>>({})
   const progress = getAllProgress()
   const stats = listenedSummary(progress)
   const lastId = getLastLectureId()
   const last = LECTURES.find((l) => l.id === lastId)
   const lastProg = last ? progress[last.id] : null
 
-  const filtered = LECTURES.filter((l) => matchesLectureQuery(l, query))
+  const filtered = LECTURES.filter((l) => {
+    if (matchesLectureQuery(l, query)) return true
+    if (query.trim().length < 3) return false
+    const cues = l.id === current?.id ? player.cues : transcripts[l.id] ?? []
+    return searchCues(cues, query).length > 0
+  })
   const current = player.lecture
+  const activeCue = player.cueIndex >= 0 ? player.cues[player.cueIndex] : null
+  const captionHits = query.trim().length >= 3
+    ? LECTURES.flatMap((lecture) => {
+        const cues = lecture.id === current?.id ? player.cues : transcripts[lecture.id] ?? []
+        return searchCues(cues, query).slice(0, 4).map((cue) => ({ lecture, cue }))
+      }).slice(0, 12)
+    : []
+
+  useEffect(() => {
+    let cancelled = false
+    void Promise.all(
+      LECTURES.map(async (lecture) => {
+        try {
+          const res = await fetch(mediaUrl(vttFile(lecture.file)))
+          if (!res.ok) return [lecture.id, [] as Cue[]] as const
+          return [lecture.id, parseVtt(await res.text())] as const
+        } catch {
+          return [lecture.id, [] as Cue[]] as const
+        }
+      }),
+    ).then((entries) => {
+      if (!cancelled) setTranscripts(Object.fromEntries(entries))
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   function playLecture(id: string, time?: number) {
+    if (player.lecture?.id === id && time != null) {
+      player.seek(time)
+      return
+    }
     player.load(id, { play: true, time })
   }
 
@@ -61,7 +102,7 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
           Home
         </button>
         <p className="muted" style={{ margin: 0, fontSize: '0.85rem' }}>
-          Space play/pause · ←/→ 10s · Shift+arrows 30s · [ ] speed · B bookmark
+          Space play/pause · ←/→ 10s · [ ] speed · C captions · B bookmark
         </p>
       </div>
 
@@ -223,7 +264,23 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
               />
               Autoplay next
             </label>
+            <label className="row" style={{ marginTop: '1.4rem' }}>
+              <input
+                type="checkbox"
+                checked={player.prefs.captions}
+                onChange={(e) => player.setCaptions(e.target.checked)}
+              />
+              Captions
+            </label>
           </div>
+
+          {player.prefs.captions && activeCue && (
+            <p className="caption-line" aria-live="polite">
+              {activeCue.text}
+            </p>
+          )}
+
+          <Transcript cues={player.cues} activeIndex={player.cueIndex} onSeek={player.seek} />
 
           <form
             className="row"
@@ -273,10 +330,32 @@ export function Lectures({ onBack, onOpenPdf }: LecturesProps) {
         <input
           id="lecture-search"
           value={query}
-          placeholder="Acid-base, insulin, OB, labs, delegation…"
+          placeholder="Acid-base, insulin, OB, labs, delegation… also searches captions"
           onChange={(e) => setQuery(e.target.value)}
         />
       </div>
+
+      {captionHits.length > 0 && (
+        <section className="panel stack">
+          <h2 className="brand" style={{ fontSize: '1.2rem', margin: 0 }}>
+            In the lectures
+          </h2>
+          <ul className="caption-hits">
+            {captionHits.map(({ lecture, cue }) => (
+              <li key={`${lecture.id}-${cue.start}-${cue.text.slice(0, 18)}`}>
+                <button
+                  type="button"
+                  className="linkish"
+                  onClick={() => playLecture(lecture.id, cue.start)}
+                >
+                  {lecture.letter}. {lecture.title} · {formatClock(cue.start)}
+                  <span className="muted"> — {cue.text}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <ul className="lecture-list">
         {filtered.map((lecture) => {

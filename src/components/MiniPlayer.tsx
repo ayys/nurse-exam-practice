@@ -52,6 +52,9 @@ export function MiniPlayer({ onOpenLectures }: MiniPlayerProps) {
         onSeek={player.seek}
         ariaLabel="Lecture position"
       />
+      {player.prefs.captions && player.cueIndex >= 0 && player.cues[player.cueIndex] && (
+        <p className="mini-caption">{player.cues[player.cueIndex].text}</p>
+      )}
     </div>
   )
 }
